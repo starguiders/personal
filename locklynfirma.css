@@ -4,7 +4,7 @@
 .locksig:hover .ls-image {background-position:bottom;background-color:var(--locklyn);filter:brightness(0.5);}
 .locksig .ls-text {position:relative;width:100%;height:100%;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;box-sizing:border-box;padding:10px;word-spacing:1px;gap:3px;left:0px;transition:0.9s ease;}
 .locksig .ls-text>em {font:400 9px 'Space Mono';text-transform:lowercase;letter-spacing:0.6px;font-style:italic;line-height:100%;color:#fff;}
-.locksig .ls-text>strong {text-transform:uppercase;font-weight:800;font-size:13px;color:#000;background:var(--locklyn);line-height:90%;padding:4px 6px;}
+.locksig .ls-text>strong {text-transform:uppercase;font-weight:800;font-size:13px;color:#000;background:var(--locklyn);line-height:90%;padding:4px 6px;mix-blend-mode:difference;filter:hue-rotate(180deg);}
 .locksig:hover .ls-text {left:-100%;}
 .locksig .ls-hover {position:relative;width:100%;height:100%;display:flex;justify-content:center;align-items:center;text-align:justify;text-align-last:center;padding:35px;box-sizing:border-box;top:0px;transition:0.9s ease;}
 .locksig:hover .ls-hover {top:-100%;}
