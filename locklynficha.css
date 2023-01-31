@@ -1,0 +1,132 @@
+.locklyntitle {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font: normal var(--fontsize0) var(--font2);
+    text-transform: lowercase;
+    gap: 12px;
+    line-height: 160%;
+    color:
+    var(--text1);
+}
+
+.locklyntitle:before, .locklyntitle:after {
+    content: "";
+    display: block;
+    width: 1px;
+    min-height: 50px;
+    flex: 1;
+}
+
+.locklyntitle b {
+    color: var(--group);
+}
+
+.locklyntitle s, .locklyntitle u {
+    text-decoration-color: var(--group);
+    text-decoration-thickness: 2px;
+}
+
+.locklyntitle s {
+    color: var(--text3);
+    text-transform: uppercase;
+}
+
+.locklyntitle:before {
+    background: linear-gradient(0deg, var(--group-50) 0%, transparent 100%);
+}
+
+.locklyntitle:after {
+    background: linear-gradient(180deg, var(--group-50) 0%, transparent 101%);
+}
+
+.locklyntitle u {
+    color: var(--text0);
+    font-weight: bold;
+}
+
+.locklyntitle:first-of-type {
+    margin-bottom: 40px;
+}
+
+.locklyntitle:last-of-type {
+    margin-top: 40px;
+}
+
+.locklyndivider {
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+.locklyndivider>strong {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-transform: lowercase;
+    font: normal 15px 'EB Garamond'!important;
+    color: var(--text0)!important;
+    line-height: 130%!important;
+    width: 100%;
+    font-style: italic!important;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.locklyndivider>strong:before, .locklyndivider>strong:after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    min-width: 20px;
+    margin: 0px 12px;
+}
+
+.locklyndivider>strong:before {
+    background: linear-gradient(-90deg, var(--group-50) 0%, transparent 100%);
+    margin-left: 0px;
+}
+
+.locklyndivider>strong:after {
+    background: linear-gradient(90deg, var(--group-50) 0%, transparent 100%);
+    margin-right: 0px;
+}
+
+.locklynhistory {
+    column-count: 2;
+    column-gap: 20px;
+    line-height: 130%;
+    column-width: 200px;
+}
+
+.locklynhabs h1:before {
+    background: linear-gradient(-90deg, var(--group-50) 0%, transparent 100%)!important;
+    margin-left: 0px!important;
+}
+
+.locklynhabs h1:after {
+    background: linear-gradient(90deg, var(--group-50) 0%, transparent 100%)!important;
+    margin-right: 0px!important;
+}
+
+.locklynextras {
+    column-count: 3;
+    column-gap: 30px;
+    line-height: 120%;
+    column-width: 110px;
+    font-size: 12.5px;
+    column-rule: 1px solid var(--border1-c);
+}
+
+.locklynextras>i {
+    color: var(--group)!important;
+    font-size: 12px;
+    margin: 0px 6px;
+}
