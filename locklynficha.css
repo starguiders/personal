@@ -127,6 +127,30 @@
 
 .locklynextras>i {
     color: var(--group)!important;
-    font-size: 12px;
+    font-size: var(--fontsize5);
+    float: left;
     margin: 0px 6px;
+}
+
+.locklynhistory>strong, .locklynextras>strong {
+    font-family: var(--font4);
+    text-transform: uppercase;
+    font-weight: 800!important;
+}
+
+.locklynhistory>i, .locklynextras>em {
+    font-family: 'EB Garamond';
+    font-size: var(--fontsize4);
+    font-style: italic;
+    color: var(--text2)!important;
+}
+
+.locklynhistory>u, .locklynextras>u {
+    font-family: var(--font2);
+    font-size: var(--fontsize1);
+    font-style: normal;
+    font-weight: bold;
+    color:
+    var(--text1)!important;
+    text-decoration-thickness: 2px;
 }
