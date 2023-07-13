@@ -3,5 +3,5 @@ An icon font for [game-icons/icons](https://github.com/game-icons/icons) pulled 
 
 # Usage
 
-* add an icon: `<i class="gi gi-anchor">`
+* add an icon: `<i class="game-icon game-icon-anchor">`
 * find all icons here: https://seiyria.com/gameicons-font/
