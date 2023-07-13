@@ -1,19 +1,20 @@
 @font-face {
 	font-family: "game-icons";
-	src: url("game-icons.eot?817af6e52c83163eb30ece54d9f7d16d?#iefix") format("embedded-opentype"),
-url("game-icons.woff?817af6e52c83163eb30ece54d9f7d16d") format("woff"),
-url("game-icons.ttf?817af6e52c83163eb30ece54d9f7d16d") format("truetype");
-}
-
-.game-icon {
-	line-height: 1;
+	src: url('https://starguiders.github.io/personal/Game%20Icons/game-icons.eot');
+	src: url('https://starguiders.github.io/personal/Game%20Icons/game-icons.eot?#iefix') format('eot'),
+		url('https://starguiders.github.io/personal/Game%20Icons/game-icons.woff') format('woff'),
+		url('https://starguiders.github.io/personal/Game%20Icons/game-icons.ttf') format('truetype');
 }
 
 .game-icon:before {
-	font-family: game-icons !important;
-	font-style: normal;
-	font-weight: normal !important;
-	vertical-align: top;
+	    font-family: "game-icons";
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            text-decoration: none;
+            text-transform: none;
 }
 
 .game-icon-3d-glasses:before {
