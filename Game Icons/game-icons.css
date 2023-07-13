@@ -12306,20 +12306,20 @@
 	content: "\ffff";
 }
 .game-icon-zig-arrow:before {
-	content: "\100000";
+	content: "\00000";
 }
 .game-icon-zigzag-cage:before {
-	content: "\100001";
+	content: "\00001";
 }
 .game-icon-zigzag-hieroglyph:before {
-	content: "\100002";
+	content: "\00002";
 }
 .game-icon-zigzag-leaf:before {
-	content: "\100003";
+	content: "\00003";
 }
 .game-icon-zigzag-tune:before {
-	content: "\100004";
+	content: "\00004";
 }
 .game-icon-zipper:before {
-	content: "\100005";
+	content: "\00005";
 }
