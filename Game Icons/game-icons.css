@@ -1,9 +1,9 @@
 @font-face {
 	font-family: "game-icons";
-	src: url('https://starguiders.github.io/thewickedrpg/game%20icons/game-icons.eot');
-	src: url('https://starguiders.github.io/thewickedrpg/game%20icons/game-icons.eot?#iefix') format('eot'),
-		url('https://starguiders.github.io/thewickedrpg/game%20icons/game-icons.woff') format('woff'),
-		url('https://starguiders.github.io/thewickedrpg/game%20icons/game-icons.ttf') format('truetype');
+	src: url('https://starguiders.github.io/personal/Game%20Icons/game-icons.eot');
+	src: url('https://starguiders.github.io/personal/Game%20Icons/game-icons.eot?#iefix') format('eot'),
+		url('https://starguiders.github.io/personal/Game%20Icons/game-icons.woff') format('woff'),
+		url('https://starguiders.github.io/personal/Game%20Icons/game-icons.ttf') format('truetype');
 }
 
 .game-icon:before {
