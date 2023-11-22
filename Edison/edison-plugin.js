@@ -12,11 +12,6 @@
         ? "dark"
         : "light"
       : html.dataset.colorScheme;
-
-    toggle.setAttribute(
-      "title",
-      "Enable" + (mode === "dark" ? "light" : "dark") + "mode"
-    );
   };
 
   var setColorScheme = function (value) {
