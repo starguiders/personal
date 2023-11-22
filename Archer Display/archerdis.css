@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Archer Display';
+    src: url('https://starguiders.github.io/personal/Archer%20Display/ArcherDisplay-Regular.otf');
+    src: url('https://starguiders.github.io/personal/Archer%20Display/ArcherDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://starguiders.github.io/personal/Archer%20Display/ArcherDisplay-Regular.woff2') format('woff2'),
+        url('https://starguiders.github.io/personal/Archer%20Display/ArcherDisplay-Regular.woff') format('woff'),
+        url('https://starguiders.github.io/personal/Archer%20Display/ArcherDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Archer Display';
+    src: url('https://starguiders.github.io/personal/Archer%20Display/ArcherDisplay-Regular.otf');
+    src: url('https://starguiders.github.io/personal/Archer%20Display/ArcherDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://starguiders.github.io/personal/Archer%20Display/ArcherDisplay-Regular.woff2') format('woff2'),
+        url('https://starguiders.github.io/personal/Archer%20Display/ArcherDisplay-Regular.woff') format('woff'),
+        url('https://starguiders.github.io/personal/Archer%20Display/ArcherDisplay-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
