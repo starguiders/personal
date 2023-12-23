@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Plush Trial';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''), url('https://fonts.cdnfonts.com/s/107514/Plush-Trial-Regular-BF654c40145b0dd.woff') format('woff');
+}
+@font-face {
+    font-family: 'Plush Trial';
+    font-style: italic;
+    font-weight: 400;
+    src: local(''), url('https://fonts.cdnfonts.com/s/107514/Plush-Trial-Italic-BF654c40145fe4f.woff') format('woff');
+}
+@font-face {
+    font-family: 'Plush Trial';
+    font-style: normal;
+    font-weight: 200;
+    src: local(''), url('https://fonts.cdnfonts.com/s/107514/Plush-Trial-ExtraLight-BF654c401453b5b.woff') format('woff');
+}
+@font-face {
+    font-family: 'Plush Trial';
+    font-style: italic;
+    font-weight: 200;
+    src: local(''), url('https://fonts.cdnfonts.com/s/107514/Plush-Trial-ExtraLightItalic-BF654c40142894b.woff') format('woff');
+}
+@font-face {
+    font-family: 'Plush Trial';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''), url('https://fonts.cdnfonts.com/s/107514/Plush-Trial-Light-BF654c401444f88.woff') format('woff');
+}
+@font-face {
+    font-family: 'Plush Trial';
+    font-style: italic;
+    font-weight: 300;
+    src: local(''), url('https://fonts.cdnfonts.com/s/107514/Plush-Trial-LightItalic-BF654c40142d3df.woff') format('woff');
+}
+@font-face {
+    font-family: 'Plush Trial';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''), url('https://fonts.cdnfonts.com/s/107514/Plush-Trial-Medium-BF654c401412ccd.woff') format('woff');
+}
+@font-face {
+    font-family: 'Plush Trial';
+    font-style: italic;
+    font-weight: 500;
+    src: local(''), url('https://fonts.cdnfonts.com/s/107514/Plush-Trial-MediumItalic-BF654c40146661a.woff') format('woff');
+}
+@font-face {
+    font-family: 'Plush Trial';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''), url('https://fonts.cdnfonts.com/s/107514/Plush-Trial-Bold-BF654c40144cc74.woff') format('woff');
+}
+@font-face {
+    font-family: 'Plush Trial';
+    font-style: italic;
+    font-weight: 700;
+    src: local(''), url('https://fonts.cdnfonts.com/s/107514/Plush-Trial-BoldItalic-BF654c40144a11a.woff') format('woff');
+}
+@font-face {
+    font-family: 'Plush Trial';
+    font-style: normal;
+    font-weight: 800;
+    src: local(''), url('https://fonts.cdnfonts.com/s/107514/Plush-Trial-ExtraBold-BF654c4014409f5.woff') format('woff');
+}
+@font-face {
+    font-family: 'Plush Trial';
+    font-style: italic;
+    font-weight: 800;
+    src: local(''), url('https://fonts.cdnfonts.com/s/107514/Plush-Trial-ExtraBoldItalic-BF654c4013ace73.woff') format('woff');
+}
+@font-face {
+    font-family: 'Plush Trial';
+    font-style: normal;
+    font-weight: 900;
+    src: local(''), url('https://fonts.cdnfonts.com/s/107514/Plush-Trial-Black-BF654c4013ec70c.woff') format('woff');
+}
+@font-face {
+    font-family: 'Plush Trial';
+    font-style: italic;
+    font-weight: 900;
+    src: local(''), url('https://fonts.cdnfonts.com/s/107514/Plush-Trial-BlackItalic-BF654c4014072a3.woff') format('woff');
+}
