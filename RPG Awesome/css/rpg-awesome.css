@@ -1,11 +1,3 @@
-@charset "UTF-8";
-/*!
- * RPG Awesome 0.0.2 by Daniela Howe, Ivan Montiel
- * License - https://github.com/nagoshiashumari/Rpg-Awesome/blob/master/LICENSE.md
- * (Font: SIL OFL 1.1, CSS: MIT License)
- */
-/* FONT PATH
- * -------------------------- */
 @font-face {
   font-family: 'RPGAwesome';
   src: url("https://starguiders.github.io/personal/RPG%20Awesome/fonts/rpgawesome-webfont.eot?v=0.1.0");
@@ -2170,5 +2162,3 @@
 .ra-acorn:before {
   content: "";
 }
-
-/*# sourceMappingURL=rpg-awesome.css.map */
