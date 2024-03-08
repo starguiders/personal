@@ -73,7 +73,7 @@ profcont {
 }
 
 profcont.background>h3 {
-  font: bold var(--fontl) var(--sansfont);
+  font: 900 var(--fontl) var(--sansfont);
   color: var(--color);
   margin: 0 auto !important;
   display: inline-block;
@@ -96,7 +96,7 @@ profcont.vibes {
 }
 
 profcont.vibes>h3 {
-  font: bold var(--fontl) var(--sans1);
+  font: 900 var(--fontl) var(--sans1);
   color: var(--titletext);
   margin: 0 auto !important;
   display: block;
