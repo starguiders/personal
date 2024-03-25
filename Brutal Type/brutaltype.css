@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-ExtraLight.eot');
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-ExtraLight.woff2') format('woff2'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-ExtraLight.woff') format('woff'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Medium.eot');
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Medium.woff2') format('woff2'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Medium.woff') format('woff'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Bold.eot');
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Bold.woff2') format('woff2'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Bold.woff') format('woff'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Thin.eot');
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Thin.eot?#iefix') format('embedded-opentype'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Thin.woff2') format('woff2'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Thin.woff') format('woff'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-ExtraBold.eot');
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-ExtraBold.woff2') format('woff2'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-ExtraBold.woff') format('woff'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Black.eot');
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Black.eot?#iefix') format('embedded-opentype'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Black.woff2') format('woff2'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Black.woff') format('woff'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Light.eot');
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Light.woff2') format('woff2'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Light.woff') format('woff'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brutal Type';
+    src: url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType.eot');
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType.eot?#iefix') format('embedded-opentype'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType.woff2') format('woff2'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType.woff') format('woff'),
+        url('https://starguiders.github.io/personal/Brutal%20Type/BrutalType.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
