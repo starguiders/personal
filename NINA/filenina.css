@@ -1,128 +1,169 @@
 .expzone.filenina {
-  font-family: "Sofia Sans", sans-serif;
-  font-weight: 300;
+  font-family:"Sofia Sans", sans-serif;
+  font-weight:300;
 }
 .expzone.filenina .colu {
-  font-size: var(--fs-text);
-  column-gap: 30px !important;
+  font-size:var(--fs-text);
+  column-gap:30px !important;
 }
-.expzone.filenina .exptitle > b {
-  font: 600 var(--fs-h2) "Tourney", sans-serif !important;
-  text-transform: lowercase !important;
+.expzone.filenina .exptitle>b {
+  font:600 var(--fs-h2) "Tourney", sans-serif !important;
+  text-transform:lowercase !important;
 }
-.expzone.filenina .exptitle > em {
-  font: 500 var(--fs-small) "Sofia Sans Condensed", sans-serif !important;
-  letter-spacing: 1px;
-  text-transform: uppercase !important;
-  color: #848484 !important;
-  line-height: 100% !important;
-  margin-top: 4px;
-  max-width: 100% !important;
+.expzone.filenina .exptitle>em {
+  font:500 var(--fs-small) "Sofia Sans Condensed", sans-serif !important;
+  letter-spacing:1px;
+  text-transform:uppercase !important;
+  color:#848484 !important;
+  line-height:100% !important;
+  margin-top:4px;
+  max-width:100% !important;
 }
-.expzone.filenina .exptitle > i {
-  height: calc(var(--fs-h3) * 1.7);
-  width: calc(var(--fs-h3) * 1.7);
-  display: flex;
-  justify-content: center;
-  line-height: 100% !important;
-  align-items: center;
-  font-size: var(--fs-h4) !important;
-  border: var(--border1);
-  border-radius: 100%;
+.expzone.filenina .exptitle>i {
+  height:calc(var(--fs-h3) * 1.7);
+  width:calc(var(--fs-h3) * 1.7);
+  display:flex;
+  justify-content:center;
+  line-height:100% !important;
+  align-items:center;
+  font-size:var(--fs-h4) !important;
+  border:var(--border1);
+  border-radius:100%;
 }
 .ninaweapbox {
-  border-top: var(--border1);
-  border-bottom: var(--border1);
-  display: block;
-  padding: 25px 10px;
-  text-align: justify;
-  max-width: 85%;
-  font-size: var(--fs-text);
-  margin: 0 auto 5px;
+  border-top:var(--border1);
+  border-bottom:var(--border1);
+  display:block;
+  padding:25px 10px;
+  text-align:justify;
+  max-width:85%;
+  font-size:var(--fs-text);
+  margin:0 auto 5px;
 }
 .ninaweapbox:before {
-  content: "\f6cb";
-  color: var(--group);
-  opacity: 0.7;
-  font: 300 var(--fs-h3) var(--font4);
-  float: left;
-  height: calc(var(--fs-text) * 2.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0px 12px 0px 6px;
+  content:"\f6cb";
+  color:var(--group);
+  opacity:0.7;
+  font:300 var(--fs-h3) var(--font4);
+  float:left;
+  height:calc(var(--fs-text) * 2.7);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:0px 12px 0px 6px;
 }
-.expzone.filenina .exptitle:not(:has(b, i)) > em {
-  margin: 0px !important;
-  border-top: var(--border1);
-  border-bottom: var(--border1);
-  padding: 12px 3px;
-  width: auto !important;
+.expzone.filenina .exptitle:not(:has(b, i))>em {
+  margin:0px !important;
+  border-top:var(--border1);
+  border-bottom:var(--border1);
+  padding:12px 3px;
+  width:auto !important;
 }
-.expzone.filenina .exptitle:not(:has(b)) > em {
-  margin: 0px !important;
-  border-top: var(--border1);
-  border-bottom: var(--border1);
-  padding: 12px 3px;
-  width: auto !important;
+.expzone.filenina .exptitle:not(:has(b))>em {
+  margin:0px !important;
+  border-top:var(--border1);
+  border-bottom:var(--border1);
+  padding:12px 3px;
+  width:auto !important;
 }
-#expedtab .expzone .exptitle > em strike {
-  text-decoration-color: var(--group);
-  text-decoration-thickness: 1px;
-  color: var(--txt4);
+#expedtab .expzone .exptitle>em strike {
+  text-decoration-color:var(--group);
+  text-decoration-thickness:1px;
+  color:var(--txt4);
 }
-#expedtab .expzone .exptitle > em u {
-  text-decoration: none;
-  font: 700 var(--fs-smaller) "JetBrains Mono";
-  letter-spacing: 0px;
-  color: var(--txt3);
+#expedtab .expzone .exptitle>em u {
+  text-decoration:none;
+  font:700 var(--fs-smaller) "JetBrains Mono";
+  letter-spacing:0px;
+  color:var(--txt3);
 }
-#expedtab .expzone .exptitle > em strong {
-  color: var(--group);
-  font-weight: 900;
+#expedtab .expzone .exptitle>em strong {
+  color:var(--group);
+  font-weight:900;
 }
-#expedtab .expzone .exptitle > em i {
-  color: var(--txt3);
+#expedtab .expzone .exptitle>em i {
+  color:var(--txt3);
 }
-.expzone.filenina .colu.col3 > em {
-  color: var(--group);
-  font: 800 var(--fs-bigger) "JetBrains Mono", monospace;
-  height: calc(var(--fs-h5) * 1.6);
-  float: left;
-  padding-right: var(--fs-smaller);
-  margin-right: var(--fs-smaller);
-  border-right: var(--border1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+.expzone.filenina .colu.col3>em {
+  color:var(--group);
+  font:800 var(--fs-bigger) "JetBrains Mono", monospace;
+  height:calc(var(--fs-h5) * 1.6);
+  float:left;
+  padding-right:var(--fs-smaller);
+  margin-right:var(--fs-smaller);
+  border-right:var(--border1);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
 }
-.expzone.filenina .colu > strong,
-.ninaweapbox > strong {
-  text-transform: uppercase;
-  font-weight: 900;
-  color: var(--group);
+.expzone.filenina .colu>strong, .ninaweapbox>strong {
+  text-transform:uppercase;
+  font-weight:900;
+  color:var(--group);
 }
-.expzone.filenina .colu > i,
-.ninaweapbox > i {
-  color: #888;
-  font-weight: 600;
+.expzone.filenina .colu >i, .ninaweapbox>i {
+  color:#888;
+  font-weight:600;
 }
-.expzone.filenina .colu > u,
-.ninaweapbox > u {
-  text-transform: uppercase;
-  font-family: "JetBrains Mono";
-  font-size: var(--fs-small);
-  font-weight: 800;
-  color: var(--txt1);
-  text-decoration: underline solid var(--group) 1px;
-  text-underline-offset: 3px;
+.expzone.filenina .colu>u, .ninaweapbox>u {
+  text-transform:uppercase;
+  font-family:"JetBrains Mono";
+  font-size:var(--fs-small);
+  font-weight:800;
+  color:var(--txt1);
+  text-decoration:underline solid var(--group) 1px;
+  text-underline-offset:3px;
 }
-.expzone.filenina .colu strike,
-.ninaweapbox strike {
-  text-transform: uppercase;
-  font: 600 var(--fs-text) "Sofia Sans Condensed", sans-serif;
-  font-style: italic;
-  letter-spacing: 1.5px;
-  color: #999;
+.expzone.filenina .colu strike, .ninaweapbox strike {
+  text-transform:uppercase;
+  font:600 var(--fs-text) "Sofia Sans Condensed", sans-serif;
+  font-style:italic;
+  letter-spacing:1.5px;
+  color:#999;
+}
+.filenina .exphicons {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  height:100%;
+  gap:30px;
+  padding:30px;
+  flex-wrap:wrap;
+}
+.filenina .exphicons>br {
+  display:none!important;
+}
+.filenina .exphicons>img {
+  width:150px;
+  border:20px solid var(--back1);
+  outline:var(--border1);
+  height:150px;
+  filter:grayscale(1);
+  transition:0.6s;
+}
+.filenina .exphicons>img:hover {
+  filter:grayscale(0);
+}
+.filenina .exphtw {
+  border-top:var(--border1);
+  border-bottom:var(--border1);
+  display:block;
+  padding:20px 10px;
+  text-align:center;
+  max-width:85%;
+  font-size:var(--fs-small);
+  margin:0 auto 5px;
+  text-transform:uppercase;
+}
+.filenina .exphtw:before {
+  content:"Trigger Warning:";
+  color:var(--group);
+  font-weight:800;
+}
+@media (max-width:800px) {
+  .ninaweapbox, .filenina .exphtw {max-width:100%; margin-bottom:0px;}
+  .filenina .exphicons {padding:0px; justify-content:space-around; gap:20px; height:auto;}
+  .filenina .exphicons>img {width:100px; height:100px; border-width:15px;}
 }
