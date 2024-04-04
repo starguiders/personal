@@ -158,7 +158,7 @@
   text-transform:uppercase;
 }
 .filenina .exphtw:before {
-  content:"Trigger Warning:";
+  content:"Trigger Warning: ";
   color:var(--group);
   font-weight:800;
 }
