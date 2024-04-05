@@ -1,6 +1,6 @@
 .ninasig {
   width: 280px;
-  height: 200px;
+  height: 195px;
   box-sizing: content-box;
   border: 10px solid var(--back1);
   outline: var(--border1);
@@ -35,7 +35,7 @@
   text-orientation: mixed;
   font: 700 9px 'JetBrains Mono', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
   height: calc(100%);
   line-height: 100%;
   color: var(--txt4);
@@ -88,7 +88,7 @@
   border-right: 1px solid #ffffff26;
   border-left: 1px solid #ffffff26;
   position: absolute;
-  line-height: 146%;
+  line-height: 146%!important;
   color: var(--txt3);
   opacity: 0;
   transition-delay: 0s;
@@ -136,13 +136,13 @@
   top: -1px;
 }
 .ninasig:hover::before {
-  top: 59.5px;
+  top: 57.5px;
   transition-delay: 0.6s;
 }
 .ninasig:after {
   bottom: -1px;
 }
 .ninasig:hover::after {
-  bottom: 59.5px;
+  bottom: 57.5px;
   transition-delay: 0.6s;
 }
