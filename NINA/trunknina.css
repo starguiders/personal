@@ -1,0 +1,390 @@
+#ninacont {
+  container: ninacont / inline-size;
+  width: 100%;
+}
+#ninabaul {
+  max-width: 950px;
+  width: 100%;
+  background: #000;
+  display: grid; 
+  gap: 0px; 
+  grid-template-rows: 175px 180px 140px;
+  grid-template-columns: minmax(300px, 0.9fr) minmax(0, 1fr) 60px;
+  grid-template-areas: 
+    "ninabside ninabfacts ninablinks"
+    "ninabside ninabdeets ninablinks"
+    "ninabmusic ninabmusic ninablinks";
+  margin: 0 auto;
+}
+#ninabaul br {
+  display: none!important;
+}
+#ninabaul * {
+  transition: 0.6s;
+}
+#ninabaul .ninablinks {
+  grid-area: ninablinks;
+  border-left: var(--border1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 15px;
+  gap: 15px;
+}
+#ninabaul .ninablinks>a {
+  text-transform: uppercase;
+  font: 600 18px 'JetBrains Mono', monospace;
+  line-height: 100%;
+  color: var(--txt3);
+  text-decoration: underline solid var(--tgroup) 1px;
+}
+#ninabaul .ninablinks>a:hover {
+  text-decoration-color: var(--group);
+  color: var(--txt1);
+}
+#ninabaul .ninablinks>em {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  flex: 1;
+  text-align: right;
+  text-transform: uppercase;
+  font: 600 13px 'Sofia Sans Condensed';
+  font-style: italic;
+  letter-spacing: 2.5px;
+  color: #848484;
+}
+#ninabaul .ninabfacts {
+  grid-area: ninabfacts;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+#ninabaul .ninabfacts>div {
+  flex: 1 0 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  gap: 6px;
+}
+#ninabaul .ninabfacts>div>strong {
+  font: 900 13px 'Sofia Sans', sans-serif;
+  color: var(--group);
+  line-height: 100%;
+}
+#ninabaul .ninabfacts>div>em {
+  font: 500 11px 'Sofia Sans Condensed', sans-serif;
+  line-height: 100%;
+  border-top: var(--border1);
+  border-bottom: var(--border1);
+  padding: 5px 3px;
+  width: auto!important;
+  color: #848484;
+  letter-spacing: 1px;
+}
+#ninabaul .ninabdeets {
+  grid-area: ninabdeets;
+  overflow: auto;
+  border: 30px solid #000;
+  column-count: 2;
+  border-bottom-width: 0px;
+  padding-bottom: 15px;
+  text-align: justify;
+  font: 300 13px 'Sofia Sans', sans-serif;
+  column-rule: var(--border1);
+  column-gap: 20px;
+  column-width: 150px;
+  color: var(--txt2);
+  line-height: 144%;
+  border-top-width: 15px;
+}
+#ninabaul .ninabdeets>b {
+  text-transform: uppercase;
+  font: 900 9px 'JetBrains Mono', monospace;
+  color: #000;
+  background: var(--group);
+  padding: 1px 3px;
+}
+@supports not selector(::-webkit-scrollbar) {
+  #ninabaul * {
+    scrollbar-color: var(--border1-c) transparent;
+    scrollbar-width: thin;
+  }
+}
+#ninabaul *::-webkit-scrollbar {
+  width: 1px;
+  height: 1px
+}
+#ninabaul *::-webkit-scrollbar-thumb {
+  background: var(--border1-c);
+}
+#ninabaul *::-webkit-scrollbar-track {
+  background: #000;
+}
+#ninabaul *::-webkit-scrollbar-corner {
+  background: #000;
+}
+#ninabaul .ninabmusic {
+  grid-area: ninabmusic;
+  display: flex;
+  border: 25px solid #000;
+  border-bottom-width: 12px;
+  padding-bottom: 13px;
+  gap: 30px;
+  overflow: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+#ninabaul .ninabmusic>div {
+  width: 90px;
+  height: 90px;
+  flex-shrink: 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ninabaul .ninabmusic>div:before {
+  position: absolute;
+  content: "";
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  outline: var(--tborder);
+  outline-offset: -10px;
+  transition: 0.6s;
+}
+#ninabaul .ninabmusic>div:hover::before {
+  outline-offset: -6px;
+}
+#ninabaul .ninabmusic>div img {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(1) brightness(0.4);
+  position: absolute;
+  z-index: 0;
+}
+#ninabaul .ninabmusic>div:hover img {
+  filter: grayscale(0) brightness(0.2);
+}
+#ninabaul .ninabmusic>div a {
+  position: relative;
+  z-index: 2;
+  color: var(--txt1);
+  font-size: 20px;
+}
+#ninabaul .ninabmusic>div:hover a {
+  font-size: 30px;
+}
+#ninabaul .ninabmusic>div a:hover {
+  color: var(--group);
+}
+#ninabaul .ninabside {
+  grid-area: ninabside;
+  position: relative;
+  border-right: var(--border1);
+  border-bottom: var(--border1);
+}
+#ninabaul .ninabside>* {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+#ninabaul .ninabstraits {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  flex-direction: column;
+  gap: 13px;
+  opacity: 0;
+  transition-delay: 0s;
+}
+#ninabaul .ninabstraits>.nbstrbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#ninabaul .ninabstraits>.nbstrbar>i {
+  flex: 1;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+#ninabaul .ninabstraits>.nbstrbar>i>b {
+  width: auto;
+  text-align: right;
+  text-transform: uppercase;
+  font: 800 11px 'Sofia Sans', sans-serif;
+  color: var(--back1);
+  background: var(--group);
+  padding: 3px 4px;
+  letter-spacing: 0.5px;
+  line-height: 100%;
+}
+#ninabaul .ninabstraits>.nbstrbar>div {
+  flex: 1;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+#ninabaul .ninabstraits>.nbstrbar>div>em {
+  width: 100px;
+  height: 18px;
+  background: var(--back1);
+  border: 7px solid var(--back1);
+  outline: var(--border1);
+  outline-offset: -4px;
+  overflow: hidden;
+  position: relative;
+}
+#ninabaul .ninabstraits>.nbstrbar>div>em:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  background: var(--tgroup);
+}
+#ninabaul .ninabstraits>.nbstrbar:nth-of-type(1)>div>em:before {
+  width: 42%;
+}
+#ninabaul .ninabstraits>.nbstrbar:nth-of-type(2)>div>em:before {
+  width: 60%;
+}
+#ninabaul .ninabstraits>.nbstrbar:nth-of-type(3)>div>em:before {
+  width: 65%;
+}
+#ninabaul .ninabstraits>.nbstrbar:nth-of-type(4)>div>em:before {
+  width: 27%;
+}
+#ninabaul .ninabstraits>.nbstrbar:nth-of-type(5)>div>em:before {
+  width: 90%;
+}
+#ninabaul .ninabstraits>.nbstrbar:nth-of-type(6)>div>em:before {
+  width: 77%;
+}
+#ninabaul .ninabsimg {
+  background-image: url('https://i.imgur.com/RmXTTAg.png');
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(0) brightness(0.4);
+  position: absolute;
+  z-index: 0;
+  transition-delay: 0s;
+}
+#ninabaul .ninabside:before {
+  content: "";
+  display: block;
+  background: var(--tgroup);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  mix-blend-mode: multiply;
+  opacity: 0.1;
+  transition: 0.6s;
+  transition-delay: 0s;
+}
+#ninabaul:hover .ninabside:before {
+  opacity: 1;
+  transition-delay: 0.6s;
+}
+#ninabaul .ninabside>b {
+  position: absolute;
+  z-index: 1;
+  text-transform: lowercase;
+  color: var(--txt1);
+  font: 700 85px 'Tourney', sans-serif;
+  bottom: 20px;
+  right: 20px;
+  line-height: 80%;
+  transition-delay: 0.6s;
+}
+#ninabaul:hover .ninabside .ninabsimg {
+  filter: grayscale(1) brightness(0.2);
+  transition-delay: 0.6s;
+}
+#ninabaul:hover .ninabside .ninabstraits {
+  opacity: 1;
+  transition-delay: 0.6s;
+}
+#ninabaul:hover .ninabside>b {
+  opacity: 0;
+  transition-delay: 0s;
+}
+@container ninacont (max-width: 700px) {
+  #ninabaul {
+    grid-template-rows: 300px 220px 220px;
+  grid-template-columns: minmax(200px, 1fr) 140px 60px;
+  grid-template-areas: 
+    "ninabside ninabmusic ninablinks"
+    "ninabfacts ninabmusic ninablinks"
+    "ninabdeets ninabmusic ninablinks";
+  }
+  #ninabaul .ninabmusic {
+    flex-direction: column;
+    padding-bottom: 0px;
+    border-bottom-width: 25px;
+    border-right-width: 12px;
+    padding-right: 13px;
+  }
+}
+@container ninacont (max-width: 550px) {
+  #ninabaul {
+    grid-template-rows: 300px 175px 180px 140px;
+  grid-template-columns: minmax(200px, 1fr) 60px;
+  grid-template-areas: 
+    "ninabside ninablinks"
+    "ninabfacts ninablinks"
+    "ninabdeets ninablinks"
+    "ninabmusic ninablinks";
+  }
+  #ninabaul .ninabmusic {
+    flex-direction: row;
+    padding-bottom: 13px;
+    border-bottom-width: 12px;
+    border-right-width: 25px;
+    padding-right: 0px;
+  }
+  #ninabaul .ninabside {
+    border-right: none;
+  }
+}
+@container ninacont (max-width: 450px) {
+  #ninabaul {
+    grid-template-rows: auto 300px minmax(220px, auto) 220px 140px;
+  grid-template-columns: minmax(200px, 1fr);
+  grid-template-areas: 
+    "ninablinks"
+    "ninabside"
+    "ninabfacts"
+    "ninabdeets"
+    "ninabmusic";
+  }
+  #ninabaul .ninablinks {
+    flex-direction: row;
+    border-left: none;
+    border-bottom: var(--border1);
+    margin-bottom: 20px;
+  }
+  #ninabaul .ninablinks>em {
+    writing-mode: horizontal-tb;
+  text-orientation: mixed;
+    line-height: 100%;
+  }
+}
