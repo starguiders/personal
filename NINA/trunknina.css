@@ -381,3 +381,8 @@
     line-height: 100%;
   }
 }
+@container ninacont (max-width: 400px) {
+  #ninabaul .ninablinks>em {
+    display: none!important;
+  }
+}
