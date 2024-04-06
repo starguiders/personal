@@ -1,3 +1,9 @@
+.post:has(#ninabaul) .postprofile, .post:has(#ninabaul) .phmain {
+  display: none !important;
+}
+.post:has(#ninabaul) .postheader {
+  justify-content: flex-end;
+}
 #ninacont {
   container: ninacont / inline-size;
   width: 100%;
