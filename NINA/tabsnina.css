@@ -1,0 +1,207 @@
+/*TABLILLA DE ROL*/
+.tabrol2.nina {
+  padding: 0px 20px;
+}
+.tabrol2.nina .tbroltit > b {
+  font: 600 var(--fs-h2) "Tourney", sans-serif;
+  font-style: normal;
+  line-height: 110%;
+  text-decoration: underline solid 2px var(--acento);
+  text-underline-offset: 5px;
+}
+.tabrol2.nina .tbroltit > b > i {
+  font-style: normal;
+  font-weight: 900;
+}
+.tabrol2.nina .tbroltit > span {
+  font: 600 var(--fs-small) "Sofia Sans Condensed", sans-serif;
+  letter-spacing: 1.5px;
+  font-style: italic;
+  padding: 0px;
+  border: none;
+  line-height: 100%;
+}
+.tabrol2.nina .tbrolcont {
+  font: 300 var(--fs-text) "Sofia Sans", sans-serif;
+}
+.tabrol2.nina .tbrolinfo {
+  background: transparent;
+  margin: 0 auto;
+  max-width: 85%;
+  padding-bottom: 50px;
+}
+.tabrol2.nina .tbrolinfo > em {
+  font: 700 var(--fs-smaller) "JetBrains Mono";
+  letter-spacing: 0.5px;
+  line-height: 100%;
+}
+@media (max-width: 570px) {
+  .tbrolinfo {
+    padding-bottom: 30px !important;
+    min-height: 65px;
+  }
+}
+/*TABLILLA DE COMBATE*/
+#tabcombatpj.nina .tabcomdata > i {
+  border-radius: 100%;
+  background: transparent;
+}
+#tabcombatpj.nina .tbcmdtname > b {
+  font: 500 var(--fs-h4) "Tourney", sans-serif;
+  line-height: 100%;
+  text-shadow: none;
+}
+#tabcombatpj.nina .tbcmdtinfo {
+  text-transform: uppercase;
+  font: 800 var(--fs-smaller) "JetBrains Mono", monospace;
+  line-height: 100%;
+}
+#tabcombatpj.nina .tabcombless {
+  background: var(--back2);
+  border-color: var(--back1);
+  border-radius: 0;
+  outline: 1px solid var(--border1-c);
+  outline-offset: -1px;
+  border-width: 5px;
+}
+#tabcombatpj.nina #tbcmblbar {
+  border-radius: 0;
+  opacity: 0.7;
+}
+#tabcombatpj.nina .tbcmdtinfo:before {
+  opacity: 0.7;
+}
+#tabcombatpj.nina .tabcomstats > div {
+  border-radius: 0;
+  border-color: var(--border1-c);
+  border-top-color: var(--acento);
+}
+#tabcombatpj.nina .tabcomstats > div > b {
+  font: 800 var(--fs-text) "Sofia Sans";
+  line-height: 100%;
+}
+#tabcombatpj.nina .tabcomstats > div > i {
+  font: 800 var(--fs-small) "Sofia Sans Condensed", sans-serif;
+  line-height: 100%;
+}
+#tabcombatpj.nina .tabcomcalcs {
+  border-radius: 0;
+  background: var(--back1);
+  border-color: var(--back1);
+  font: 300 var(--fs-text) "Sofia Sans", sans-serif;
+  line-height: 110%;
+  color: var(--txt3);
+}
+#tabcombatpj.nina .tabcotskills {
+  border-color: var(--border1-c);
+  font: 300 var(--fs-text) "Sofia Sans", sans-serif;
+  line-height: 125%;
+}
+#tabcombatpj.nina .tabcotskills h3 {
+  font: 900 var(--fs-bigger) "Tourney", sans-serif !important;
+}
+#tabcombatpj.nina .tabcotskills h4.post-content {
+  font: 900 var(--fs-body) "Sofia Sans", sans-serif !important;
+}
+#tabcombatpj.nina .tbctbl,
+#tabcombatpj.nina .tbctesta {
+  font: 400 var(--fs-text) "Sofia Sans" sans-serif;
+  line-height: 125%;
+}
+#tabcombatpj.nina .tbctbl:before {
+  border-radius: 0;
+  font: 800 var(--fs-smaller) "JetBrains Mono", monospace;
+  margin-top: 0px;
+  padding: 3px 5px;
+  line-height: 100%;
+}
+#tabcombatpj.nina .tbctbl i,
+#tabcombatpj.nina .tbctesta i {
+  font-weight: 500;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  line-height: inherit;
+}
+/*TABLILLA DE COMBATE: FULLY LOADED*/
+.tabcombatfull:has(#tabcombatpj.nina) #tabcombatmn .tabcomdata > i {
+  border-radius: 100%;
+  background: transparent;
+}
+.tabcombatfull:has(#tabcombatpj.nina) #tabcombatmn .tbcmdtname > b {
+  font: 300 var(--fs-bigger) "Tourney", sans-serif;
+  line-height: 100%;
+  text-shadow: none;
+}
+.tabcombatfull:has(#tabcombatpj.nina) #tabcombatmn .tbcmdtinfo {
+  text-transform: uppercase;
+  font: 800 var(--fs-smaller) "JetBrains Mono", monospace;
+  line-height: 100%;
+}
+.tabcombatfull:has(#tabcombatpj.nina) #tabcombatmn .tabcommlife {
+  border-radius: 0;
+  outline: 1px solid var(--border1-c);
+  outline-offset: -1px;
+  border-width: 5px;
+  border-color: var(--back1);
+  background: var(--back2);
+}
+.tabcombatfull:has(#tabcombatpj.nina) #tabcombatmn #tbcmmlbar:after {
+  font: 700 var(--fs-small) "Sofia Sans Condensed", sans-serif;
+  letter-spacing: 1px;
+}
+.tabcombatfull:has(#tabcombatpj.nina) #tabcombatmn .tabcomstats > div {
+  border-radius: 0;
+  border-color: var(--border1-c);
+  border-top-color: var(--acento);
+}
+.tabcombatfull:has(#tabcombatpj.nina) #tabcombatmn .tabcomstats > div > b {
+  font: 800 var(--fs-text) "Sofia Sans";
+  line-height: 100%;
+}
+.tabcombatfull:has(#tabcombatpj.nina) #tabcombatmn .tabcomstats > div > i {
+  font: 800 var(--fs-small) "Sofia Sans Condensed", sans-serif;
+  line-height: 100%;
+}
+.tabcombatfull:has(#tabcombatpj.nina) #tabcombatmn .tabcomcalcs {
+  border-radius: 0;
+  background: var(--back1);
+  border-color: var(--back1);
+  font: 300 var(--fs-text) "Sofia Sans", sans-serif;
+  line-height: 110%;
+  color: var(--txt3);
+}
+.tabcombatfull:has(#tabcombatpj.nina) #tabcombatmn .tabcotskills {
+  border-color: var(--border1-c);
+  font: 300 var(--fs-text) "Sofia Sans", sans-serif;
+  line-height: 125%;
+}
+.tabcombatfull:has(#tabcombatpj.nina) #tabcombatmn .tabcotskills h3 {
+  font: 900 var(--fs-bigger) "Tourney", sans-serif !important;
+}
+.tabcombatfull:has(#tabcombatpj.nina)
+  #tabcombatmn
+  .tabcotskills
+  h4.post-content {
+  font: 900 var(--fs-body) "Sofia Sans", sans-serif !important;
+}
+.tabcombatfull:has(#tabcombatpj.nina) #tabcombatmn .tbctbl,
+.tabcombatfull:has(#tabcombatpj.nina) #tabcombatmn .tbctesta {
+  font: 400 var(--fs-text) "Sofia Sans" sans-serif;
+  line-height: 125%;
+}
+.tabcombatfull:has(#tabcombatpj.nina) #tabcombatmn .tbctbl:before {
+  border-radius: 0;
+  font: 800 var(--fs-smaller) "JetBrains Mono", monospace;
+  margin-top: 0px;
+  padding: 3px 5px;
+  line-height: 100%;
+}
+.tabcombatfull:has(#tabcombatpj.nina) #tabcombatmn .tbctbl i,
+.tabcombatfull:has(#tabcombatpj.nina) #tabcombatmn .tbctesta i {
+  font-weight: 500;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  line-height: inherit;
+}
