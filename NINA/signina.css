@@ -1,3 +1,9 @@
+.tabrol2.nina, .tabrol1.nina, .tabrol3.nina {
+  --acento:var(--hypnos);
+}
+#tabcombatpj.nina {
+  --acento:var(--hypnos);
+}
 .ninasig {
   width: 280px;
   height: 195px;
