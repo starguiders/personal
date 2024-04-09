@@ -382,6 +382,9 @@
   }
 }
 @container ninacont (max-width: 400px) {
+  #ninabaul .ninablinks {
+    flex-wrap: wrap;
+  }
   #ninabaul .ninablinks>em {
     display: none!important;
   }
