@@ -101,7 +101,9 @@
   color: var(--group);
   line-height: 100%;
 }
-#ninacrono .ninacroleft>div>a:hover, #ninacrono .ninacroright>div>a:hover {color: var(--txt1);}
+#ninacrono .ninacroleft>div>a:hover, #ninacrono .ninacroright>div>a:hover {
+  color: var(--txt1);
+}
 #ninacrono .ninacroleft>div>em, #ninacrono .ninacroright>div>em {
   font: 500 12px 'Sofia Sans Condensed', sans-serif;
   line-height: normal;
@@ -127,7 +129,7 @@
 #ninacrono .ninacroline {
   grid-area: ninalinecrono;
   background: var(--border1-c);
-  margin: 20px 0px;
+  margin: 30px 0px;
 }
 #ninacrono .ninacrolegend {
   grid-area: ninalegendcrono;
