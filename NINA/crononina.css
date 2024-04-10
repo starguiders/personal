@@ -1,0 +1,206 @@
+.post:has(#ninacrono) .postprofile, .post:has(#ninacrono) .phmain {
+  display: none !important;
+}
+.post:has(#ninacrono) .postheader {
+  justify-content: flex-end;
+}
+#ninacont {
+  container: ninacont / inline-size;
+  width: 100%;
+}
+#ninacrono {
+  max-width: 950px;
+  width: 100%;
+  background: #000;
+  margin: 0 auto;
+  display: grid; 
+  gap: 0px;
+  grid-template-columns: minmax(200px, 1fr) 1px minmax(200px, 1fr) 60px;
+  grid-template-areas: 
+    "ninaleftcrono ninalinecrono ninarightcrono ninalegendcrono";
+}
+#ninacrono br {
+  display: none!important;
+}
+#ninacrono * {
+  transition: 0.6s;
+}
+@supports not selector(::-webkit-scrollbar) {
+  #ninacrono * {
+    scrollbar-color: var(--border1-c) transparent;
+    scrollbar-width: thin;
+  }
+}
+#ninacrono *::-webkit-scrollbar {
+  width: 1px;
+  height: 1px
+}
+#ninacrono *::-webkit-scrollbar-thumb {
+  background: var(--border1-c);
+}
+#ninacrono *::-webkit-scrollbar-track {
+  background: #000;
+}
+#ninacrono *::-webkit-scrollbar-corner {
+  background: #000;
+}
+#ninacrono .ninacroleft {
+  grid-area: ninaleftcrono;
+}
+#ninacrono .ninacroright {
+  grid-area: ninarightcrono;
+}
+#ninacrono .ninacroleft, #ninacrono .ninacroright {
+  border: 30px solid #000;
+  padding-right: 15px;
+  border-right-width: 15px;
+  height: 495px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+#ninacrono .ninacroleft h4, #ninacrono .ninacroright h4 {
+  text-transform: lowercase;
+  color: var(--txt1);
+  font: 600 35px 'Tourney', sans-serif;
+  line-height: 80%;
+  margin: 0px!important;
+}
+#ninacrono .ninacroleft h5, #ninacrono .ninacroright h5 {
+  text-transform: uppercase;
+  color: var(--back1);
+  background: var(--group);
+  width: fit-content;
+  margin: 10px 0px 0px 0px!important;
+  font: 800 12px 'Sofia Sans', sans-serif;
+  line-height: 100%;
+  padding: 3px 4px;
+  letter-spacing: 0.5px;
+}
+#ninacrono .ninacroleft h4:not(:first-of-type), #ninacrono .ninacroright h4:not(:first-of-type) {
+  margin-top: 25px!important;
+}
+#ninacrono .ninacroleft>div, #ninacrono .ninacroright>div {
+  text-transform: uppercase;
+}
+#ninacrono .ninacroleft>div>i, #ninacrono .ninacroright>div>i {
+  color: var(--txt1);
+  font-size: 10px;
+  float: left;
+  height: calc(10px * 2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+  margin-left: 3px;
+}
+#ninacrono .ninacroleft>div>a, #ninacrono .ninacroright>div>a {
+  text-decoration: none!important;
+  font: 900 12px 'JetBrains Mono', monospace;
+  color: var(--group);
+  line-height: 100%;
+}
+#ninacrono .ninacroleft>div>a:hover, #ninacrono .ninacroright>div>a:hover {color: var(--txt1);}
+#ninacrono .ninacroleft>div>em, #ninacrono .ninacroright>div>em {
+  font: 500 12px 'Sofia Sans Condensed', sans-serif;
+  line-height: normal;
+  line-height: 100%;
+  border-top: var(--border1);
+  border-bottom: var(--border1);
+  padding: 6px 3px;
+  width: fit-content!important;
+  color: #848484;
+  letter-spacing: 1px;
+  display: block flex;
+  gap: 5px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 5px;
+}
+#ninacrono .ninacroleft>div>em>i, #ninacrono .ninacroright>div>em>i {
+  color: var(--txt3);
+  font-size: 9px;
+  line-height: 100%;
+}
+#ninacrono .ninacroline {
+  grid-area: ninalinecrono;
+  background: var(--border1-c);
+  margin: 20px 0px;
+}
+#ninacrono .ninacrolegend {
+  grid-area: ninalegendcrono;
+  border-left: var(--border1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 15px;
+  gap: 15px;
+}
+#ninacrono .ninacrolegend a {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--group);
+  text-decoration: none!important;
+  cursor: var(--crs1);
+}
+#ninacrono .ninacrolegend a:hover {
+  color: var(--txt1);
+}
+#ninacrono .ninacrolegend>em {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  flex: 1;
+  text-align: right;
+  text-transform: uppercase;
+  font: 600 13px 'Sofia Sans Condensed';
+  font-style: italic;
+  letter-spacing: 2.5px;
+  color: #848484;
+}
+@container ninacont (max-width: 700px) {
+  #ninacrono {
+  grid-template-rows: auto 1px auto;
+  grid-template-columns: minmax(200px, 1fr) 60px;
+  grid-template-areas: 
+    "ninaleftcrono ninalegendcrono"
+    "ninalinecrono ninalegendcrono"
+    "ninarightcrono ninalegendcrono";
+  }
+  #ninacrono .ninacroleft, #ninacrono .ninacroright {
+    height: 330px;
+  }
+  #ninacrono .ninacroline {
+    margin: 0px 30px;
+  }
+}
+@container ninacont (max-width: 450px) {
+  #ninacrono {
+  grid-template-rows: 60px auto 1px auto;
+  grid-template-columns: minmax(200px, 1fr);
+  grid-template-areas: 
+    "ninalegendcrono"
+    "ninaleftcrono"
+    "ninalinecrono"
+    "ninarightcrono";
+  }
+  #ninacrono .ninacrolegend {
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-left: none;
+    border-bottom: var(--border1);
+  }
+  #ninacrono .ninacrolegend>em {
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    line-height: 100%;
+  }
+}
+@container ninacont (max-width: 400px) {
+  #ninacrono .ninacrolegend>em {
+    display: none!important;
+  }
+}
