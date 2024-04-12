@@ -1,0 +1,285 @@
+.post:has(#ninarelas) .postprofile, .post:has(#ninarelas) .phmain {
+  display: none !important;
+}
+.post:has(#ninarelas) .postheader {
+  justify-content: flex-end;
+}
+#ninacont {
+  container: ninacont / inline-size;
+  width: 100%;
+}
+#ninarelas {
+  max-width: 950px;
+  width: 100%;
+  background: #000;
+  margin: 0 auto;
+  display: grid; 
+  gap: 0px;
+  grid-template-columns: minmax(200px, 1fr) 60px;
+  grid-template-areas: 
+    "ninacharsrelas ninalegendrelas";
+}
+#ninarelas br {
+  display: none!important;
+}
+#ninarelas * {
+  transition: 0.6s;
+}
+@supports not selector(::-webkit-scrollbar) {
+  #ninarelas * {
+    scrollbar-color: var(--border1-c) transparent;
+    scrollbar-width: thin;
+  }
+}
+#ninarelas *::-webkit-scrollbar {
+  width: 1px;
+  height: 1px
+}
+#ninarelas *::-webkit-scrollbar-thumb {
+  background: var(--border1-c);
+}
+#ninarelas *::-webkit-scrollbar-track {
+  background: #000;
+}
+#ninarelas *::-webkit-scrollbar-corner {
+  background: #000;
+}
+#ninarelas .ninarlschars {
+  grid-area: ninacharsrelas;
+  border: 30px solid #000;
+  padding-right: 20px;
+  border-right-width: 10px;
+  height: 495px;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+#ninarelas .ninarlschars .ninarlcchar {
+  flex: 1 0 31%;
+  justify-content: center;
+  align-items: center;
+  height: 205px;
+  outline: var(--border1);
+  outline-offset: -1px;
+  border: 12px solid #000;
+  position: relative;
+  max-width: 300px;
+  min-width: 200px;
+  padding: 12px;
+  flex-direction: column-reverse;
+}
+#ninarelas .ninarlschars .ninarlcchar.nemesis {
+  --acentito: var(--nemesis);
+  --tacentito: var(--tnemesis);
+}
+#ninarelas .ninarlschars .ninarlcchar.tyche {
+  --acentito: var(--tyche);
+  --tacentito: var(--ttyche);
+}
+#ninarelas .ninarlschars .ninarlcchar.afrodita {
+  --acentito: var(--afrodita);
+  --tacentito: var(--tafrodita);
+}
+#ninarelas .ninarlschars .ninarlcchar.dioniso {
+  --acentito: var(--dioniso);
+  --tacentito: var(--tdioniso);
+}
+#ninarelas .ninarlschars .ninarlcchar.hades {
+  --acentito: var(--hades);
+  --tacentito: var(--thades);
+}
+#ninarelas .ninarlschars .ninarlcchar.hecate {
+  --acentito: var(--hecate);
+  --tacentito: var(--thecate);
+}
+#ninarelas .ninarlschars .ninarlcchar.poseidon {
+  --acentito: var(--poseidon);
+  --tacentito: var(--tposeidon);
+}
+#ninarelas .ninarlschars .ninarlcchar.hypnos {
+  --acentito: var(--hypnos);
+  --tacentito: var(--thypnos);
+}
+#ninarelas .ninarlschars .ninarlcchar.khione {
+  --acentito: var(--khione);
+  --tacentito: var(--tkhione);
+}
+#ninarelas .ninarlschars .ninarlcchar.hebe {
+  --acentito: var(--hebe);
+  --tacentito: var(--thebe);
+}
+#ninarelas .ninarlschars .ninarlcchar.atenea {
+  --acentito: var(--atenea);
+  --tacentito: var(--tatenea);
+}
+#ninarelas .ninarlschars .ninarlcchar.demeter {
+  --acentito: var(--demeter);
+  --tacentito: var(--tdemeter);
+}
+#ninarelas .ninarlschars .ninarlcchar.iris {
+  --acentito: var(--iris);
+  --tacentito: var(--tiris);
+}
+#ninarelas .ninarlschars .ninarlcchar.hermes {
+  --acentito: var(--hermes);
+  --tacentito: var(--thermes);
+}
+#ninarelas .ninarlschars .ninarlcchar.apolo {
+  --acentito: var(--apolo);
+  --tacentito: var(--tapolo);
+}
+#ninarelas .ninarlschars .ninarlcchar.zeus {
+  --acentito: var(--zeus);
+  --tacentito: var(--tzeus);
+}
+#ninarelas .ninarlschars .ninarlcchar.hefesto {
+  --acentito: var(--hefesto);
+  --tacentito: var(--thefesto);
+}
+#ninarelas .ninarlschars .ninarlcchar.ares {
+  --acentito: var(--ares);
+  --tacentito: var(--tares);
+}
+#ninarelas .ninarlschars .ninarlcchar:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background: var(--acentito);
+  mix-blend-mode: multiply;
+  opacity: 0;
+}
+#ninarelas .ninarlschars .ninarlcchar img {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(1);
+}
+#ninarelas .ninarlschars .ninarlcchar:hover img {
+  filter: grayscale(1) brightness(0.3);
+}
+#ninarelas .ninarlschars .ninarlcchar i {
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ninarelas .ninarlschars .ninarlcchar i:before {
+  content: "X";
+  color: var(--tacentito);
+  font: 300 110px "Font Awesome 6 Sharp";
+  opacity: 0.4;
+  font-style: normal;
+  transition: 0.6s;
+}
+#ninarelas .ninarlschars .ninarlcchar.relcer i:before {
+  content: "\f004";
+}
+#ninarelas .ninarlschars .ninarlcchar.relfam i:before {
+  content: "\f254";
+}
+#ninarelas .ninarlschars .ninarlcchar.reltur i:before {
+  content: "\f806";
+}
+#ninarelas .ninarlschars .ninarlcchar.relotr i:before {
+  content: "\f007";
+}
+#ninarelas .ninarlschars .ninarlcchar strong, #ninarelas .ninarlschars .ninarlcchar em {
+  position: relative;
+  z-index: 2;
+  opacity: 0;
+}
+#ninarelas .ninarlschars .ninarlcchar:hover strong, #ninarelas .ninarlschars .ninarlcchar:hover em, #ninarelas .ninarlschars .ninarlcchar:hover i, #ninarelas .ninarlschars .ninarlcchar:hover::before {
+  opacity: 1;
+  transition: 0.6s;
+}
+#ninarelas .ninarlschars .ninarlcchar>strong {
+  font: 500 22px 'Tourney', sans-serif;
+  text-transform: lowercase;
+  color: var(--txt1);
+  line-height: 100%;
+}
+#ninarelas .ninarlschars .ninarlcchar>em {
+  text-transform: uppercase;
+  font: 800 10px 'JetBrains Mono', monospace;
+  line-height: normal;
+  line-height: normal;
+  line-height: 100%;
+  color: #848484;
+  display: block;
+  margin-bottom: 3px;
+  letter-spacing: 0.5px;
+}
+#ninarelas .ninarlslege {
+  grid-area: ninalegendrelas;
+  border-left: var(--border1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 15px;
+  gap: 15px;
+}
+#ninarelas .ninarlslege a {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--group);
+  text-decoration: none!important;
+  cursor: var(--crs1);
+}
+#ninarelas .ninarlslege a:hover {
+  color: var(--txt1);
+}
+#ninarelas .ninarlslege>em {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  flex: 1;
+  text-align: right;
+  text-transform: uppercase;
+  font: 600 13px 'Sofia Sans Condensed';
+  font-style: italic;
+  letter-spacing: 2.5px;
+  color: #848484;
+}
+@container ninacont (max-width: 450px) {
+  #ninarelas {
+  grid-template-rows: 60px auto;
+  grid-template-columns: auto;
+  grid-template-areas: 
+    "ninalegendrelas"
+    "ninacharsrelas";
+  }
+  #ninarelas .ninarlslege {
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-left: none;
+    border-bottom: var(--border1);
+  }
+  #ninarelas .ninarlschars {
+    height: 725px;
+  }
+  #ninarelas .ninarlschars .ninarlcchar {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+  #ninarelas .ninarlslege>em {
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    line-height: 100%;
+  }
+}
+@container ninacont (max-width: 400px) {
+  #ninarelas .ninarlslege>em {
+    display: none!important;
+  }
+}
