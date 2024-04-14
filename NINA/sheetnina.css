@@ -220,6 +220,7 @@
   letter-spacing: 1px;
   padding: 1px 0px 1px 7px;
   line-height: 100%;
+  margin-top: 4px;
 }
 #ninasheet .ninasheettodo>div>em>a {
   text-decoration: none!important;
