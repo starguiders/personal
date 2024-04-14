@@ -215,11 +215,10 @@
   display: block;
   border-left: var(--border1);
   font: 500 11px 'Sofia Sans Condensed', sans-serif;
-  line-height: 100%;
   color: #848484;
   letter-spacing: 1px;
   padding: 1px 0px 1px 7px;
-  line-height: 100%;
+  line-height: 130%;
   margin-top: 4px;
 }
 #ninasheet .ninasheettodo>div>em>a {
