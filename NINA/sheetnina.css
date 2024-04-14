@@ -1,0 +1,368 @@
+.post:has(#ninasheet) .postprofile, .post:has(#ninasheet) .phmain {
+  display: none !important;
+}
+.post:has(#ninasheet) .postheader {
+  justify-content: flex-end;
+}
+#ninacont {
+  container: ninacont / inline-size;
+  width: 100%;
+}
+#ninasheet {
+  max-width: 950px;
+  width: 100%;
+  background: #000;
+  margin: 0 auto;
+  display: grid; 
+  gap: 0px;
+  grid-template-columns: minmax(200px, 1fr) 1px minmax(200px, 0.55fr) 60px; 
+  grid-template-rows: 90px 165px 240px; 
+  grid-template-areas: 
+    "ninastatssheet ninalinesheet ninatodosheet ninalegesheet"
+    "ninadeetssheet ninalinesheet ninatodosheet ninalegesheet"
+    "ninarulessheet ninalinesheet ninatodosheet ninalegesheet"; 
+}
+#ninasheet br {
+  display: none!important;
+}
+#ninasheet * {
+  transition: 0.6s;
+}
+@supports not selector(::-webkit-scrollbar) {
+  #ninasheet * {
+    scrollbar-color: var(--border1-c) transparent;
+    scrollbar-width: thin;
+  }
+}
+#ninasheet *::-webkit-scrollbar {
+  width: 1px;
+  height: 1px
+}
+#ninasheet *::-webkit-scrollbar-thumb {
+  background: var(--border1-c);
+}
+#ninasheet *::-webkit-scrollbar-track {
+  background: #000;
+}
+#ninasheet *::-webkit-scrollbar-corner {
+  background: #000;
+}
+#ninasheet .ninasheetline {
+  grid-area: ninalinesheet;
+  background: var(--border1-c);
+  margin: 30px 0px;
+}
+#ninasheet .ninasheetstats {
+  grid-area: ninastatssheet;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px 15px 30px;
+  gap: 15px;
+}
+#ninasheet .ninasheetstats>em {
+  text-transform: uppercase;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  font: 700 13px 'Sofia Sans', sans-serif;
+  color: var(--txt1);
+  flex: 1;
+  align-self: stretch;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+#ninasheet .ninasheetstats>em>b {
+  position: absolute;
+  z-index: 1;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  border-left: 1px solid #ffffff26;
+  border-right: 1px solid #ffffff26;
+  line-height: 100%;
+  padding: 1px 8px;
+}
+#ninasheet .ninasheetstats>em>span {
+  position: relative;
+  z-index: 0;
+  font-size: 55px;
+  font-family: 'Tourney', sans-serif;
+  color: var(--group);
+  opacity: 0.3;
+  line-height: 100%;
+}
+#ninasheet .ninasheetdeets {
+  padding: 15px 30px 30px 30px;
+  grid-area: ninadeetssheet;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+#ninasheet .ninasheetdeets>em {
+  flex: 1 0 30%;
+  border-top: var(--border1);
+  border-bottom: var(--border1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 5px;
+  text-transform: uppercase;
+  color: #848484;
+  font: 400 12px 'Sofia Sans Condensed', sans-serif;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+#ninasheet .ninasheetdeets>em>b {
+  color: var(--group);
+  font-weight: 900;
+}
+#ninasheet .ninasheetrules {
+  grid-area: ninarulessheet;
+  overflow: auto;
+  border: 30px solid #000;
+  border-top-width: 0px;
+  border-right-width: 15px;
+  padding-right: 15px;
+  text-align: justify;
+  font: 300 13px 'Sofia Sans', sans-serif;
+  color: var(--txt2);
+  line-height: 150%;
+  letter-spacing: 0.1px;
+}
+#ninasheet .ninasheetrules>b {
+  color: var(--tgroup);
+  float: left;
+  font: 800 20px 'JetBrains Mono';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: calc(20px * 1.8);
+  border-right: var(--border1);
+  padding-right: 10px;
+  margin-right: 10px;
+}
+#ninasheet .ninasheetrules>i {
+  font-style: italic;
+  color: #848484;
+  font-weight: 400;
+}
+#ninasheet .ninasheetrules>u, #ninasheet .ninasheetrules strike {
+  text-decoration-color: var(--group);
+  text-transform: uppercase;
+  font: 600 10.5px 'JetBrains Mono', monospace;
+}
+#ninasheet .ninasheetrules>u {
+  color: var(--txt1);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+#ninasheet .ninasheetrules strike {
+  color: var(--txt4);
+  text-decoration-thickness: 2px;
+  font-style: italic;
+}
+#ninasheet .ninasheetrules>br {
+  display: initial!important;
+}
+#ninasheet .ninasheettodo {
+  grid-area: ninatodosheet;
+  overflow: auto;
+  border: 30px solid #000;
+  border-right-width: 15px;
+  padding-right: 15px;
+  gap: 6px;
+}
+#ninasheet .ninasheettodo>h4 {
+  text-transform: lowercase;
+  font: 600 30px 'Tourney', sans-serif;
+  color: var(--txt1);
+  margin: 0px!important;
+  line-height: 100%;
+}
+#ninasheet .ninasheettodo>h4:not(:first-of-type) {
+  margin-top: 18px!important;
+}
+#ninasheet .ninasheettodo>div {
+  position: relative;
+  display: block;
+  text-transform: uppercase;
+}
+#ninasheet .ninasheettodo>div>i {
+  font: 300 10px "Font Awesome 6 Sharp";
+  content: "S";
+  color: var(--txt1);
+  margin-right: 4px;
+}
+#ninasheet .ninasheettodo>div.nstdcomp>i:before {
+  content: "\f00c";
+}
+#ninasheet .ninasheettodo>div.nstdproc>i:before {
+  content: "\e1d4";
+}
+#ninasheet .ninasheettodo>div.nstdinco>i:before {
+  content: "\e59b";
+}
+#ninasheet .ninasheettodo>div>b {
+  font: 900 13px 'Sofia Sans', sans-serif;
+  line-height: normal;
+  color: var(--group);
+  line-height: 100%;
+  margin-bottom: -1px!important;
+}
+#ninasheet .ninasheettodo>div>em {
+  display: block;
+  border-left: var(--border1);
+  font: 500 11px 'Sofia Sans Condensed', sans-serif;
+  line-height: 100%;
+  color: #848484;
+  letter-spacing: 1px;
+  padding: 1px 0px 1px 7px;
+  line-height: 100%;
+}
+#ninasheet .ninasheettodo>div>em>a {
+  text-decoration: none!important;
+  background: var(--group);
+  color: #000;
+  font-weight: 800;
+  padding: 0px 3px;
+  font-size: 10px;
+}
+#ninasheet .ninasheetlege {
+  border-left: var(--border1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 15px;
+  gap: 15px;
+  grid-area: ninalegesheet;
+}
+#ninasheet .ninasheetlege a {
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 100%;
+  color: var(--group);
+  text-decoration: none!important;
+  cursor: var(--crs1);
+}
+#ninasheet .ninasheetlege a:hover {
+  color: var(--txt1);
+}
+#ninasheet .ninasheetlege>em {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  flex: 1;
+  text-align: right;
+  text-transform: uppercase;
+  font: 600 13px 'Sofia Sans Condensed';
+  font-style: italic;
+  letter-spacing: 2.5px;
+  color: #848484;
+}
+@container ninacont (max-width: 900px) {
+  #ninasheet {
+    grid-template-rows: 180px auto 240px; 
+    grid-template-columns: minmax(200px, 1fr) 1px minmax(200px, 0.65fr) 60px;
+  }
+  #ninasheet .ninasheetstats {
+    flex-wrap: wrap;
+  }
+  #ninasheet .ninasheetstats>em {
+    flex: 1 0 25%;
+  }
+  #ninasheet .ninasheetdeets {
+    height: auto;
+  }
+  #ninasheet .ninasheetdeets>em {
+    flex: 1 0 40%;
+  }
+  #ninasheet .ninasheettodo {
+    height: 650px;
+  }
+}
+@container ninacont (max-width: 650px) {
+  #ninasheet {
+    grid-template-columns: minmax(200px, 1fr) 1px 130px 60px; 
+    grid-template-rows: 220px auto auto; 
+    grid-template-areas: 
+      "ninarulessheet ninalinesheet ninastatssheet ninalegesheet"
+      "ninadeetssheet ninalinesheet ninastatssheet ninalegesheet"
+      "ninatodosheet ninalinesheet ninastatssheet ninalegesheet"; 
+  }
+  #ninasheet .ninasheetstats {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-bottom: 30px;
+  }
+  #ninasheet .ninasheetstats>em {
+    flex: 1;
+  }
+  #ninasheet .ninasheetrules {
+    border-top-width: 30px;
+    border-bottom-width: 15px;
+  }
+  #ninasheet .ninasheetdeets {
+    padding-bottom: 0px;
+  }
+  #ninasheet .ninasheettodo {
+    height: 285px;
+    border-bottom-width: 30px;
+  }
+}
+@container ninacont (max-width: 550px) {
+  #ninasheet {
+    grid-template-columns: minmax(200px, 1fr) 60px; 
+    grid-template-rows: auto 220px auto 1px auto; 
+    grid-template-areas: 
+      "ninastatssheet ninalegesheet"
+      "ninadeetssheet ninalegesheet"
+      "ninarulessheet ninalegesheet"
+      "ninalinesheet ninalegesheet"
+      "ninatodosheet ninalegesheet"; 
+  }
+  #ninasheet .ninasheetstats {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #ninasheet .ninasheetstats>em {
+    flex: 1 0 30%;
+  }
+  #ninasheet .ninasheetrules {
+    height: 220px;
+    border-bottom-width: 30px;
+  }
+  #ninasheet .ninasheetline {
+    margin: 0px 30px;
+  }
+}
+@container ninacont (max-width: 450px) {
+  #ninasheet {
+    grid-template-columns: minmax(200px, 1fr); 
+    grid-template-rows: 60px auto 220px auto 1px auto; 
+    grid-template-areas: 
+      "ninalegesheet"
+      "ninastatssheet"
+      "ninadeetssheet"
+      "ninarulessheet"
+      "ninalinesheet"
+      "ninatodosheet"; 
+  }
+  #ninasheet .ninasheetlege {
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-left: none;
+    border-bottom: var(--border1);
+  }
+  #ninasheet .ninasheetlege>em {
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    line-height: 100%;
+  }
+}
+@container ninacont (max-width: 400px) {
+  #ninasheet .ninasheetlege>em {
+    display: none!important;
+  }
+}
