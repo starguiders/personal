@@ -325,6 +325,7 @@
   #ninasheet .ninasheetstats {
     flex-direction: row;
     flex-wrap: wrap;
+    padding-bottom: 15px!important;
   }
   #ninasheet .ninasheetstats>em {
     flex: 1 0 30%;
