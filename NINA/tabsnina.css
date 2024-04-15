@@ -1,6 +1,8 @@
 /*TABLILLA DE ROL*/
 .tabrol2.nina {
   padding: 0px 20px;
+  background: #000;
+  border: none;
 }
 .tabrol2.nina .tbroltit > b {
   font: 600 var(--fs-h2) "Tourney", sans-serif;
@@ -42,6 +44,10 @@
   }
 }
 /*TABLILLA DE COMBATE*/
+#tabcombatpj.nina {
+  background: #000;
+  border: none;
+}
 #tabcombatpj.nina .tabcomdata > i {
   border-radius: 100%;
   background: transparent;
@@ -58,7 +64,7 @@
 }
 #tabcombatpj.nina .tabcombless {
   background: var(--back2);
-  border-color: var(--back1);
+  border-color: #000;
   border-radius: 0;
   outline: 1px solid var(--border1-c);
   outline-offset: -1px;
@@ -86,8 +92,8 @@
 }
 #tabcombatpj.nina .tabcomcalcs {
   border-radius: 0;
-  background: var(--back1);
-  border-color: var(--back1);
+  background: #000;
+  border-color: #000;
   font: 300 var(--fs-text) "Sofia Sans", sans-serif;
   line-height: 110%;
   color: var(--txt3);
@@ -124,6 +130,10 @@
   line-height: inherit;
 }
 /*TABLILLA DE COMBATE: FULLY LOADED*/
+.tabcombatfull:has(#tabcombatpj.nina) #tabcombatmn {
+  background: #000;
+  border: none;
+}
 .tabcombatfull:has(#tabcombatpj.nina) #tabcombatmn .tabcomdata > i {
   border-radius: 100%;
   background: transparent;
@@ -165,8 +175,8 @@
 }
 .tabcombatfull:has(#tabcombatpj.nina) #tabcombatmn .tabcomcalcs {
   border-radius: 0;
-  background: var(--back1);
-  border-color: var(--back1);
+  background: #000;
+  border-color: #000;
   font: 300 var(--fs-text) "Sofia Sans", sans-serif;
   line-height: 110%;
   color: var(--txt3);
