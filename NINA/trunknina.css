@@ -339,7 +339,7 @@
 }
 @container ninacont (max-width: 550px) {
   #ninabaul {
-    grid-template-rows: 300px 175px 180px 140px;
+    grid-template-rows: 300px auto 180px 140px;
   grid-template-columns: minmax(200px, 1fr) 60px;
   grid-template-areas: 
     "ninabside ninablinks"
