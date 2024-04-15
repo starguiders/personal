@@ -95,7 +95,7 @@
 #ninasheet .ninasheetdeets {
   padding: 15px 30px 30px 30px;
   grid-area: ninadeetssheet;
-  gap: 15px;
+  gap: 20px;
   flex-wrap: wrap;
 }
 #ninasheet .ninasheetdeets>em {
