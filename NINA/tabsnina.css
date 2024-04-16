@@ -25,6 +25,7 @@
 }
 .tabrol2.nina .tbrolcont {
   font: 300 var(--fs-text) "Sofia Sans", sans-serif;
+  line-height: 140%;
 }
 .tabrol2.nina .tbrolinfo {
   background: transparent;
