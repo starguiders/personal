@@ -1,0 +1,104 @@
+.naokoexptit {
+  margin: 10px auto;
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.naokoexptit>span {
+  text-transform: lowercase;
+  font: normal 30px 'Gambarino', serif;
+  color: #fff;
+  line-height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+.naokoexptit>em {
+  font: 600 55px 'Poppins', sans-serif;
+  color: var(--groups);
+  opacity: 0.3;
+  line-height: 100%;
+}
+.naokoexptit:first-of-type {
+  margin-top: 20px;
+}
+.naokoexpdiv {
+  text-align: center;
+  margin: 12px auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.naokoexpdiv>i {
+  width: 25px;
+  height: 25px;
+  background: var(--groups);
+  color: #000;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+}
+.naokoexpdiv>b {
+  height: 25px;
+  width: auto;
+  background: #111;
+  font: 800 8px 'Satoshi', sans-serif;
+  line-height: 100%;
+  letter-spacing: 1.4px;
+  padding: 0px 8px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: #ccc;
+  text-transform: uppercase;
+}
+.naokoexptxt, .naokoexpextra {
+  font: 500 13px 'Satoshi', sans-serif;
+  text-align: justify;
+  line-height: 135%;
+  color: #8a8a8a;
+}
+.naokoexptxt>strong, .naokoexpextra>strong {
+  text-transform: uppercase;
+  font: 800 11px 'Nippo', sans-serif;
+  color: var(--groups);
+}
+.naokoexptxt>i, .naokoexpextra>i {
+  color: #ccc;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: .5px;
+}
+.naokoexptxt>u, .naokoexpextra>u {
+  font: normal 12px 'Gambarino', serif;
+  color: #fff;
+  text-decoration: underline dotted var(--groups) 1px;
+  text-underline-offset: 2px;
+}
+.naokoexptxt strike, .naokoexpextra strike {
+  text-transform: uppercase;
+  font: 500 11px 'Nippo', sans-serif;
+  text-decoration: line-through solid #942B1B 1px;
+  color: #666;
+  text-underline-offset: 2px;
+}
+.naokoexpextra {
+  line-height: 137%;
+}
+.naokoexpextra>em {
+  width: 25px;
+  height: 25px;
+  background: var(--groups);
+  color: #000;
+  font-size: 10px;
+  float: left;
+  display: flex;
+  margin: 14px 14px 0px 0px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+}
