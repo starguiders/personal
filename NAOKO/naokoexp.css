@@ -105,3 +105,9 @@
 .naokoexptxt>br, .naokoexpextra>br {
   display: initial;
 }
+.historia:has(.naokoexptxt) .mihistoria br, .datosextra:has(.naokoexpextra) .otrosdatos br {
+  display: initial;
+}
+.historia:has(.naokoexptxt) .mihistoria, .datosextra:has(.naokoexpextra) .otrosdatos {
+  line-height: 105%;
+}
