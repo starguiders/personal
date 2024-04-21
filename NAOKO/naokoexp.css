@@ -102,3 +102,6 @@
   align-items: center;
   opacity: 0.6;
 }
+.naokoexptxt>br, .naokoexpextra>br {
+  display: initial;
+}
