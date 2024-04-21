@@ -25,7 +25,7 @@
   z-index: 2;
   left: 0px;
   top: 20px;
-  transform: translateX(259px);
+  transform: translateX(260px);
   width: 21px;
   height: 119px;
   background: #111;
@@ -48,7 +48,7 @@
   z-index: 2;
   left: 0px;
   bottom: 20px;
-  transform: translateX(259px);
+  transform: translateX(260px);
   width: 21px;
   height: 21px;
   background: #942B1B;
@@ -60,7 +60,7 @@
   transition-delay: 0s;
 }
 #naokosig:hover>i, #naokosig:hover>b {
-  transform: translateX(164px);
+  transform: translateX(165px);
   transition-delay: 1s;
 }
 #naokosig:before {
