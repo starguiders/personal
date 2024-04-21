@@ -82,7 +82,7 @@
 .naokoexptxt strike, .naokoexpextra strike {
   text-transform: uppercase;
   font: 500 11px 'Nippo', sans-serif;
-  text-decoration: line-through solid #942B1B 1px;
+  text-decoration: line-through solid var(--groups) 1px;
   color: #666;
   text-underline-offset: 2px;
 }
