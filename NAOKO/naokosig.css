@@ -121,11 +121,11 @@
   background: #000000d9;
   height: 100%;
   width: 100%;
-  padding: 12px;
+  padding: 11px;
   position: relative;
   z-index: 1;
   font: 500 10px 'Satoshi', sans-serif;
-  line-height: 130%;
+  line-height: 125%;
   color: #8a8a8a;
   text-align: justify;
   text-align-last: justify;
