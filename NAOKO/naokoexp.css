@@ -89,7 +89,7 @@
 .naokoexpextra {
   line-height: 137%;
 }
-.naokoexpextra>em {
+.naokoexptxt>em, .naokoexpextra>em {
   width: 25px;
   height: 25px;
   background: var(--groups);
@@ -101,9 +101,6 @@
   justify-content: center;
   align-items: center;
   opacity: 0.6;
-}
-.naokoexptxt>br, .naokoexpextra>br {
-  display: initial;
 }
 .historia:has(.naokoexptxt) .mihistoria br, .datosextra:has(.naokoexpextra) .otrosdatos br {
   display: initial;
