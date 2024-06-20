@@ -198,7 +198,7 @@
   z-index: 2;
   opacity: 0;
 }
-#ninarelas .ninarlschars .ninarlcchar:hover strong, #ninarelas .ninarlschars .ninarlcchar:hover em, #ninarelas .ninarlschars .ninarlcchar:hover i, #ninarelas .ninarlschars .ninarlcchar:hover::before {
+#ninarelas .ninarlschars .ninarlcchar:hover a, #ninarelas .ninarlschars .ninarlcchar:hover em, #ninarelas .ninarlschars .ninarlcchar:hover i, #ninarelas .ninarlschars .ninarlcchar:hover::before {
   opacity: 1;
   transition: 0.6s;
 }
