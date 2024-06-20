@@ -193,7 +193,7 @@
 #ninarelas .ninarlschars .ninarlcchar.relotr i:before {
   content: "\f007";
 }
-#ninarelas .ninarlschars .ninarlcchar strong, #ninarelas .ninarlschars .ninarlcchar em {
+#ninarelas .ninarlschars .ninarlcchar a, #ninarelas .ninarlschars .ninarlcchar em {
   position: relative;
   z-index: 2;
   opacity: 0;
