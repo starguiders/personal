@@ -202,11 +202,12 @@
   opacity: 1;
   transition: 0.6s;
 }
-#ninarelas .ninarlschars .ninarlcchar>strong {
+#ninarelas .ninarlschars .ninarlcchar>a {
   font: 500 22px 'Tourney', sans-serif;
   text-transform: lowercase;
   color: var(--txt1);
   line-height: 100%;
+  text-decoration:none!important;
 }
 #ninarelas .ninarlschars .ninarlcchar>em {
   text-transform: uppercase;
