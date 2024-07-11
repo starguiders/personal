@@ -99,6 +99,10 @@
   letter-spacing:0.5px;
 }
 
+.expzone.filedarcy .exptitle>i {
+    color: var(--tgroup)!important;
+}
+
 .expzone.filedarcy .exptitle:empty::before, .expzone.filedarcy .exptitle:empty::after {
   content:'';
   height:70px;
@@ -137,7 +141,6 @@
   color:var(--group);
 }
 
-
 .expzone.filedarcy .colu strong, .darcyweapbox strong {
     text-transform:uppercase;
     color:var(--group);
@@ -157,7 +160,7 @@
     color:var(--back1);
     letter-spacing:1px;
     text-decoration:none!important;
-    background-color:var(--group);
+    background-color:var(--tgroup);
     padding:1px 3px;
     -webkit-box-decoration-break:clone;
     box-decoration-break:clone;
