@@ -186,3 +186,7 @@
     margin-right:8px;
     color:var(--group);
 }
+
+.expzone.filedarcy .colu.col3>em:nth-of-type(even) {
+    color: var(--tgroup);
+}
