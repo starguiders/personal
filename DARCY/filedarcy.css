@@ -1,0 +1,185 @@
+.expzone.filedarcy {
+  font-family:'Public Sans', sans-serif;
+  font-weight:300;
+  font-size:12.5px;
+  line-height:145%!important;
+}
+
+.filedarcy .expbigtitle {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  height:100%;
+  position:relative;
+}
+
+.filedarcy .expbigtitle br {
+  display:none!important;
+}
+
+.filedarcy .expbigtitle * {
+  position:relative;
+  z-index:1;
+}
+
+.filedarcy .expbigtitle>i {
+  position:absolute;
+  z-index:0;
+  font-size:300px;
+  color:#fff;
+  opacity:0.07;
+}
+
+.filedarcy .expbigtitle>strong {
+  text-transform:uppercase;
+  line-height:100%!important;
+  font:900 80px 'Technor', sans serif;
+  color:transparent!important;
+  text-shadow:3px 3px 0px var(--tgroup);
+  -webkit-text-stroke:0.7px var(--txt1);
+}
+
+.filedarcy .expbigtitle>em {
+  text-transform:uppercase;
+  font:normal 500 9.5px 'Technor', sans-serif;
+  letter-spacing:3px;
+  color:var(--txt4);
+  text-decoration:underline dotted var(--tgroup) 1px;
+  text-underline-offset:4px;
+  line-height:110%!important;
+}
+
+.filedarcy .expbigtitle>em b {
+  color:var(--txt2);
+  font-weight:900;
+}
+
+.expzone.filedarcy .exptitle:empty {
+  height:50px;
+  width:50px!important;
+}
+
+.expzone.filedarcy .exptitle:has(strong, em) {
+  width:fit-content!important;
+  border-top:var(--border2);
+  border-bottom:var(--border2);
+  padding:15px 20px;
+}
+
+.expzone.filedarcy .exptitle:has(b) {
+  width:fit-content!important;
+  background:#101010;
+  padding:12px 14px;
+  border-right:1px dotted var(--group);
+  border-left:1px dotted var(--group);
+  color:var(--group);
+}
+
+.expzone.filedarcy .exptitle strong {
+  text-transform:lowercase!important;
+  font:italic 900 27px 'Be Vietnam Pro', sans-serif;
+  letter-spacing:-2.9px;
+  word-spacing:3px;
+  line-height:90%!important;
+}
+
+.expzone.filedarcy .exptitle em {
+  text-transform:uppercase!important;
+  font:normal 700 9px 'Technor', sans-serif!important;
+  letter-spacing:2px;
+}
+
+.expzone.filedarcy .exptitle b {
+  font:normal 700 10px 'Technor', sans-serif!important;
+  line-height:100%!important;
+  text-decoration:none!important;
+  text-underline-offset:0px!important;
+  letter-spacing:0.5px;
+}
+
+.expzone.filedarcy .exptitle:empty::before, .expzone.filedarcy .exptitle:empty::after {
+  content:'';
+  height:70px;
+  width:1px;
+  background:var(--group);
+  position:absolute;
+}
+
+.expzone.filedarcy .exptitle:empty::before {
+  transform:rotate(45deg);
+}
+
+.expzone.filedarcy .exptitle:empty::after {
+  transform:rotate(-45deg);
+}
+
+.expzone.filedarcy .colu {
+  column-gap:35px!important;
+  column-rule:var(--border2)!important;
+}
+
+.darcyweapbox {
+  width:100%;
+  padding:22px 25px;
+  background:#101010;
+  border-left:1px dotted var(--group);
+  border-right:1px dotted var(--group);
+  display:inline-block;
+  margin-bottom:11px;
+}
+
+.darcyweapbox>em {
+  font-size:53px;
+  float:left;
+  margin-right:15px;
+  color:var(--group);
+}
+
+
+.expzone.filedarcy .colu strong, .darcyweapbox strong {
+    text-transform:uppercase;
+    color:var(--group);
+    font:normal 800 13px 'Technor', sans-serif;
+}
+
+.expzone.filedarcy .colu i, .darcyweapbox i {
+    color:var(--txt4);
+    font-weight:800;
+    letter-spacing:-0.5px;
+    text-transform:lowercase;
+}
+
+.expzone.filedarcy .colu u, .darcyweapbox u {
+    text-transform:uppercase;
+    font:700 10px 'Technor', sans-serif;
+    color:var(--back1);
+    letter-spacing:1px;
+    text-decoration:none!important;
+    background-color:var(--group);
+    padding:1px 3px;
+    -webkit-box-decoration-break:clone;
+    box-decoration-break:clone;
+}
+
+.expzone.filedarcy .colu strike, .darcyweapbox strike {
+    text-transform:uppercase;
+    font:italic 900 11px 'Public Sans', sans-serif;
+    letter-spacing:-1px;
+    text-decoration:line-through solid var(--group) 1px;
+    color:#7a7a7a;
+}
+
+.expzone.filedarcy .colu.col3>em {
+    text-transform:uppercase;
+    font:italic 900 13px 'Public Sans', sans-serif;
+    letter-spacing:-1px;
+    float:left;
+    border-top:var(--border2);
+    border-bottom:var(--border2);
+    padding:5px 9px;
+    margin-top:3px;
+    margin-right:8px;
+    color:var(--group);
+}
