@@ -50,7 +50,7 @@
   color:var(--txt4);
   text-decoration:underline dotted var(--tgroup) 1px;
   text-underline-offset:4px;
-  line-height:110%!important;
+  line-height:200%!important;
 }
 
 .filedarcy .expbigtitle>em b {
