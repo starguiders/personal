@@ -105,6 +105,12 @@
     color: var(--tgroup)!important;
 }
 
+#expedtab .expzone .exptitle>b>u {
+    text-decoration: none!important;
+    color: var(--group);
+    font-weight: 900!important;
+}
+
 .expzone.filedarcy .exptitle:empty::before, .expzone.filedarcy .exptitle:empty::after {
   content:'';
   height:70px;
