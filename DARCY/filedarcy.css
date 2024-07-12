@@ -192,3 +192,15 @@
 .expzone.filedarcy .colu.col3>em:nth-of-type(even) {
     color: var(--tgroup);
 }
+
+@media (max-width:900px) {
+  .filedarcy .expbigtitle>strong {
+    font-size: 50px;
+  }
+}
+
+@media (max-width:500px) {
+  .filedarcy .expbigtitle>i {
+    font-size: 250px;
+  }
+}
