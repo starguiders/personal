@@ -4,29 +4,30 @@
 }
 .expzone.filenina .colu {
   font-size:var(--fs-text);
-  column-gap:30px !important;
+  column-gap:30px!important;
+  hyphens:auto;
 }
 .expzone.filenina .exptitle>b {
-  font:600 var(--fs-h2) "Tourney", sans-serif !important;
-  text-transform:lowercase !important;
+  font:600 var(--fs-h2) "Tourney", sans-serif!important;
+  text-transform:lowercase!important;
 }
 .expzone.filenina .exptitle>em {
-  font:500 var(--fs-small) "Sofia Sans Condensed", sans-serif !important;
+  font:500 var(--fs-small) "Sofia Sans Condensed", sans-serif!important;
   letter-spacing:1px;
-  text-transform:uppercase !important;
-  color:#848484 !important;
-  line-height:100% !important;
+  text-transform:uppercase!important;
+  color:#848484!important;
+  line-height:100%!important;
   margin-top:4px;
-  max-width:100% !important;
+  max-width:100%!important;
 }
 .expzone.filenina .exptitle>i {
   height:calc(var(--fs-h3) * 1.7);
   width:calc(var(--fs-h3) * 1.7);
   display:flex;
   justify-content:center;
-  line-height:100% !important;
+  line-height:100%!important;
   align-items:center;
-  font-size:var(--fs-h4) !important;
+  font-size:var(--fs-h4)!important;
   border:var(--border1);
   border-radius:100%;
 }
@@ -53,18 +54,18 @@
   margin:0px 12px 0px 6px;
 }
 .expzone.filenina .exptitle:not(:has(b, i))>em {
-  margin:0px !important;
+  margin:0px!important;
   border-top:var(--border1);
   border-bottom:var(--border1);
   padding:12px 3px;
-  width:auto !important;
+  width:auto!important;
 }
 .expzone.filenina .exptitle:not(:has(b))>em {
-  margin:0px !important;
+  margin:0px!important;
   border-top:var(--border1);
   border-bottom:var(--border1);
   padding:12px 3px;
-  width:auto !important;
+  width:auto!important;
 }
 #expedtab .expzone .exptitle>em strike {
   text-decoration-color:var(--group);
@@ -158,7 +159,7 @@
   text-transform:uppercase;
 }
 .filenina .exphtw:before {
-  content:"Trigger Warning: ";
+  content:"Trigger Warning:";
   color:var(--group);
   font-weight:800;
 }
