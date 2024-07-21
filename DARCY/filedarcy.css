@@ -14,7 +14,7 @@
   width:100%;
   min-height:100%;
   position:relative;
-  gap: 14px;
+  gap:14px;
 }
 
 .filedarcy .expbigtitle br {
@@ -102,13 +102,13 @@
 }
 
 .expzone.filedarcy .exptitle>i {
-    color: var(--tgroup)!important;
+    color:var(--tgroup)!important;
 }
 
 #expedtab .expzone .exptitle>b>u {
-    text-decoration: none!important;
-    color: var(--group);
-    font-weight: 900!important;
+    text-decoration:none!important;
+    color:var(--group);
+    font-weight:900!important;
 }
 
 .expzone.filedarcy .exptitle:empty::before, .expzone.filedarcy .exptitle:empty::after {
@@ -130,6 +130,7 @@
 .expzone.filedarcy .colu {
   column-gap:35px!important;
   column-rule:var(--border2)!important;
+  hyphens:auto;
 }
 
 .darcyweapbox {
@@ -196,17 +197,17 @@
 }
 
 .expzone.filedarcy .colu.col3>em:nth-of-type(even) {
-    color: var(--tgroup);
+    color:var(--tgroup);
 }
 
 @media (max-width:900px) {
   .filedarcy .expbigtitle>strong {
-    font-size: 50px;
+    font-size:50px;
   }
 }
 
 @media (max-width:500px) {
   .filedarcy .expbigtitle>i {
-    font-size: 250px;
+    font-size:250px;
   }
 }
