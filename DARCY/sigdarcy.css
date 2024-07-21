@@ -85,16 +85,18 @@
   position: absolute;
   z-index: 1;
   text-transform: uppercase;
-  color: transparent!important;
   font: italic 900 19px 'Be Vietnam Pro', sans-serif;
   letter-spacing: -1.5px;
   word-spacing: 3px;
+  color: var(--txt1);
+  -webkit-text-stroke: 0.7px transparent;
   line-height: 95% !important;
-  -webkit-text-stroke: 0.7px var(--txt1);
   transition-delay: 0;
 }
 
 #darcysig:hover .darstxt>b {
+  color: transparent!important;
+  -webkit-text-stroke: 0.7px var(--txt1);
   text-shadow: 0px 17px 0px #ffffffd9, 0px -17px 0px #ffffffd9, 0px 33px 0px #ffffffa6, 0px -33px 0px #ffffffa6, 0px 49px 0px #ffffff73, 0px -49px 0px #ffffff73, 0px 65px 0px #ffffff40, 0px -65px 0px #ffffff40, 0px 81px 0px #ffffff1a, 0px -81px 0px #ffffff1a;
   transition-delay: 1.4s;
 }
