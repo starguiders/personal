@@ -1,3 +1,9 @@
+.tabrol2.darcy, .tabrol1.darcy, .tabrol3.darcy {
+  --acento:var(--hermes);
+}
+#tabcombatpj.darcy {
+  --acento:var(--hermes);
+}
 #darcysig {
   width: 280px;
   height: 180px;
