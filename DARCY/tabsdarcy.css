@@ -28,7 +28,7 @@
   color:var(--txt4);
   text-decoration:underline dotted var(--tgroup) 1px;
   text-underline-offset:4px;
-  line-height:130%!important;
+  line-height:175%!important;
   padding:0px!important;
   border:none!important;
 }
