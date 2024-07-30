@@ -51,6 +51,7 @@
   font-weight:300;
   font-size:12.5px;
   line-height:145%!important;
+  hyphens:auto;
 }
 .tabrol1.darcy .tbrolcont strong {
   font-family:'Technor', sans-serif;
