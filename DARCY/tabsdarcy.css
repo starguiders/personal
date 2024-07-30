@@ -7,6 +7,17 @@
   gap:13px;
   flex-direction:column-reverse;
 }
+.tabrol1.darcy .tbroltit>a.mentiontag {
+  font:normal 600 10px 'Technor', sans-serif !important;
+  line-height:100%!important;
+  color:var(--txt1) !important;
+  width:fit-content !important;
+  background:#101010;
+  padding:7px 11px;
+  border-right:1px dotted var(--group);
+  border-left:1px dotted var(--group);
+  letter-spacing:0.5px;
+}
 .tabrol1.darcy .tbroltit>i {
   color:#fff;
   opacity:0.07;
@@ -34,11 +45,6 @@
 }
 .tabrol1.darcy .tbroltit>em>i {
   font-style:normal;
-}
-.tabrol1.darcy .tbroltit>em a.mentiontag {
-  font:normal 500 10px 'Technor', sans-serif!important;
-  line-height:100%!important;
-  color:var(--txt4)!important;
 }
 .tabrol1.darcy .tbrolcont {
   font-family:'Public Sans', sans-serif;
