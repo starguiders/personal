@@ -1,0 +1,89 @@
+.tabrol1.darcy {
+  border-left:none;
+  border-right:none;
+  padding:15px;
+}
+.tabrol1.darcy .tbroltit {
+  gap:13px;
+  flex-direction:column-reverse;
+}
+.tabrol1.darcy .tbroltit>i {
+  color:#fff;
+  opacity:0.07;
+  font-size:120px;
+}
+.tabrol1.darcy .tbroltit>b {
+  text-transform:uppercase;
+  font:900 49px 'Technor', sans serif;
+  line-height:80%!important;
+  color:transparent!important;
+  text-shadow:2px 2px 0px var(--tgroup);
+  -webkit-text-stroke:0.6px var(--txt1);
+  letter-spacing:0.5px;
+}
+.tabrol1.darcy .tbroltit>em {
+  text-transform:uppercase;
+  font:normal 500 9.5px 'Technor', sans-serif;
+  letter-spacing:3px;
+  color:var(--txt4);
+  text-decoration:underline dotted var(--tgroup) 1px;
+  text-underline-offset:4px;
+  line-height:130%!important;
+  padding:0px!important;
+  border:none!important;
+}
+.tabrol1.darcy .tbroltit>em>i {
+  font-style:normal;
+}
+.tabrol1.darcy .tbroltit>em a.mentiontag {
+  font:normal 500 10px 'Technor', sans-serif!important;
+  line-height:100%!important;
+  color:var(--txt4)!important;
+}
+.tabrol1.darcy .tbrolcont {
+  font-family:'Public Sans', sans-serif;
+  font-weight:300;
+  font-size:12.5px;
+  line-height:145%!important;
+}
+.tabrol1.darcy .tbrolcont strong {
+  font-family:'Technor', sans-serif;
+}
+.tabrol1.darcy .tbrolcont u {
+  font:700 11px 'Technor', sans-serif!important;
+  color:var(--back1);
+  letter-spacing:0.5px;
+  text-decoration:none!important;
+  background-color:var(--tgroup);
+  padding:0.5px 3px;
+  -webkit-box-decoration-break:clone;
+  box-decoration-break:clone;
+}
+.tabrol1.darcy .tbrolcont i {
+  color:var(--txt4);
+  font-weight:800;
+  letter-spacing:-0.5px;
+  text-transform:lowercase;
+}
+.tabrol1.darcy .tbrolcont strike {
+  font-weight:800;
+  letter-spacing:-1px;
+  text-decoration:line-through solid var(--group) 1px;
+  color:#7a7a7a;
+}
+.tabrol1.darcy .tbrolcont a.mentiontag {
+  font:normal 700 12px 'Technor', sans-serif!important;
+  line-height:100%!important;
+}
+.tabrol1.darcy .tbrolcont>blockquote {
+  border-radius:0px;
+  border-top:none;
+  border-bottom:none;
+  border-right:1px dotted var(--group);
+  border-left:1px dotted var(--group);
+  font-size:12.5px!important;
+  background:#101010!important;
+}
+.tabrol1.darcy:after {
+  display:none!important;
+}
