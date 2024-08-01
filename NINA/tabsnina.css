@@ -3,6 +3,7 @@
   padding: 0px 20px;
   background: #000;
   border: none;
+  container: ninapostcont / inline-size;
 }
 .tabrol2.nina .tbroltit>b {
   font: 600 var(--fs-h2) "Tourney", sans-serif;
@@ -42,6 +43,14 @@
   .tbrolinfo {
     padding-bottom: 30px !important;
     min-height: 65px;
+  }
+}
+.postbody .content > div:has(.tabrol2.nina) {
+  container: ninapostcont / inline-size;
+}
+@container ninapostcont (max-width:450px) {
+  .tabrol2.nina {
+    padding:0px!important;
   }
 }
 /*TABLILLA DE COMBATE*/
