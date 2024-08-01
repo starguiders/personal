@@ -39,6 +39,35 @@
   letter-spacing: 0.5px;
   line-height: 100%;
 }
+.tabrol2.nina .tbrolcont u {
+  text-transform: uppercase;
+  font-family: "JetBrains Mono";
+  font-size: var(--fs-small);
+  font-weight: 800;
+  color: var(--txt1);
+  text-decoration: underline solid var(--group) 1px;
+  text-underline-offset: 3px;
+}
+.tabrol2.nina .tbrolcont i {
+  color: #888;
+  font-weight: 600;
+}
+.tabrol2.nina .tbrolcont strike {
+  text-transform: uppercase;
+  font: 600 var(--fs-text) "Sofia Sans Condensed", sans-serif;
+  font-style: italic;
+  letter-spacing: 1.5px;
+  color: #999;
+}
+.tabrol2.nina .tbrolcont>blockquote {
+  border-radius: 0px;
+  border-left: none;
+  border-right: none;
+  border-top: var(--border1);
+  border-bottom: var(--border1);
+  font: 300 var(--fs-text) "Sofia Sans", sans-serif !important;
+  background: transparent!important;
+}
 @media (max-width: 570px) {
   .tbrolinfo {
     padding-bottom: 30px !important;
