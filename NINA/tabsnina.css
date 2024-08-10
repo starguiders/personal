@@ -5,6 +5,10 @@
   border: none;
   container: ninapostcont / inline-size;
 }
+.tabrol2.nina .tbroltit {
+  min-height: auto!important;
+  margin-top: 12px;
+}
 .tabrol2.nina .tbroltit>b {
   font: 600 var(--fs-h2) "Tourney", sans-serif;
   font-style: normal;
