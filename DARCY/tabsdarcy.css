@@ -1,7 +1,9 @@
+/*TABLILLA DE ROL*/
 .tabrol1.darcy {
   border-left:none;
   border-right:none;
   padding:15px;
+  border-color:var(--border2-c);
 }
 .tabrol1.darcy .tbroltit {
   gap:13px;
@@ -92,4 +94,265 @@
 }
 .tabrol1.darcy:after {
   display:none!important;
+}
+/*TABLILLA DE COMBATE*/
+#tabcombatpj.darcy {
+  border-top: none;
+  border-bottom: none;
+}
+#tabcombatpj.darcy .tbcmdtname {
+  gap: 2px;
+}
+#tabcombatpj.darcy .tabcomdata>i {
+  border: none!important;
+  border-radius: 0%!important;
+  background: #101010;
+  height: 35px;
+  width: 35px;
+}
+#tabcombatpj.darcy .tabcomdata>i:before {
+  font-size: 18px!important;
+}
+#tabcombatpj.darcy .tbcmdtname>b {
+  font: 900 22px 'Technor', sans serif;
+  color: var(--group);
+  line-height: 100%;
+  text-shadow: none;
+}
+#tabcombatpj.darcy .tbcmdtinfo {
+  text-transform: uppercase;
+  font: normal 600 9.5px 'Technor', sans-serif!important;
+  line-height: 100%;
+  letter-spacing: 1.7px;
+}
+#tabcombatpj.darcy .tbcmdtinfo:before {
+  height: 1px;
+  width: 30px;
+}
+#tabcombatpj.darcy .tabcombless {
+  background: transparent!important;
+  padding: 4px 0px!important;
+  border-left: none!important;
+  border-right: none!important;
+  border-top: var(--border2);
+  border-bottom: var(--border2);
+  border-radius: 0;
+}
+#tabcombatpj.darcy #tbcmblbar {
+  border-radius: 0;
+  opacity: 0.7;
+  position: relative;
+  background: #000;
+}
+#tabcombatpj.darcy .tbcmdtinfo:before {
+  opacity: 0.7;
+}
+#tabcombatpj.darcy .tabcomstats>div {
+  border-radius: 0;
+  border-top: var(--border2);
+  gap: 2.5px;
+}
+#tabcombatpj.darcy .tabcomstats>div>b {
+  font: normal 900 11px 'Technor', sans-serif;
+  line-height: 100%;
+  color: var(--group);
+  letter-spacing: 1.5px;
+}
+#tabcombatpj.darcy .tabcomstats>div>i {
+  font: normal 600 11px 'Technor', sans-serif;
+  line-height: 100%;
+  color: var(--txt2);
+  letter-spacing: 1.5px;
+}
+#tabcombatpj.darcy .tabcomcalcs {
+  border-radius: 0;
+  background: #101010;
+  border-color: #101010;
+  outline: none!important;
+  color: var(--txt3);
+  font: normal 300 12px 'Public Sans', sans-serif;
+  line-height: 117%!important;
+  position: relative;
+}
+#tabcombatpj.darcy .tabcomcalcs strong {
+  font-weight: 900;
+  letter-spacing: -0.5px;
+}
+#tabcombatpj.darcy .tabcotskills {
+  border-color: var(--border2-c);
+  font: normal 300 12px 'Public Sans', sans-serif!important;
+  line-height: 130%;
+}
+#tabcombatpj.darcy .tabcotskills h3 {
+  font: italic 900 20px 'Be Vietnam Pro', sans-serif!important;
+  line-height: 100%!important;
+  letter-spacing: -1.8px;
+  word-spacing: 2px;
+  text-transform: lowercase!important;
+}
+#tabcombatpj.darcy .tabcotskills h4.post-content {
+  font: italic 900 13px 'Public Sans', sans-serif!important;
+  letter-spacing: -1px;
+  color: var(--group);
+  text-decoration:none!important;
+  border-top: var(--border2);
+  border-bottom: var(--border2);
+  padding: 5px 9px!important;
+  width: fit-content;
+}
+#tabcombatpj.darcy .tbctbl, #tabcombatpj.darcy .tbctesta {
+  font: normal 300 12px 'Public Sans', sans-serif!important;
+  line-height: 135%!important;
+}
+#tabcombatpj.darcy .tbctbl>strong, #tabcombatpj.darcy .tbctesta>strong {
+  font-weight: 900;
+  letter-spacing: -0.5px;
+}
+#tabcombatpj.darcy .tbctbl:before {
+  border-radius: 0;
+  font: 700 9px 'Technor', sans-serif;
+  letter-spacing: 1px;
+  margin-top: 0px;
+  padding: 3px 4px;
+  line-height: 100%;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+#tabcombatpj.darcy .tbctbl i, #tabcombatpj.darcy .tbctesta i {
+  font: italic 900 11px 'Public Sans', sans-serif!important;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  color:#7a7a7a;
+  line-height: inherit;
+}
+/*TABLILLA DE COMBATE: FULLY LOADED*/
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn {
+  border-top: none;
+  border-bottom: none;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tbcmdtname {
+  gap: 2px;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tabcomdata>i {
+  border: none!important;
+  border-radius: 0%!important;
+  background: #101010;
+  height: 35px;
+  width: 35px;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tabcomdata>i:before {
+  font-size: 18px!important;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tbcmdtname>b {
+  font: 900 22px 'Technor', sans serif;
+  color: var(--acento);
+  line-height: 100%;
+  text-shadow: none;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tbcmdtinfo {
+  text-transform: uppercase;
+  font: normal 600 9.5px 'Technor', sans-serif!important;
+  line-height: 100%;
+  letter-spacing: 1.7px;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tbcmdtinfo:before {
+  height: 1px;
+  width: 30px;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tabcommlife {
+  background: transparent!important;
+  padding: 4px 0px!important;
+  border-left: none!important;
+  border-right: none!important;
+  border-top: var(--border2);
+  border-bottom: var(--border2);
+  border-radius: 0;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn #tbcmmlbar {
+  border-radius: 0;
+  opacity: 0.7;
+  position: relative;
+  background: #000;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn #tbcmmlbar:after {
+  font: normal 800 9px 'Technor', sans-serif!important;
+  letter-spacing: 1px;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tabcomstats>div {
+  border-radius: 0;
+  border-top: var(--border2);
+  gap: 2.5px;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tabcomstats>div>b {
+  font: normal 900 11px 'Technor', sans-serif;
+  line-height: 100%;
+  color: var(--acento);
+  letter-spacing: 1.5px;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tabcomstats>div>i {
+  font: normal 600 11px 'Technor', sans-serif;
+  line-height: 100%;
+  color: var(--txt2);
+  letter-spacing: 1.5px;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tabcomcalcs {
+  border-radius: 0;
+  background: #101010;
+  border-color: #101010;
+  outline: none!important;
+  color: var(--txt3);
+  font: normal 300 12px 'Public Sans', sans-serif;
+  line-height: 117%!important;
+  position: relative;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tabcomcalcs strong {
+  font-weight: 900;
+  letter-spacing: -0.5px;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tabcotskills {
+  border-color: var(--border1-c);
+  font: normal 300 12px 'Public Sans', sans-serif!important;
+  line-height: 130%;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tabcotskills h3 {
+  font: italic 900 20px 'Be Vietnam Pro', sans-serif!important;
+  line-height: 100%!important;
+  letter-spacing: -1.8px;
+  word-spacing: 2px;
+  text-transform: lowercase!important;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tabcotskills h4.post-content {
+  font: italic 900 13px 'Public Sans', sans-serif!important;
+  letter-spacing: -1px;
+  color: var(--acento);
+  text-decoration:none!important;
+  border-top: var(--border2);
+  border-bottom: var(--border2);
+  padding: 5px 9px!important;
+  width: fit-content;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tbctbl, .tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tbctesta {
+  font: normal 300 12px 'Public Sans', sans-serif!important;
+  line-height: 135%!important;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tbctbl:before {
+  border-radius: 0;
+  font: 700 9px 'Technor', sans-serif;
+  letter-spacing: 1px;
+  margin-top: 0px;
+  padding: 3px 4px;
+  line-height: 100%;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tbctbl i, .tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tbctesta i {
+  font: italic 900 11px 'Public Sans', sans-serif!important;
+  text-transform: uppercase;
+  letter-spacing: -0.5px;
+  color:#7a7a7a;
+  line-height: inherit;
+}
+.tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tbctbl>strong, .tabcombatfull:has(#tabcombatpj.darcy) #tabcombatmn .tbctesta>strong {
+  font-weight: 900;
+  letter-spacing: -0.5px;
 }
