@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'The Silver Editorial';
+    src: url('https://starguiders.github.io/personal/The%20Silver%20Editorial/TheSilverEditorial-Regular.otf');
+    src: url('https://starguiders.github.io/personal/The%20Silver%20Editorial/TheSilverEditorial-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://starguiders.github.io/personal/The%20Silver%20Editorial/TheSilverEditorial-Regular.woff2') format('woff2'),
+        url('https://starguiders.github.io/personal/The%20Silver%20Editorial/TheSilverEditorial-Regular.woff') format('woff'),
+        url('https://starguiders.github.io/personal/The%20Silver%20Editorial/TheSilverEditorial-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'The Silver Editorial';
+    src: url('https://starguiders.github.io/personal/The%20Silver%20Editorial/TheSilverEditorial-Italic.otf');
+    src: url('https://starguiders.github.io/personal/The%20Silver%20Editorial/TheSilverEditorial-Italic.eot?#iefix') format('embedded-opentype'),
+        url('https://starguiders.github.io/personal/The%20Silver%20Editorial/TheSilverEditorial-Italic.woff2') format('woff2'),
+        url('https://starguiders.github.io/personal/The%20Silver%20Editorial/TheSilverEditorial-Italic.woff') format('woff'),
+        url('https://starguiders.github.io/personal/The%20Silver%20Editorial/TheSilverEditorial-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
