@@ -27,3 +27,6 @@
   text-decoration: 1px solid line-through var(--group);
   color: #ccc;
 }
+.fchistoria#melinda h4.post-content {
+  padding: 0 !important;
+}
