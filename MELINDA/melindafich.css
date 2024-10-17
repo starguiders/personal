@@ -1,0 +1,29 @@
+.fchistoria#melinda {
+  font-size: var(--fs-body2);
+}
+.fchistoria#melinda h.fcdeco p {
+  font: 900 var(--fs-mini) 'Inconsolata';
+  letter-spacing: 1px!important;
+  color: #aaa;
+  margin-top: 8px;
+}
+.fchistoria#melinda h.fcdeco[class*="number"] i {
+  font-family: 'Antonio';
+  font-weight: 900;
+  margin-bottom: 10px;
+  line-height: 100% !important;
+}
+.fchistoria#melinda h.fcdeco[class*="tit"] b {
+  font: 900 var(--fs-small) 'Inconsolata';
+  letter-spacing: 1px!important;
+  color: #aaa;
+}
+.fchistoria#melinda u {
+  text-decoration: 1px solid underline var(--group);
+  color: #ccc;
+  text-underline-offset: 2px;
+}
+.fchistoria#melinda strike {
+  text-decoration: 1px solid line-through var(--group);
+  color: #ccc;
+}
