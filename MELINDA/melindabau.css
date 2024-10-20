@@ -16,7 +16,7 @@
   color: #ccc;
 }
 .tabindex.melinda .tiquote p strong {
-  color: var(--acento);
+  color: var(--group);
   font-weight: 900!important;
 }
 .tabindex.melinda .tiquote p i {
