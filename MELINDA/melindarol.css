@@ -1,4 +1,4 @@
-.trolm.melinda .tabhead > b {
+.trolm .tabhead > b {
   font: 900 52px 'Antonio' !important;
   margin-bottom: 7px;
   line-height: 80%!important;
@@ -7,26 +7,43 @@
   opacity:0.15;
   top: -7px;
 }
-.trolm.melinda .tabhead {
+.trolm .tabhead {
   margin-bottom: 12px;
 }
-.trolm.melinda .tabtext {
+.trolm .tabtext {
   font-size: var(--fs-body2);
 }
-.trolm.melinda .tabhead > span > b {
+.trolm .tabhead > span > b {
   color: var(--subtitle) !important;
   text-decoration: 1px solid underline var(--group);
   text-underline-offset: 3px;
   font: 900 var(--fs-h5) var(--f-body);
 }
-.trolm.melinda .tabhead > span > i {
+.trolm .tabhead > span > i {
   margin-top: 2px;
   font: 700 9px 'Inconsolata';
   letter-spacing: 1px;
   line-height: 120%;
   color: #aaa!important;
 }
-
-.trolm.melinda .tabhead > span > i > i {
+.trolm .tabhead > span > i > i {
   color: var(--group);
+}
+.trolm .tabdata {
+  font: 700 10px 'Inconsolata';
+  letter-spacing: 1px;
+  line-height: 120%;
+  color:#aaa!important;
+  margin-top: 24px;
+}
+.tabrol.trolm .tabhead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.tabrol.trolm .tabhead>b {
+  letter-spacing: ;
+  left: unset;
+  top: unset;
 }
