@@ -1,0 +1,60 @@
+.tabindex.melinda .tiquote p {
+  height: auto;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  text-align: justify;
+  text-align-last: right;
+  font: 600 9px 'Inconsolata';
+  line-height: normal;
+  letter-spacing: 1px;
+  line-height: 160%;
+  color: #aaa;
+}
+.tabindex.melinda .tiquote p strike, .tabindex.melinda .tiquote p u {
+  text-decoration-color: var(--group);
+  font-weight: 900!important;
+  color: #ccc;
+}
+.tabindex.melinda .tiquote p strong {
+  color: var(--acento);
+  font-weight: 900!important;
+}
+.tabindex.melinda .tiquote p i {
+  color: #ccc;
+  letter-spacing: 2.5px;
+}
+.tabindex.melinda .tistats b {
+  font: 500 45px 'Antonio';
+  line-height: 80%;
+  text-align: center;
+  margin-bottom: 7px;
+}
+.tabindex.melinda .tistats i {
+  font: 900 10px 'Inconsolata';
+  line-height: normal;
+  letter-spacing: 3px;
+  line-height: 160%;
+}
+.tabindex.melinda .tidatos {
+  font-size: var(--fs-small);
+}
+.tabindex.melinda .tidatos u {
+  font: 900 10px 'Inconsolata';
+  letter-spacing: 1px;
+  padding-left: 5px;
+  line-height: 100%;
+}
+.tabindex.melinda .tisong u b {
+  font: 700 20px 'Antonio';
+  line-height: 80%;
+  text-align: center;
+  margin-bottom: 7px;
+}
+.tabindex.melinda .tisong u i {
+  font: 600 9px 'Inconsolata';
+  letter-spacing: 1px;
+  line-height: 100%;
+}
+.tabindex.melinda .tiimg {
+  border: none;
+}
