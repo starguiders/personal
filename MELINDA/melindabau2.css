@@ -73,7 +73,7 @@
 }
 .melinda .tbcols .tbc h {
   position: relative;
-  padding-left: 10px;
+  padding-left: 16px;
   border: none;
   font: 900 17px 'Antonio' !important;
   line-height: 80% !important;
@@ -84,7 +84,7 @@
   content: "";
   left: -24px;
   height: 1px;
-  width: 28px;
+  width: 32px;
   background: var(--border0-c);
   top: 8px;
 }
