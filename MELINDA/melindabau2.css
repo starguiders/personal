@@ -97,4 +97,41 @@
   margin: 0px !important;
   padding: 0px !important;
 }
+.melinda .tbcols .tbc .tabtext {
+  max-height: none !important;
+  overflow: initial !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.melinda .tbcols .tbc ul {
+  margin: 0px !important;
+  list-style-type: none !important;
+}
+.melinda .tbcols .tbc ul li {
+  list-style-type: none !important;
+}
+.melinda .tbcols .tbc ul li:not(:first-of-type) {
+  margin-top: 4px;
+}
+.melinda .tbcols .tbc ul li>a {
+  font: 900 10px 'Inconsolata';
+  line-height: normal;
+  letter-spacing: 1px;
+  background: var(--group-50);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--title);
+  padding: 3px;
+  padding-left: 4px;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+}
+.melinda .tbcols .tbc ul li > span {
+  font-size: var(--fs-small);
+}
+.melinda .tbcols .tbc ul li > span:before {
+  content: " ";
+  margin-left: 4px;
+}
 /* TAB. RELACIONES */
