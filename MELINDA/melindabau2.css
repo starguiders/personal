@@ -1,0 +1,44 @@
+.tabcrono.melinda, .tabrelas.melinda {
+  width: 800px;
+}
+.tabcrono.melinda .tabhead, .tabrelas.melinda .tabhead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 65px;
+  margin-top: -37px;
+}
+.tabcrono.melinda:before, .tabrelas.melinda:before {
+  top: 80px;
+  position: relative;
+}
+.tabcrono.melinda .tabhead > b, .tabrelas.melinda .tabhead > b {
+  font: 900 52px 'Antonio' !important;
+  line-height: 80%!important;
+  -webkit-text-stroke: 0px;
+  color: var(--group)!important;
+  opacity:0.15;
+  top: unset;
+  text-align: center;
+  margin-bottom: 7px;
+  left: unset;
+}
+.tabcrono.melinda .tabhead > span > b, .tabrelas.melinda .tabhead > span > b {
+  color: var(--subtitle) !important;
+  text-decoration: 1px solid underline var(--group);
+  text-underline-offset: 3px;
+  font: 900 var(--fs-h5) var(--f-body);
+  text-align: center;
+}
+.tabcrono.melinda .tabhead > span > i, .tabrelas.melinda .tabhead > span > i {
+  margin-top: 2px;
+  font: 700 9px 'Inconsolata';
+  letter-spacing: 1px;
+  line-height: 120%;
+  color: #aaa!important;
+  text-align: center;
+}
+.tabcrono.melinda .tabhead > span > i > i, .tabrelas.melinda .tabhead > span > i > i {
+  color: var(--group);
+}
