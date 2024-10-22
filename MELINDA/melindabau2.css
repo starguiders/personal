@@ -42,3 +42,59 @@
 .tabcrono.melinda .tabhead > span > i > i, .tabrelas.melinda .tabhead > span > i > i {
   color: var(--group);
 }
+/* TAB. CRONOLOGIA */
+.melinda .tbcols {
+  justify-content: space-between;
+  gap: 20px;
+  position: relative;
+}
+.melinda .tbcols:before, .melinda .tbcols:after {
+  content: "";
+  width: 1px;
+  height: calc(100% + (40px*2));
+  display: block;
+  position: absolute;
+  top: -40px;
+  background: var(--border0-c);
+}
+.melinda .tbcols:before {
+  left: 0px;
+}
+.melinda .tbcols:after {
+  left: 370px;
+}
+.melinda .tbcols .tbc {
+  flex: 1;
+  padding: 0px 20px 0px 25px;
+  height: 400px;
+  overflow: auto;
+  position: relative;
+  margin: -15px 0px;
+}
+.melinda .tbcols .tbc h {
+  position: relative;
+  padding-left: 10px;
+  border: none;
+  font: 900 17px 'Antonio' !important;
+  line-height: 80% !important;
+  margin-bottom: 12px;
+}
+.melinda .tbcols .tbc h:before {
+  position: absolute;
+  content: "";
+  left: -24px;
+  height: 1px;
+  width: 28px;
+  background: var(--border0-c);
+  top: 8px;
+}
+.melinda .tbcols .tbc h:not(:first-of-type) {
+  margin-top: 25px;
+}
+.melinda .tbcols .tbc .tabtext {
+  max-height: none !important;
+  overflow: initial !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+/* TAB. RELACIONES */
