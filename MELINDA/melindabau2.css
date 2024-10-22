@@ -77,7 +77,7 @@
   border: none;
   font: 900 17px 'Antonio' !important;
   line-height: 80% !important;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
 }
 .melinda .tbcols .tbc h:before {
   position: absolute;
@@ -109,9 +109,10 @@
 }
 .melinda .tbcols .tbc ul li {
   list-style-type: none !important;
+  line-height: 115%;
 }
 .melinda .tbcols .tbc ul li:not(:first-of-type) {
-  margin-top: 4px;
+  margin-top: 6px;
 }
 .melinda .tbcols .tbc ul li>a {
   font: 900 10px 'Inconsolata';
@@ -121,8 +122,7 @@
   text-transform: uppercase;
   font-weight: 700;
   color: var(--title);
-  padding: 3px;
-  padding-left: 4px;
+  padding: 3px 4px;
   display: inline-block;
   vertical-align: middle;
   text-decoration: none;
