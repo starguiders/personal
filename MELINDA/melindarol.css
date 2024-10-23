@@ -50,3 +50,12 @@
   left: unset;
   top: unset;
 }
+.trolm .tabtext u {
+  text-decoration: 1px solid underline var(--group);
+  color: #ccc;
+  text-underline-offset: 2px;
+}
+.trolm .tabtext strike {
+  text-decoration: 1px solid line-through var(--group);
+  color: #ccc;
+}
