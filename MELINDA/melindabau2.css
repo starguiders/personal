@@ -135,3 +135,68 @@
   margin-left: 4px;
 }
 /* TAB. RELACIONES */
+.tabrelas.melinda .tbcols:after {
+  display: none;
+}
+.tabrelas.melinda .tbcols:before {
+  left: 400px;
+  height: 100%;
+  top: 0px;
+}
+.tabrelas.melinda .tbcols {
+  gap: 0px;
+  margin: -40px;
+}
+.tabrelas.melinda .tbc {
+  border: 24px solid transparent;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  border-right-width: 12px;
+  padding-right: 12px;
+}
+.tabrelas.melinda .tbcols .gradientact img {
+  width: 55px;
+  height: 55px;
+}
+.tabrelas.melinda summary {
+  height: 60px;
+}
+.tabrelas.melinda details:not(:last-of-type) {
+  margin-bottom: 8px;
+}
+.tabrelas.melinda details.cnpc {
+  --group: #848A5E;
+  --group-50: #848A5E80;
+  --group-25: #848A5E40;
+}
+.tabrelas.melinda details.cbruj {
+  --group: #725F80;
+  --group-50: #725F8080;
+  --group-25: #725F8040;
+}
+.tabrelas.melinda details.cluzb {
+  --group: #86AEB5;
+  --group-50: #86AEB580;
+  --group-25: #86AEB540;
+}
+.tabrelas.melinda details.csemd {
+  --group: #944A4A;
+  --group-50: #944A4A80;
+  --group-25: #944A4A40;
+}
+.tabrelas.melinda summary > span > b {
+  font: 900 20px 'Antonio' !important;
+  margin-bottom: 4px;
+  line-height: 80% !important;
+}
+.tabrelas.melinda summary > span > i {
+  margin-top: 7px;
+  font: 900 10px 'Inconsolata';
+  line-height: normal;
+  letter-spacing: 1px;
+}
+.tabrelas.melinda details p {
+  font-size: var(--fs-small);
+  line-height: calc(var(--fs-small) + 3px);
+}
