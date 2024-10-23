@@ -122,8 +122,7 @@
 .bullet.melinda .blstats span > i {
   font: 900 10px 'Inconsolata';
   letter-spacing: 3px;
-  line-height: 160%;
-  color: ;
+  line-height: 100%;
 }
 .bullet.melinda .blbarras {
   padding: 6px 0px;
