@@ -40,3 +40,6 @@
   text-decoration: 1px solid line-through var(--group);
   color: var(--text);
 }
+#melindasearch .tabhead > span > i > em {
+  color: var(--group);
+}
