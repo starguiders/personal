@@ -1,0 +1,42 @@
+#melindasearch>br {
+  display: none !important;
+}
+#melindasearch .tablilla.tabusq {
+  margin: initial;
+}
+#melindasearch {
+  gap: 40px;
+}
+#melindasearch .tabusq .tabhead span.gradientact {
+  outline-offset: -8px;
+}
+#melindasearch .tabhead>span>i {
+  margin-top: 2px;
+  font: 700 9px 'Inconsolata';
+  line-height: normal;
+  letter-spacing: 1px;
+  line-height: 120%;
+  color: #aaa !important;
+}
+#melindasearch .tablilla.tabusq.bestie {
+  --group: #944A4A;
+  --group-50: #944A4A80;
+  --group-25: #944A4A40;
+}
+#melindasearch .tablilla.tabusq.guardian {
+  --group: #86AEB5;
+  --group-50: #86AEB580;
+  --group-25: #86AEB540;
+}
+.melinda h4.post-content {
+  padding: 0 !important;
+}
+#melindasearch .tablilla.tabusq u {
+  text-decoration: 1px solid underline var(--group);
+  color: #ccc;
+  text-underline-offset: 2px;
+}
+#melindasearch .tablilla.tabusq strike {
+  text-decoration: 1px solid line-through var(--group);
+  color: var(--text);
+}
