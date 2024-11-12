@@ -1,0 +1,169 @@
+#nighandcosig {
+  width: 300px;
+  height: 180px;
+  box-sizing: border-box;
+  margin: 10px auto;
+  background: #transparent;
+  outline: 1px solid #ffffff12;
+  outline-offset: 8px;
+  position: relative;
+  overflow: hidden;
+  --acentito: var(--group);
+}
+#nighandcosig.lawrie {
+  --acentito: #890300;
+}
+#nighandcosig *, #nighandcosig:before, #nighandcosig:after {
+  box-sizing: border-box;
+  transition: .8s;
+}
+#nighandcosig:before, #nighandcosig:after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+}
+#nighandcosig:before {
+  background: var(--acentito);
+  width: 130px;
+  height: 100%;
+  mix-blend-mode: overlay;
+  left: 0px;
+  opacity: 0;
+  transition-delay: 0s;
+}
+#nighandcosig:after {
+  background: linear-gradient(90deg, rgba(10,10,10,0) 0%, rgba(10,10,10,0.9) 100%);
+  width: calc(100% - 130px);
+  height: 100%;
+  right: 0px;
+  opacity: 1;
+  transition-delay: 1.6s;
+}
+#nighandcosig br {
+  display: none!important;
+}
+#nighandcosig>img {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  object-fit: cover;
+  object-position: center;
+  filter: none;
+  transition-delay: 1.6s;
+}
+#nighandcosig:hover>img {
+  filter: grayscale(1) brightness(0.5);
+  transition-delay: 0s;
+}
+#nighandcosig #nsigl, #nighandcosig #nsigr {
+  position: absolute;
+  z-index: 1;
+}
+#nighandcosig #nsigl {
+  background: transparent;
+  height: 100%;
+  width: 130px;
+  top: 0px;
+  right: 0px;
+  transition-delay: .8s;
+  text-align: center;
+  border-right: 1px solid transparent;
+}
+#nighandcosig #nsigl>b {
+  text-transform: uppercase;
+  font: 800 20px 'EB Garamond';
+  line-height: 100%;
+  color: var(--title);
+  background: var(--acentito);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 1px solid #ffffff12;
+  outline-offset: 5px;
+  margin: 5px;
+}
+#nighandcosig #nsigl>i:before {
+  content: "";
+  display: block;
+  margin: 0px auto 4px;
+  height: 25px;
+  width: 1px;
+  background: #ffffff12;
+}
+#nighandcosig #nsigl>i {
+  text-transform: uppercase;
+  font: 700 11px 'Rajdhani';
+  color: var(--subtitle);
+  font-style: normal;
+}
+#nighandcosig:hover #nsigl {
+  right: calc(100% - 130px);
+  transition-delay: .8s;
+  border-right: 1px solid #ffffff12;
+}
+#nighandcosig #nsigr {
+  width: calc(100% - 130px);
+  right: 0px;
+  margin-right: calc(-100% + 120px);
+  padding: 25px;
+  height: 100%;
+  overflow: hidden;
+  background: #00000096;
+  transition-delay: .8s;
+}
+#nighandcosig #nsigr>span {
+  text-transform: lowercase;
+  text-align: justify;
+  text-align-last: right;
+  font: normal 13px 'EB Garamond';
+  line-height: 140%;
+  display: block;
+  color: #999;
+}
+#nighandcosig #nsigr>span b {
+  text-transform: uppercase;
+  color: var(--subtitle);
+  font: 700 11px 'Rajdhani';
+}
+#nighandcosig #nsigr>span strong {
+  text-transform: uppercase;
+  color: #000;
+  background: var(--acentito);
+  font: 700 10px 'Rajdhani';
+  padding: 0px 3px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+#nighandcosig #nsigr>span>br {
+  display:inline!important;
+}
+#nighandcosig #nsigr>span i {
+  color: var(--title);
+}
+#nighandcosig #nsigr>span strike, #nighandcosig #nsigr>span u {
+  text-decoration-color: var(--acentito)!important;
+  color: var(--text);
+  font-style: italic;
+}
+#nighandcosig #nsigr>span u {
+  text-decoration: 1px solid underline;
+  text-underline-offset: 2px;
+}
+#nighandcosig #nsigr>span strike {
+  text-decoration: 1px solid line-through;
+}
+#nighandcosig:hover #nsigr {
+  margin-right: 0px;
+  transition-delay: .8s;
+}
+#nighandcosig:hover::before {
+  opacity: 1;
+  transition-delay: 1.6s;
+}
+#nighandcosig:hover::after {
+  opacity: 0;
+  transition-delay: 0s;
+}
