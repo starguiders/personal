@@ -176,3 +176,22 @@
   text-decoration: 1px solid line-through var(--group);
   color: #ccc;
 }
+/* AGAINST NPC */
+#melindacombat > br {
+  display: none !important;
+}
+#melindacombat>div {
+  margin: 0 !important;
+}
+#melindacombat {
+  gap: 40px;
+}
+#melindacombat>.tablilla {
+  height: 553px;
+}
+#melindacombat > .tablilla .tabtext {
+  height: 245px;
+}
+#melindacombat > .bullet {
+  width: 350px;
+}
