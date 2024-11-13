@@ -171,3 +171,10 @@
 #nighandcosig.lawrie:before {
   mix-blend-mode: overlay;
 }
+/* HOPE'S SIG */
+#nighandcosig.hope {
+  --acentito: #574B5F;
+}
+#nighandcosig.hope:before {
+  mix-blend-mode: overlay;
+}
