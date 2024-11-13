@@ -1,0 +1,60 @@
+.eleasig {
+  width: 270px;
+  height: 170px;
+  overflow: hidden;
+  margin: 0px auto;
+  box-sizing: content-box;
+  border: 7px solid transparent;
+  outline: 1px solid var(--group-50);
+  position: relative;
+}
+.eleasig * {
+  transition: 0.5s ease;
+}
+.eleasig>img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  z-index: -1;
+}
+.eleasig:hover > img {
+  filter: grayscale(1) brightness(0.3);
+}
+.eleasig .eleasquote {
+  position: absolute;
+  z-index: 1;
+  width: calc(100% - 120px);
+  text-align: justify;
+  text-align-last: center;
+  text-transform: lowercase;
+  font: var(--fs-tiny) var(--f-mono);
+  font-weight: 500;
+  color: #aaa;
+  line-height: 130%;
+  opacity: 0;
+}
+.eleasig:hover .eleasquote {
+  opacity: 1;
+}
+.eleasig .eleasquote strong {
+  text-transform: uppercase;
+  font-size: var(--fs-mini);
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: var(--group);
+}
+.eleasig .eleasquote i {
+  color: var(--title);
+}
+.eleasig .eleasquote u, .eleasig .eleasquote strike {
+  text-transform: uppercase;
+  font-size: var(--fs-mini);
+  font-weight: 600;
+  color: var(--title);
+  text-decoration-color: var(--group);
+}
+.eleasig .eleasquote u {
+  text-underline-offset: 2px;
+}
