@@ -59,3 +59,22 @@
   text-decoration: 1px solid line-through var(--group);
   color: #ccc;
 }
+/* CALCULOS */
+#melindacalculations > br, #melindacalculations > div:nth-of-type(2) > br {
+  display: none !important;
+}
+#melindacalculations>div {
+  margin: 0 !important;
+}
+#melindacalculations {
+  gap: 40px;
+}
+#melindacalculations > div:nth-of-type(2) > blockquote {
+  height: 100%;
+  box-sizing: border-box;
+  background: var(--tbckg2);
+  padding: 20px;
+}
+#melindacalculations > div:nth-of-type(2) {
+  align-self: stretch;
+}
