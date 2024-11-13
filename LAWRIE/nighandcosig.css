@@ -10,9 +10,6 @@
   overflow: hidden;
   --acentito: var(--group);
 }
-#nighandcosig.lawrie {
-  --acentito: #890300;
-}
 #nighandcosig *, #nighandcosig:before, #nighandcosig:after {
   box-sizing: border-box;
   transition: .8s;
@@ -26,7 +23,7 @@
   background: var(--acentito);
   width: 130px;
   height: 100%;
-  mix-blend-mode: overlay;
+  mix-blend-mode: multiply;
   left: 0px;
   opacity: 0;
   transition-delay: 0s;
@@ -166,4 +163,11 @@
 #nighandcosig:hover::after {
   opacity: 0;
   transition-delay: 0s;
+}
+/* LAWRIE'S SIG */
+#nighandcosig.lawrie {
+  --acentito: #890300;
+}
+#nighandcosig.lawrie:before {
+  mix-blend-mode: overlay;
 }
