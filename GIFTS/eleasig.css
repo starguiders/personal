@@ -46,15 +46,18 @@
   color: var(--group);
 }
 .eleasig .eleasquote i {
-  color: var(--title);
+  color: var(--title)!important;
 }
 .eleasig .eleasquote u, .eleasig .eleasquote strike {
   text-transform: uppercase;
   font-size: var(--fs-mini);
   font-weight: 600;
-  color: var(--title);
   text-decoration-color: var(--group);
 }
 .eleasig .eleasquote u {
   text-underline-offset: 2px;
+  color: var(--title);
+}
+.eleasig .eleasquote strike {
+  color: var(--text);
 }
