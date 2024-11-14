@@ -189,12 +189,15 @@
 #melindacombat {
   gap: 40px;
 }
-#melindacombat>.tablilla {
-  height: 553px;
+#melindacombat > .tablilla {
+  height: 586px;
 }
 #melindacombat > .tablilla .tabtext {
-  height: 245px;
+  height: 280px;
 }
 #melindacombat > .bullet {
   width: 350px;
+}
+#melindacombat .bullet.melinda .bltext {
+  max-height: 158px;
 }
