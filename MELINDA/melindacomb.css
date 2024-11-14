@@ -176,6 +176,9 @@
   text-decoration: 1px solid line-through var(--group);
   color: #ccc;
 }
+.bullet.melinda .blbarra b {
+  min-width: 0px;
+}
 /* AGAINST NPC */
 #melindacombat > br {
   display: none !important;
