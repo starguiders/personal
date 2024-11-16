@@ -1,0 +1,32 @@
+.fchistoria#lauren {
+  font-size: var(--fs-body2);
+}
+.fchistoria#lauren h.fcdeco p {
+  font: 500 var(--fs-body2) 'EB Garamond';
+  letter-spacing: 1px!important;
+  color: var(--subtitle);
+  margin-top: 8px;
+}
+.fchistoria#lauren h.fcdeco[class*="number"] i {
+  font-family: 'Rajdhani';
+  font-weight: 900;
+  margin-top: 5px;
+  line-height: 100% !important;
+}
+.fchistoria#lauren h.fcdeco[class*="tit"] b {
+  font: 800 var(--fs-tiny) 'EB Garamond';
+  letter-spacing: 1px!important;
+  color: var(--title);
+}
+.fchistoria#lauren u {
+  text-decoration: 1px solid underline var(--group);
+  color: #ccc;
+  text-underline-offset: 2px;
+}
+.fchistoria#lauren strike {
+  text-decoration: 1px solid line-through var(--group);
+  color: #ccc;
+}
+.fchistoria#lauren h4.post-content {
+  padding: 0 !important;
+}
