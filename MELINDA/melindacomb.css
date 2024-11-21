@@ -1,96 +1,12 @@
 .bullet.melinda {
-  --bckg1: var(--tbckg2);
-  --bckg2: var(--dbckg0);
-  --bckg3: transparent;
-  --bckg4: #fff;
-  --accent: var(--group);
-  --accent-t: var(--group-50);
-  --image: #444;
-  --image2: var(--group);
-  --blendmode1: multiply;
-  --blendmode2: color;
-  --icon-filter: grayscale(1) brightness(.6); /*change for none to hide the filters of the icon*/
-  --normal-icon: block; /*change for none to hide the colors of the icon*/
-}
-.bullet.melinda {
-  border: none !important;
-  position: relative;
-  padding: 40px 30px;
-  width: 400px;
-  box-sizing: border-box;
-  margin: 4px auto;
-}
-.bullet.melinda:before, .bullet.melinda:after {
-  content: '';
-  width: calc(100% + 60px);
-  background: var(--border0-c);
-  display: block;
-  height: 1px;
-  box-sizing: border-box;
-  border-right: 100px solid var(--border0-c);
-  margin: -15px -30px;
-}
-.bullet.melinda:before {
-  margin-bottom: 25px;
-}
-.bullet.melinda:after {
-  margin-top: 25px;
-  border-right: none;
-  border-left: 100px solid var(--border0-c);
-}
-.bullet.melinda .blheader {
-  background: var(--bckg3);
-  border-bottom: none;
-  padding: 0px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-  height: auto;
-  text-align: center;
-  gap: 12px;
-  margin-bottom: 24px;
-}
-.bullet.melinda hr {
-  display: none!important;
-}
-.bullet.melinda .blheader span {
-  right: unset;
-  bottom: unset;
-  font-size: 155px;
-}
-.bullet.melinda .blhicon {
-  border: var(--border0);
-  margin: 0px;
-  outline: var(--border0);
-  outline-offset: -10px;
-  background: var(--bckg2);
-  height: 100px;
-  width: 100px;
-}
-.bullet.melinda .blhicon>img {
-  width: 100px;
-  height: 100px;
-}
-.bullet.melinda .blhicon:before {
-  opacity: 0.4;
-}
-.bullet.melinda .blhicon:after {
-  display: none;
-}
-.bullet.melinda .blhdata {
-  align-items: center;
-  text-transform: uppercase;
+--accent:#544171;
+--accent-t:#54417180;
 }
 .bullet.melinda .blhdata > b {
   color: var(--subtitle) !important;
   text-decoration: 1px solid underline var(--group);
   text-underline-offset: 3px;
-  font: 900 var(--fs-h5) var(--f-body);
-  text-align: center;
-  border-radius: 0;
-  background: transparent;
-  padding: 0px;
+  margin-bottom: 6px!important;
 }
 .bullet.melinda .blhdata > i {
   font: 900 9.5px 'Inconsolata';
@@ -99,87 +15,37 @@
   color: var(--text) !important;
 }
 .bullet.melinda .blstats {
-  padding: 12px 0px;
-  margin: 12px 0px;
-  border-block: var(--border2);
-  gap: 10px;
-  background: var(--bckg3);
-}
-.bullet.melinda .blstats span {
-  margin: 0px;
-  border: none;
-  background: var(--bckg3);
-  padding: 0px;
-  border-radius: 0;
+  padding: 12px 8px;
 }
 .bullet.melinda .blstats span>b {
-  font: 700 25px 'Antonio';
-  line-height: normal;
+  font: 800 25px 'Antonio';
   line-height: 80%;
-  text-align: center;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
+  margin-top: -4px;
 }
 .bullet.melinda .blstats span > i {
   font: 900 10px 'Inconsolata';
   letter-spacing: 3px;
   line-height: 100%;
 }
-.bullet.melinda .blbarras {
-  padding: 6px 0px;
-  border: none;
-}
-.bullet.melinda .blbarra {
-  border-radius: 0;
-  position: relative;
-}
 .bullet.melinda .blbarra > b:before {
-  font: 600 9.5px 'Inconsolata';
+  font: 700 9.5px 'Inconsolata';
   letter-spacing: 1px;
   line-height: 100%;
-  margin-left: 4px;
-  width: 100%;
-  position: absolute;
-}
-.bullet.melinda .blbarra b {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-}
-.bullet.melinda .blbox {
-  background: var(--bckg3);
-  padding: 0px;
-}
-.bullet.melinda .blbarras:after {
-  display: block;
-  content: "";
-  width: 100%;
-  height: 1px;
-  background: var(--border2-c);
-  margin-top: 18px;
-  margin-bottom: 12px;
-}
-.bullet.melinda .bltext {
-  font: normal var(--fs-small) var(--f-body) !important;
-  line-height: calc(var(--fs-body2) + 4px) !important;
-  max-height: 125px;
-  padding-right: 12px;
 }
 .bullet.melinda .bltext em {
   font-size: var(--fs-mini);
 }
 .bullet.melinda .bltext u {
-  text-decoration: 1px solid underline var(--group);
+  text-decoration: 1px solid underline var(--accent);
   color: #ccc;
   text-underline-offset: 2px;
 }
 .bullet.melinda .bltext strike {
-  text-decoration: 1px solid line-through var(--group);
+  text-decoration: 1px solid line-through var(--accent);
   color: #ccc;
 }
-.bullet.melinda .blbarra b {
-  min-width: 0px;
-}
-/* AGAINST NPC */
+/* AGAINST NPC - old version */
 #melindacombat > br {
   display: none !important;
 }
