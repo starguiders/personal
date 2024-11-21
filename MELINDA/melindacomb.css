@@ -45,6 +45,53 @@
   text-decoration: 1px solid line-through var(--accent);
   color: #ccc;
 }
+/* AGAINST NPC */
+#bulletcombat.melinda .bullet .blhdata > b {
+  color: var(--subtitle) !important;
+  text-decoration: 1px solid underline var(--group);
+  text-underline-offset: 3px;
+  margin-bottom: 6px!important;
+}
+#bulletcombat.melinda .bullet .blhdata > i {
+  font: 900 9.5px 'Inconsolata';
+  line-height: normal;
+  letter-spacing: 1px;
+  color: var(--text) !important;
+}
+#bulletcombat.melinda .bullet .blstats {
+  padding: 12px 8px;
+}
+#bulletcombat.melinda .bullet .blstats span>b {
+  font: 800 25px 'Antonio';
+  line-height: 80%;
+  margin-bottom: 2px;
+  margin-top: -4px;
+}
+#bulletcombat.melinda .bullet .blstats span > i {
+  font: 900 10px 'Inconsolata';
+  letter-spacing: 3px;
+  line-height: 100%;
+}
+#bulletcombat.melinda .bullet .blbarra > b:before {
+  font: 700 9.5px 'Inconsolata';
+  letter-spacing: 1px;
+  line-height: 100%;
+}
+#bulletcombat.melinda .bullet .bltext {
+  max-height:134px;
+}
+#bulletcombat.melinda .bullet .bltext em {
+  font-size: var(--fs-mini);
+}
+#bulletcombat.melinda .bullet .bltext u {
+  text-decoration: 1px solid underline var(--accent);
+  color: #ccc;
+  text-underline-offset: 2px;
+}
+#bulletcombat.melinda .bullet .bltext strike {
+  text-decoration: 1px solid line-through var(--accent);
+  color: #ccc;
+}
 /* AGAINST NPC - old version */
 #melindacombat > br {
   display: none !important;
