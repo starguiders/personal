@@ -66,6 +66,7 @@
   transition-delay: .8s;
   text-align: center;
   border-right: 1px solid transparent;
+  padding: 0px 20px;
 }
 #nighandcosig #nsigl>b {
   text-transform: uppercase;
@@ -95,6 +96,7 @@
   font: 700 11px 'Rajdhani';
   color: var(--subtitle);
   font-style: normal;
+  line-height: 100%;
 }
 #nighandcosig:hover #nsigl {
   right: calc(100% - 130px);
