@@ -73,7 +73,7 @@
   line-height: 100% !important;
 }
 .tistats > span > i {
-  font: 800 var(--fs-tiny) 'EB Garamond';
+  font: 800 var(--fs-mini) 'EB Garamond';
   letter-spacing: 1px!important;
   color: var(--title)!important;
   line-height: 100%;
