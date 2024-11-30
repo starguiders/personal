@@ -160,5 +160,5 @@
   line-height: 100%!important;
 }
 #bulletcombat.lauren .bullet.enemy .bltext {
-  line-height: calc(var(--fs-body2) + 4.1px) !important;
+  line-height: calc(var(--fs-body2) + 4.2px) !important;
 }
