@@ -200,10 +200,10 @@
 }
 .tabrelas.lauren summary > span > i {
   margin-top: 0px;
-  font: 500 var(--fs-small) 'EB Garamond';
+  font: 500 var(--fs-mini) 'JetBrains mono';
   line-height: 100%;
   letter-spacing: 1px;
-  text-transform: lowercase;
+  text-transform: uppercase;
   font-style: italic;
 }
 .tabrelas.lauren details p {
