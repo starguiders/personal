@@ -1,3 +1,8 @@
+.tablilla.lauren, .bullet.lauren {
+  --group: #9b2d2a;
+  --group-50: #9b2d2a80;
+  --group-25: #9b2d2a40;
+}
 .tabindex.lauren .tiquote p {
   text-transform: lowercase;
   text-align: justify;
