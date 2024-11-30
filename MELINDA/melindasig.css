@@ -209,6 +209,9 @@
   text-decoration: 1px solid line-through var(--group);
   color: #ccc;
 }
-.postbody:has(#sigmelinda) .signature_separator {
-    margin: 40px auto 0!important;!importan;!importa;!import;!impor;!impo;!imp;!im;!i;!;
+.post:has(.postprofile) .postbody:has(#sigmelinda) .signature_separator {
+    margin: 20px auto -20px!important;;
+}
+.post:not(:has(.postprofile)) .postbody:has(#sigmelinda) .signature_separator {
+    margin: -15px auto 0!important;
 }
