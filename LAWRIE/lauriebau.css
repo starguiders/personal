@@ -59,10 +59,10 @@
 .tabindex.lauren .tiquote > p strike {
   text-decoration: 1px solid line-through;
 }
-.tistats > span {
+.tabindex.lauren .tistats > span {
   position: relative;
 }
-.tistats > span > b {
+.tabindex.lauren .tistats > span > b {
   position: absolute;
   color: var(--group-25) !important;
   z-index: -1;
@@ -72,8 +72,8 @@
   margin-top: 4px;
   line-height: 100% !important;
 }
-.tistats > span > i {
-  font: 800 var(--fs-mini) 'EB Garamond';
+.tabindex.lauren .tistats > span > i {
+  font: 800 var(--fs-mini) 'JetBrains mono';
   letter-spacing: 1px!important;
   color: var(--title)!important;
   line-height: 100%;
