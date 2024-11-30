@@ -73,6 +73,7 @@
   font: 900 var(--fs-tiny) 'JetBrains mono';
   letter-spacing: 1px;
   line-height: var(--fs-tiny) !important;
+  font-style: italic;
 }
 .bullet.lauren .bltext > strong {
   text-transform: uppercase;
@@ -122,7 +123,7 @@
   line-height: 100%;
 }
 #bulletcombat.lauren .bullet .bltext {
-  max-height:134px;
+  max-height:141px;
 }
 #bulletcombat.lauren .bullet .bltext em {
   font-size: var(--fs-mini);
@@ -151,9 +152,13 @@
   font: 900 var(--fs-tiny) 'JetBrains Mono';
   letter-spacing: 1px;
   line-height: var(--fs-tiny) !important;
+  font-style: italic;
 }
 #bulletcombat.lauren .bullet .bltext > strong {
   text-transform: uppercase;
   font: 700 var(--fs-body2) 'Rajdhani';
   line-height: 100%!important;
+}
+#bulletcombat.lauren .bullet.enemy .bltext {
+  line-height: calc(var(--fs-body2) + 4.1px) !important;
 }
