@@ -1,0 +1,94 @@
+.troll .tabhead > b {
+  font: 900 var(--fs-h1) 'Rajdhani' !important;
+  margin-bottom: 7px;
+  -webkit-text-stroke: 0px;
+  color: var(--text) !important;
+  top: 0px;
+  letter-spacing: 1px;
+  position: relative !important;
+  z-index: -1;
+  line-height: 80% !important;
+  opacity: 0.15 !important;
+}
+.troll .tabhead {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: flex-start;
+  text-align: left;
+  width: 100%;
+  min-height: var(--fs-h1);
+  height: fit-content;
+  margin-top: -4px;
+}
+.tabrol.troll .tabhead {
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.troll .tabtext {
+  font-size: var(--fs-body2);
+}
+.troll .tabhead > span > b {
+  color: var(--group) !important;
+  font: 900 var(--fs-h4) 'Rajdhani';
+  letter-spacing: 1px;
+  line-height: 80%;
+}
+.troll .tabhead > span > i {
+  margin-top: 2px;
+  font: 700 var(--fs-mini) 'JetBrains mono';
+  letter-spacing: 1px;
+  line-height: 100%;
+  color: #aaa!important;
+  font-style: italic;
+}
+.troll .tabhead > span > i > i {
+  color: var(--group);
+}
+.troll .tabdata {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  height: fit-content;
+  font: 700 var(--fs-mini) 'JetBrains mono';
+  margin-top: var(--fs-h3);
+  font-style: italic;
+  letter-spacing: 1px;
+  padding-top: 9px;
+}
+.troll .tabhead>b {
+  width: 100%;
+  white-space: wrap;
+}
+.troll .tabtext u {
+  text-decoration: 1px solid underline var(--group);
+  color: var(--text);
+  text-underline-offset: 2px;
+}
+.troll .tabtext strike {
+  text-decoration: 1px solid line-through var(--group);
+  color: var(--text);
+}
+.troll .tabhead > span {
+  left: 0px;
+  position: absolute;
+  margin-top: -8px;
+}
+.tabrol.troll .tabhead > span {
+  left: unset;
+}
+.tabrol.troll .tabhead > span > i {
+  font: 400 var(--fs-small) 'EB Garamond';
+  text-transform: lowercase;
+  font-style: italic;
+  line-height: 100%;
+  margin-top: 0px;
+  color: var(--subtitle) !important;
+}
+.troll .tabdata > i {
+  margin: 0px 6px;
+}
