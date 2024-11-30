@@ -188,15 +188,18 @@
   --group-25: #944A4A40;
 }
 .tabrelas.lauren summary > span > b {
-  font: 900 20px 'Antonio' !important;
-  margin-bottom: 4px;
+  font: 900 var(--fs-h5) 'Rajdhani' !important;
+  margin-bottom: 0px;
   line-height: 80% !important;
+  letter-spacing: 1px;
 }
 .tabrelas.lauren summary > span > i {
-  margin-top: 7px;
-  font: 900 10px 'Inconsolata';
-  line-height: normal;
+  margin-top: 0px;
+  font: 500 var(--fs-small) 'EB Garamond';
+  line-height: 100%;
   letter-spacing: 1px;
+  text-transform: lowercase;
+  font-style: italic;
 }
 .tabrelas.lauren details p {
   font-size: var(--fs-small);
