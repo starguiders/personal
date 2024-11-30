@@ -92,3 +92,6 @@
 .troll .tabdata > i {
   margin: 0px 6px;
 }
+.troll .tabhead > span > i > strong {
+  font-style: normal;
+}
