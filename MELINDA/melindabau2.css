@@ -185,6 +185,11 @@
   --group-50: #944A4A80;
   --group-25: #944A4A40;
 }
+.tabrelas.melinda details.cmort {
+  --group: #AD9A75;
+  --group-50: #AD9A7580;
+  --group-25: #AD9A7540;
+}
 .tabrelas.melinda summary > span > b {
   font: 900 20px 'Antonio' !important;
   margin-bottom: 4px;
