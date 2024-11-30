@@ -1,0 +1,159 @@
+.bullet.lauren {
+--accent:#9b2d2a;
+--accent-t:#9b2d2a80;
+--group:#9b2d2a;
+--group-50:#9b2d2a80;
+--group-25:#9b2d2a40;
+}
+.bullet.lauren .blhdata > b {
+  color: var(--accent) !important;
+  font: 900 var(--fs-h4) 'Rajdhani'!important;
+  letter-spacing: 1px;
+  line-height: 80%!important;
+  margin-bottom: 3px !important;
+}
+.bullet.lauren .blhdata > i {
+  font: 400 var(--fs-small) 'EB Garamond';
+  letter-spacing: 1px;
+  color: var(--text) !important;
+  line-height: 100%;
+  text-transform: lowercase;
+  font-style: italic;
+}
+.bullet.lauren .blstats {
+  padding: 12px 8px;
+}
+.bullet.lauren .blstats span {
+  position: relative;
+  min-height: var(--fs-h2);
+}
+.bullet.lauren .blstats span>b {
+  font: 800 var(--fs-h2) 'Rajdhani';
+  line-height: 80% !important;
+  position: absolute;
+  z-index: -1;
+  color: var(--accent-t)!important;
+  margin-top: 5px;
+}
+.bullet.lauren .blstats span > i {
+  font: 900 var(--fs-mini) 'JetBrains mono';
+  letter-spacing: 3px;
+  line-height: 100%;
+  color: var(--subtitle) !important;
+}
+.bullet.lauren .blbarra > b:before {
+  font: 500 var(--fs-mini) 'JetBrains mono';
+  letter-spacing: 1px;
+  line-height: 100%;
+}
+.bullet.lauren .bltext em {
+  font-size: var(--fs-mini);
+}
+.bullet.lauren .bltext u {
+  text-decoration: 1px solid underline var(--accent);
+  color: #ccc;
+  text-underline-offset: 2px;
+}
+.bullet.lauren .bltext strike {
+  text-decoration: 1px solid line-through var(--accent);
+  color: #ccc;
+}
+.bullet.lauren .blhicon {
+  border-radius: 0 !important;
+  border: none !important;
+  width: 90px;
+  height: 90px;
+}
+.bullet.lauren .blhicon>img {
+  border-radius: 0 !important;
+  width: 90px;
+  height: 90px;
+}
+.bullet.lauren .bltiradas > summary {
+  font: 900 var(--fs-tiny) 'JetBrains mono';
+  letter-spacing: 1px;
+  line-height: var(--fs-tiny) !important;
+}
+.bullet.lauren .bltext > strong {
+  text-transform: uppercase;
+  font: 700 var(--fs-body2) 'Rajdhani';
+  line-height: 100%!important;
+}
+/* AGAINST NPC */
+#bulletcombat.lauren .bullet .blhdata > b {
+  color: var(--accent) !important;
+  font: 900 var(--fs-h4) 'Rajdhani'!important;
+  letter-spacing: 1px!important;
+  line-height: 80%!important;
+  margin-bottom: 3px!important;
+}
+#bulletcombat.lauren .bullet .blhdata > i {
+  font: 400 var(--fs-small) 'EB Garamond';
+  letter-spacing: 1px;
+  color: var(--text) !important;
+  line-height: 100%;
+  text-transform: lowercase;
+  font-style: italic;
+}
+#bulletcombat.lauren .bullet .blstats {
+  padding: 12px 0px;
+}
+#bulletcombat.lauren .bullet .blstats span {
+  position: relative;
+  min-height: var(--fs-h2);
+}
+#bulletcombat.lauren .bullet .blstats span>b {
+  font: 800 var(--fs-h2) 'Rajdhani';
+  line-height: 80% !important;
+  position: absolute;
+  z-index: -1;
+  color: var(--accent-t)!important;
+  margin-top: 5px;
+}
+#bulletcombat.lauren .bullet .blstats span > i {
+  font: 900 var(--fs-mini) 'JetBrains mono';
+  letter-spacing: 3px;
+  line-height: 100%;
+  color: var(--subtitle) !important;
+}
+#bulletcombat.lauren .bullet .blbarra > b:before {
+  font: 500 var(--fs-mini) 'JetBrains mono';
+  letter-spacing: 1px;
+  line-height: 100%;
+}
+#bulletcombat.lauren .bullet .bltext {
+  max-height:134px;
+}
+#bulletcombat.lauren .bullet .bltext em {
+  font-size: var(--fs-mini);
+}
+#bulletcombat.lauren .bullet .bltext u {
+  text-decoration: 1px solid underline var(--accent);
+  color: #ccc;
+  text-underline-offset: 2px;
+}
+#bulletcombat.lauren .bullet .bltext strike {
+  text-decoration: 1px solid line-through var(--accent);
+  color: #ccc;
+}
+#bulletcombat.lauren .blhicon {
+  border-radius: 0 !important;
+  border: none !important;
+  width: 90px;
+  height: 90px;
+}
+#bulletcombat.lauren .blhicon>img {
+  border-radius: 0 !important;
+  width: 90px;
+  height: 90px;
+}
+#bulletcombat.lauren .bullet .bltiradas > summary {
+  font: 900 var(--fs-tiny) 'JetBrains Mono';
+  letter-spacing: 1px;
+  line-height: var(--fs-tiny) !important;
+}
+#bulletcombat.lauren .bullet .bltext > strong {
+  text-transform: uppercase;
+  font: 700 var(--fs-body2) 'Rajdhani';
+  line-height: 100%!important;
+}
