@@ -168,10 +168,15 @@
 }
 /* LAWRIE'S SIG */
 #nighandcosig.lawrie {
-  --acentito: #890300;
+  --acentito: #8e1916;
 }
 #nighandcosig.lawrie:before {
   mix-blend-mode: overlay;
+}
+.tablilla.lauren, .bullet.lauren {
+  --group: #8e1916;
+  --group-50: #8e191680;
+  --group-25: #8e191640;
 }
 /* HOPE'S SIG */
 #nighandcosig.hope {
