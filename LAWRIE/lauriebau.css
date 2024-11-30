@@ -1,0 +1,119 @@
+.tabindex.lauren .tiquote p {
+  text-transform: lowercase;
+  text-align: justify;
+  text-align-last: right;
+  font: normal 13px 'EB Garamond';
+  line-height: 128%;
+  display: block;
+  color: #999;
+  margin-top: -2px;
+  margin-bottom: 0px;
+  height: calc(100% + 12px);
+}
+.tabindex.lauren .tibody {
+  grid-template-columns: repeat(2, calc(50% - 170px)) 300px;
+  grid-template-rows: 55px 80px 154px var(--fs-h4);
+  height: 370px;
+}
+.tabindex.lauren .tiimg {
+  width: 280px;
+  outline: 1px solid #ffffff12;
+  border: none;
+  height: 370px;
+}
+.tabindex.lauren .tiquote > em {
+  font-size: var(--fs-h1);
+  margin-top: 3px;
+}
+.tabindex.lauren .tiquote {
+  gap: 20px;
+}
+.tabindex.lauren .tiquote > p b {
+  text-transform: uppercase;
+  color: var(--subtitle);
+  font: 700 11px 'Rajdhani';
+}
+.tabindex.lauren .tiquote > p strong {
+  text-transform: uppercase;
+  color: var(--group);
+  font: 700 10px 'Rajdhani';
+  letter-spacing: 1px;
+}
+.tabindex.lauren .tiquote > p  i {
+  color: var(--title);
+}
+.tabindex.lauren .tiquote > p strike, .tabindex.lauren .tiquote > p u {
+  text-decoration-color: var(--group)!important;
+  color: var(--text);
+  font-style: italic;
+}
+.tabindex.lauren .tiquote > p u {
+  text-decoration: 1px solid underline;
+  text-underline-offset: 2px;
+}
+.tabindex.lauren .tiquote > p strike {
+  text-decoration: 1px solid line-through;
+}
+.tistats > span {
+  position: relative;
+}
+.tistats > span > b {
+  position: absolute;
+  color: var(--group-25) !important;
+  z-index: -1;
+  font-size: var(--fs-h1);
+  font-family: 'Rajdhani';
+  font-weight: 900;
+  margin-top: 4px;
+  line-height: 100% !important;
+}
+.tistats > span > i {
+  font: 800 var(--fs-tiny) 'EB Garamond';
+  letter-spacing: 1px!important;
+  color: var(--title)!important;
+  line-height: 100%;
+}
+.tabindex.lauren .tidatos {
+  font-size: var(--fs-small);
+  line-height: calc(var(--fs-small) + 4px);
+}
+.tabindex.lauren .tidatos u {
+  background: var(--group);
+  font: 700 11px 'Rajdhani';
+  line-height: normal;
+  color: #000 !important;
+  line-height: 100%;
+  padding: 1px 3px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+.tabindex.lauren .tisong u {
+  position: relative;
+}
+.tabindex.lauren .tisong u b {
+  font: 900 var(--fs-h2) 'Rajdhani';
+  line-height: 100%;
+  position: absolute;
+  z-index: -1;
+  color: var(--group-50) !important;
+}
+.tabindex.lauren .tisong u i {
+  font: 700 var(--fs-mini) 'EB Garamond';
+  letter-spacing: 1px !important;
+  color: var(--subtitle) !important;
+  line-height: 100%;
+}
+.tabindex.lauren .tisong span {
+  clip-path: none;
+  overflow: hidden;
+}
+.tabindex.lauren .tiimg {
+  background: var(--group);
+}
+.tabindex.lauren .tiimg>img {
+  mix-blend-mode: multiply;
+  filter: contrast(0.9) brightness(1.5);
+}
+.tabindex.lauren .tiimg::before, .tabindex.lauren .tiimg::after {
+  opacity: 0.5;
+}
