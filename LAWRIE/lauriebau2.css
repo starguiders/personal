@@ -6,38 +6,39 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 67px;
+  margin-bottom: 62px;
   margin-top: -37px;
 }
 .tabcrono.lauren:before, .tabrelas.lauren:before {
-  top: 80px;
+  top: 75px;
   position: relative;
 }
 .tabcrono.lauren .tabhead > b, .tabrelas.lauren .tabhead > b {
-  font: 900 52px 'Antonio' !important;
-  line-height: 80%!important;
+  font: 900 65px 'Rajdhani' !important;
+  line-height: 60% !important;
   -webkit-text-stroke: 0px;
-  color: var(--group)!important;
+  color: var(--text) !important;
   opacity:0.15;
   top: unset;
   text-align: center;
-  margin-bottom: 7px;
+  margin-top: 0;
   left: unset;
 }
 .tabcrono.lauren .tabhead > span > b, .tabrelas.lauren .tabhead > span > b {
-  color: var(--subtitle) !important;
-  text-decoration: 1px solid underline var(--group);
-  text-underline-offset: 3px;
-  font: 900 var(--fs-h5) var(--f-body);
+  color: var(--group) !important;
+  font: 900 var(--fs-h4) 'Rajdhani';
   text-align: center;
+  letter-spacing: 3px;
+  line-height: 80%;
 }
 .tabcrono.lauren .tabhead > span > i, .tabrelas.lauren .tabhead > span > i {
-  margin-top: 2px;
-  font: 700 9px 'Inconsolata';
-  letter-spacing: 1px;
-  line-height: 120%;
-  color: #aaa!important;
-  text-align: center;
+  margin-top: 0px;
+  font: 400 var(--fs-small) 'EB Garamond';
+  letter-spacing: 0px;
+  color: var(--subtitle) !important;
+  line-height: 100%;
+  text-transform: lowercase;
+  font-style: italic;
 }
 .tabcrono.lauren .tabhead > span > i > i, .tabrelas.lauren .tabhead > span > i > i {
   color: var(--group);
@@ -75,9 +76,10 @@
   position: relative;
   padding-left: 16px;
   border: none;
-  font: 900 17px 'Antonio' !important;
+  font: 900 17px 'Rajdhani' !important;
   line-height: 80% !important;
   margin-bottom: 15px;
+  letter-spacing: 1px;
 }
 .lauren .tbcols .tbc h:before {
   position: absolute;
@@ -115,13 +117,13 @@
   margin-top: 6px;
 }
 .lauren .tbcols .tbc ul li>a {
-  font: 900 10px 'Inconsolata';
-  line-height: normal;
+  font: 900 10px 'Rajdhani';
+  line-height: 90%;
   letter-spacing: 1px;
-  background: var(--group-50);
+  background: var(--group);
   text-transform: uppercase;
   font-weight: 700;
-  color: var(--title);
+  color: #000;
   padding: 3px 4px;
   display: inline-block;
   vertical-align: middle;
