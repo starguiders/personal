@@ -1,0 +1,202 @@
+.tabcrono.lauren, .tabrelas.lauren {
+  width: 800px;
+}
+.tabcrono.lauren .tabhead, .tabrelas.lauren .tabhead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 67px;
+  margin-top: -37px;
+}
+.tabcrono.lauren:before, .tabrelas.lauren:before {
+  top: 80px;
+  position: relative;
+}
+.tabcrono.lauren .tabhead > b, .tabrelas.lauren .tabhead > b {
+  font: 900 52px 'Antonio' !important;
+  line-height: 80%!important;
+  -webkit-text-stroke: 0px;
+  color: var(--group)!important;
+  opacity:0.15;
+  top: unset;
+  text-align: center;
+  margin-bottom: 7px;
+  left: unset;
+}
+.tabcrono.lauren .tabhead > span > b, .tabrelas.lauren .tabhead > span > b {
+  color: var(--subtitle) !important;
+  text-decoration: 1px solid underline var(--group);
+  text-underline-offset: 3px;
+  font: 900 var(--fs-h5) var(--f-body);
+  text-align: center;
+}
+.tabcrono.lauren .tabhead > span > i, .tabrelas.lauren .tabhead > span > i {
+  margin-top: 2px;
+  font: 700 9px 'Inconsolata';
+  letter-spacing: 1px;
+  line-height: 120%;
+  color: #aaa!important;
+  text-align: center;
+}
+.tabcrono.lauren .tabhead > span > i > i, .tabrelas.lauren .tabhead > span > i > i {
+  color: var(--group);
+}
+/* TAB. CRONOLOGIA */
+.lauren .tbcols {
+  justify-content: space-between;
+  gap: 20px;
+  position: relative;
+}
+.lauren .tbcols:before, .lauren .tbcols:after {
+  content: "";
+  width: 1px;
+  height: calc(100% + (40px*2));
+  display: block;
+  position: absolute;
+  top: -40px;
+  background: var(--border0-c);
+}
+.lauren .tbcols:before {
+  left: 0px;
+}
+.lauren .tbcols:after {
+  left: 370px;
+}
+.lauren .tbcols .tbc {
+  flex: 1;
+  padding: 0px 20px 0px 25px;
+  height: 400px;
+  overflow: auto;
+  position: relative;
+  margin: -10px 0px;
+}
+.lauren .tbcols .tbc h {
+  position: relative;
+  padding-left: 16px;
+  border: none;
+  font: 900 17px 'Antonio' !important;
+  line-height: 80% !important;
+  margin-bottom: 15px;
+}
+.lauren .tbcols .tbc h:before {
+  position: absolute;
+  content: "";
+  left: -24px;
+  height: 1px;
+  width: 32px;
+  background: var(--border0-c);
+  top: 8px;
+}
+.lauren .tbcols .tbc h:not(:first-of-type) {
+  margin-top: 25px;
+}
+.lauren .tbcols .tbc .tabtext {
+  max-height: none !important;
+  overflow: initial !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.lauren .tbcols .tbc .tabtext {
+  max-height: none !important;
+  overflow: initial !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.lauren .tbcols .tbc ul {
+  margin: 0px !important;
+  list-style-type: none !important;
+}
+.lauren .tbcols .tbc ul li {
+  list-style-type: none !important;
+  line-height: 115%;
+}
+.lauren .tbcols .tbc ul li:not(:first-of-type) {
+  margin-top: 6px;
+}
+.lauren .tbcols .tbc ul li>a {
+  font: 900 10px 'Inconsolata';
+  line-height: normal;
+  letter-spacing: 1px;
+  background: var(--group-50);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--title);
+  padding: 3px 4px;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+}
+.lauren .tbcols .tbc ul li > span {
+  font-size: var(--fs-small);
+}
+.lauren .tbcols .tbc ul li > span:before {
+  content: " ";
+  margin-left: 4px;
+}
+/* TAB. RELACIONES */
+.tabrelas.lauren .tbcols:after {
+  display: none;
+}
+.tabrelas.lauren .tbcols:before {
+  left: 400px;
+  height: 100%;
+  top: 0px;
+}
+.tabrelas.lauren .tbcols {
+  gap: 0px;
+  margin: -40px;
+}
+.tabrelas.lauren .tbc {
+  border: 24px solid transparent;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  border-right-width: 12px;
+  padding-right: 12px;
+}
+.tabrelas.lauren .tbcols .gradientact img {
+  width: 55px;
+  height: 55px;
+}
+.tabrelas.lauren summary {
+  height: 60px;
+}
+.tabrelas.lauren details:not(:last-of-type) {
+  margin-bottom: 8px;
+}
+.tabrelas.lauren details.cnpc {
+  --group: #848A5E;
+  --group-50: #848A5E80;
+  --group-25: #848A5E40;
+}
+.tabrelas.lauren details.cbruj {
+  --group: #725F80;
+  --group-50: #725F8080;
+  --group-25: #725F8040;
+}
+.tabrelas.lauren details.cluzb {
+  --group: #86AEB5;
+  --group-50: #86AEB580;
+  --group-25: #86AEB540;
+}
+.tabrelas.lauren details.csemd {
+  --group: #944A4A;
+  --group-50: #944A4A80;
+  --group-25: #944A4A40;
+}
+.tabrelas.lauren summary > span > b {
+  font: 900 20px 'Antonio' !important;
+  margin-bottom: 4px;
+  line-height: 80% !important;
+}
+.tabrelas.lauren summary > span > i {
+  margin-top: 7px;
+  font: 900 10px 'Inconsolata';
+  line-height: normal;
+  letter-spacing: 1px;
+}
+.tabrelas.lauren details p {
+  font-size: var(--fs-small);
+  line-height: calc(var(--fs-small) + 3px);
+}
