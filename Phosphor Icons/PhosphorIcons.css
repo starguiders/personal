@@ -1,6 +1,7 @@
 @font-face {
   font-family: "Phosphor-Bold";
   src: url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/bold/Phosphor-Bold.woff") format("woff"),
+    url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/bold/Phosphor-Bold.woff2") format("woff2"),
     url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/bold/Phosphor-Bold.ttf") format("truetype"),
     url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/bold/Phosphor-Bold.svg#Phosphor-Bold") format("svg");
   font-weight: normal;
@@ -11,6 +12,7 @@
 @font-face {
   font-family: "Phosphor-Duotone";
   src: url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/duotone/Phosphor-Duotone.woff") format("woff"),
+    url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/duotone/Phosphor-Duotone.woff2") format("woff2"),
     url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/duotone/Phosphor-Duotone.ttf") format("truetype"),
     url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/duotone/Phosphor-Duotone.svg#Phosphor-Duotone") format("svg");
   font-weight: normal;
@@ -21,6 +23,7 @@
 @font-face {
   font-family: "Phosphor-Fill";
   src: url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/fill/Phosphor-Fill.woff") format("woff"),
+    url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/fill/Phosphor-Fill.woff2") format("woff2"),
     url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/fill/Phosphor-Fill.ttf") format("truetype"),
     url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/fill/Phosphor-Fill.svg#Phosphor-Fill") format("svg");
   font-weight: normal;
@@ -31,6 +34,7 @@
 @font-face {
   font-family: "Phosphor-Light";
   src: url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/light/Phosphor-Light.woff") format("woff"),
+    url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/light/Phosphor-Light.woff2") format("woff2"),
     url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/light/Phosphor-Light.ttf") format("truetype"),
     url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/light/Phosphor-Light.svg#Phosphor-Light") format("svg");
   font-weight: normal;
@@ -41,6 +45,7 @@
 @font-face {
   font-family: "Phosphor-Thin";
   src: url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/thin/Phosphor-Thin.woff") format("woff"),
+    url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/thin/Phosphor-Thin.woff2") format("woff2"),
     url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/thin/Phosphor-Thin.ttf") format("truetype"),
     url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/thin/Phosphor-Thin.svg#Phosphor-Thin") format("svg");
   font-weight: normal;
@@ -51,8 +56,9 @@
 @font-face {
   font-family: "Phosphor";
   src: url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/regular/Phosphor.woff") format("woff"),
+    url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/regular/Phosphor.woff2") format("woff2"),
     url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/regular/Phosphor.ttf") format("truetype"),
-    urlhttps://starguiders.github.io/personal/Phosphor Icons/Fonts/regular/Phosphor.svg#Phosphor") format("svg");
+    url("https://starguiders.github.io/personal/Phosphor Icons/Fonts/regular/Phosphor.svg#Phosphor") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -67,6 +73,16 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
@@ -98,6 +114,16 @@
   text-transform: none;
   line-height: 1;
 
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -113,6 +139,16 @@
   text-transform: none;
   line-height: 1;
 
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
+
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -127,6 +163,16 @@
   font-variant: normal;
   text-transform: none;
   line-height: 1;
+
+  /* Enable Ligatures ================ */
+  letter-spacing: 0;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga";
+  -webkit-font-variant-ligatures: discretionary-ligatures;
+  font-variant-ligatures: discretionary-ligatures;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
@@ -152,14 +198,13 @@
   font-feature-settings: "liga";
   -webkit-font-variant-ligatures: discretionary-ligatures;
   font-variant-ligatures: discretionary-ligatures;
-
+  
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 /*ICONS BEGIN HERE*/
-
 
 .ph-acorn:before {
   content: "\eb9a";
