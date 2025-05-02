@@ -171,10 +171,13 @@
   text-transform: lowercase;
   width: 80%;
   & u, & strike {
-    text-decoration-color: #3E4F44;
+    border: none !important;
   }
   & u, & i {
     color: #ccc;
+  }
+  & u {
+    text-decoration: 1px solid #3E4F44 underline !important;
   }
   & strike {
     color: #6e6e6e;
