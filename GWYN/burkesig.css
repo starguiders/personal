@@ -1,0 +1,190 @@
+#ngburkesig {
+  margin: 0 auto;
+  width: 300px;
+  height: 180px;
+  border: 8px solid transparent;
+  outline: 2px solid #3E4F44;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+#ngburkesig.niamhsig {
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#ngburkesig.gwynsig {
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#ngburkesig br {
+  display: none!important;
+}
+
+#ngburkesig * {
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+#ngburkesig .ngbursimg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+}
+
+#ngburkesig .ngbursimg:before {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  background: #3E4F44;
+  z-index: 1;
+  opacity: 0;
+  transition: 0.5s;
+  mix-blend-mode: multiply;
+  filter: grayscale(1);
+}
+
+#ngburkesig:hover .ngbursimg:before {
+  opacity: 1;
+}
+
+#ngburkesig.niamhsig .ngbursimg {
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#ngburkesig.gwynsig .ngbursimg {
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#ngburkesig .ngbursimg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  position: relative;
+  z-index: 0;
+  pointer-events: none;
+  filter: none;
+}
+
+#ngburkesig:hover .ngbursimg > img {
+  filter: grayscale(1) brightness(0.7);
+}
+
+#ngburkesig .ngburstxt {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+  color: #ccc;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+#ngburkesig .ngburstxtone {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  color: #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  flex-shrink: 0;
+  padding: 10px;
+  top: 0px;
+}
+
+#ngburkesig:hover .ngburstxtone {
+  top: -100%;
+}
+
+#ngburkesig.gwynsig .ngburstxt .ngburstxtone {
+  align-items: start;
+  text-align: left;
+}
+
+#ngburkesig.niamhsig .ngburstxt .ngburstxtone {
+  align-items: end;
+  text-align: right;
+}
+
+#ngburkesig .ngburstxt .ngburstxtone > span {
+  text-transform: uppercase;
+  font: normal 9px 'Young Serif';
+  padding: 7px;
+  line-height: 100%;
+  background: var(--mode-opacity-50);
+  backdrop-filter: grayscale(1) blur(2px);
+  border-radius: 5px;
+}
+
+#ngburkesig .ngburstxttwo {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 3;
+  padding: 20px;
+}
+
+#ngburkesig:hover .ngburstxttwo {
+  top: 0%;
+}
+
+#ngburkesig .ngburstxttwo > i {
+  position: absolute;
+  font-size: 30px;
+  color: #3E4F44;
+  opacity: 0.5;
+  z-index: 0;
+}
+
+#ngburkesig:hover .ngburstxttwo > i {
+  font-size: 130px;
+}
+
+#ngburkesig .ngburstxttwo > span {
+  font: normal 10px 'Young Serif';
+  line-height: 120%;
+  color: #acacac;
+  letter-spacing: .5px;
+  position: relative;
+  z-index: 1;
+  text-transform: lowercase;
+  width: 80%;
+  & u, & strike {
+    text-decoration-color: #3E4F44;
+  }
+  & u, & i {
+    color: #ccc;
+  }
+  & strike {
+    color: #6e6e6e;
+  }
+  & i {
+    font-family: 'Azeret Mono';
+    font-weight: 600;
+  }
+  & strong {
+    font-weight: normal!important;
+    color: #3E4F44!important;
+  }
+}
