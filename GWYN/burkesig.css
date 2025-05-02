@@ -190,4 +190,7 @@
     font-weight: normal!important;
     color: #3E4F44!important;
   }
+  & br {
+    display: inline!important;
+  }
 }
