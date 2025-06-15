@@ -6,14 +6,13 @@
 * @license - https://icofont.com/license/
 */
 
-@font-face
-{
- 
-  font-family: "IcoFont";
+@font-face {
+font-family: "IcoFont";
 font-weight: normal;
 font-style: "Regular";
-src: url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff2") format("woff2"),
-url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") format("woff");
+src: url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") format("woff"),
+    url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff2") format("woff2"),
+    url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.ttf") format("truetype"),;
 }
 
 [class^="icofont-"], [class*=" icofont-"]
