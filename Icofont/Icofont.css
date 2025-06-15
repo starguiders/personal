@@ -2,7 +2,7 @@
 * @package IcoFont 
 * @version 1.0.1 
 * @author   
-* @copyright 2024 
+* @copyright 2025 
 * @license - https://icofont.com/license/
 */
 
@@ -31,250 +31,6 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
 /* Better Font Rendering =========== */
   -webkit-font-feature-settings: "liga";
   -webkit-font-smoothing: antialiased;
-}
-
-.icofont-rotate-90
-{
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
-  -webkit-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
-.icofont-rotate-180
-{
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
-  -webkit-transform: rotate(180deg);
-  transform: rotate(180deg);
-}
-
-.icofont-rotate-270
-{
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
-  -webkit-transform: rotate(270deg);
-  transform: rotate(270deg);
-}
-
-.icofont-flip-horizontal
-{
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
-  -webkit-transform: scale(-1, 1);
-  transform: scale(-1, 1);
-}
-
-.icofont-flip-vertical
-{
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
-  -webkit-transform: scale(1, -1);
-  transform: scale(1, -1);
-}
-
-.icofont-flip-horizontal.icofont-flip-vertical
-{
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
-  -webkit-transform: scale(-1, -1);
-  transform: scale(-1, -1);
-}
-
-:root .icofont-rotate-90,
-	:root .icofont-rotate-180,
-	:root .icofont-rotate-270,
-	:root .icofont-flip-horizontal,
-	:root .icofont-flip-vertical
-{
-  -webkit-filter: none;
-  filter: none;
-  display: inline-block;
-}
-
-.icofont-inverse
-{
-  color: #fff;
-}
-
-.icofont-fw
-{
-  text-align: center;
-  width: 1.25em;
-}
-
-.icofont-ul
-{
-  list-style-type: none;
-  padding-left: 0;
-  margin-left: 0;
-}
-
-.icofont-ul > li
-{
-  position: relative;
-  line-height: 2em;
-}
-
-.icofont-ul > li .icofont
-{
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.icofont-border
-{
-  border: solid 0.08em #f1f1f1;
-  border-radius: .1em;
-  padding: .2em .25em .15em;
-}
-
-.icofont-pull-left
-{
-  float: left;
-}
-
-.icofont-pull-right
-{
-  float: right;
-}
-
-.icofont.icofont-pull-left
-{
-  margin-right: .3em;
-}
-
-.icofont.icofont-pull-right
-{
-  margin-left: .3em;
-}
-
-[class^="icofont-"].icofont-duotone,
-	[class*=" icofont-"].icofont-duotone
-{
-  position: relative;
-}
-
-[class^="icofont-"].icofont-duotone:before,
-	[class*=" icofont-"].icofont-duotone:before
-{
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-
-[class^="icofont-"].icofont-duotone:after,
-	[class*=" icofont-"].icofont-duotone:after
-{
-  opacity: 0.4;
-}
-
-.icofont-xs
-{
-  font-size: .5em;
-}
-
-.icofont-sm
-{
-  font-size: .75em;
-}
-
-.icofont-md
-{
-  font-size: 1.25em;
-}
-
-.icofont-lg
-{
-  font-size: 1.5em;
-}
-
-.icofont-1x
-{
-  font-size: 1em;
-}
-
-.icofont-2x
-{
-  font-size: 2em;
-}
-
-.icofont-3x
-{
-  font-size: 3em;
-}
-
-.icofont-4x
-{
-  font-size: 4em;
-}
-
-.icofont-5x
-{
-  font-size: 5em;
-}
-
-.icofont-6x
-{
-  font-size: 6em;
-}
-
-.icofont-7x
-{
-  font-size: 7em;
-}
-
-.icofont-8x
-{
-  font-size: 8em;
-}
-
-.icofont-9x
-{
-  font-size: 9em;
-}
-
-.icofont-10x
-{
-  font-size: 10em;
-}
-
-.icofont-spin
-{
-  -webkit-animation: icofont-spin 2s infinite linear;
-  animation: icofont-spin 2s infinite linear;
-  display: inline-block;
-}
-
-.icofont-pulse
-{
-  -webkit-animation: icofont-spin 1s infinite steps(8);
-  animation: icofont-spin 1s infinite steps(8);
-  display: inline-block;
-}
-
-@-webkit-keyframes icofont-spin
-{
-  0%
-  {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  100%
-  {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes icofont-spin
-{
-  0%
-  {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-
-  100%
-  {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
 }
 
 .icofont-duotone.icofont-access-levels:after
@@ -1897,6 +1653,11 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
   content: "\13be4";
 }
 
+.icofont-angry-monster:before
+{
+  content: "\e800";
+}
+
 .icofont-bathtub:before
 {
   content: "\e801";
@@ -1937,6 +1698,16 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
   content: "\e808";
 }
 
+.icofont-disability-race:before
+{
+  content: "\e809";
+}
+
+.icofont-diving-goggle:before
+{
+  content: "\e80a";
+}
+
 .icofont-eye-open:before
 {
   content: "\e80b";
@@ -1967,6 +1738,16 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
   content: "\e810";
 }
 
+.icofont-hand-thunder:before
+{
+  content: "\e811";
+}
+
+.icofont-king-monster:before
+{
+  content: "\e812";
+}
+
 .icofont-love:before
 {
   content: "\e813";
@@ -1975,6 +1756,16 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
 .icofont-magician-hat:before
 {
   content: "\e814";
+}
+
+.icofont-native-american:before
+{
+  content: "\e815";
+}
+
+.icofont-owl-look:before
+{
+  content: "\e816";
 }
 
 .icofont-phoenix:before
@@ -2132,6 +1923,11 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
   content: "\e835";
 }
 
+.icofont-camel-head:before
+{
+  content: "\e836";
+}
+
 .icofont-camel:before
 {
   content: "\e837";
@@ -2245,6 +2041,11 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
 .icofont-elephant:before
 {
   content: "\e84d";
+}
+
+.icofont-elk:before
+{
+  content: "\e84e";
 }
 
 .icofont-fish-1:before
@@ -2377,6 +2178,11 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
   content: "\e868";
 }
 
+.icofont-lion-head-2:before
+{
+  content: "\e869";
+}
+
 .icofont-lion-head:before
 {
   content: "\e86a";
@@ -2397,6 +2203,11 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
   content: "\e86d";
 }
 
+.icofont-monkey-face:before
+{
+  content: "\e86e";
+}
+
 .icofont-monkey:before
 {
   content: "\e86f";
@@ -2415,6 +2226,11 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
 .icofont-owl:before
 {
   content: "\e872";
+}
+
+.icofont-panda-face:before
+{
+  content: "\e873";
 }
 
 .icofont-panda:before
@@ -2557,6 +2373,11 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
   content: "\e88f";
 }
 
+.icofont-tiger-face:before
+{
+  content: "\e890";
+}
+
 .icofont-tiger:before
 {
   content: "\e891";
@@ -2582,19 +2403,1034 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
   content: "\e895";
 }
 
-.icofont-panda-face:before
+.icofont-brand-acer:before
 {
-  content: "\e873";
+  content: "\e896";
 }
 
-.icofont-photoshop:before
+.icofont-brand-adidas:before
 {
-  content: "\f031";
+  content: "\e897";
+}
+
+.icofont-brand-adobe:before
+{
+  content: "\e898";
+}
+
+.icofont-brand-air-new-zealand:before
+{
+  content: "\e899";
+}
+
+.icofont-brand-airbnb:before
+{
+  content: "\e89a";
+}
+
+.icofont-brand-aircell:before
+{
+  content: "\e89b";
+}
+
+.icofont-brand-airtel:before
+{
+  content: "\e89c";
+}
+
+.icofont-brand-alcatel:before
+{
+  content: "\e89d";
+}
+
+.icofont-brand-alibaba:before
+{
+  content: "\e89e";
+}
+
+.icofont-brand-aliexpress:before
+{
+  content: "\e89f";
+}
+
+.icofont-brand-alipay:before
+{
+  content: "\e8a0";
+}
+
+.icofont-brand-amazon:before
+{
+  content: "\e8a1";
+}
+
+.icofont-brand-amd:before
+{
+  content: "\e8a2";
+}
+
+.icofont-brand-american-airlines:before
+{
+  content: "\e8a3";
+}
+
+.icofont-brand-android-robot:before
+{
+  content: "\e8a4";
+}
+
+.icofont-brand-android:before
+{
+  content: "\e8a5";
+}
+
+.icofont-brand-aol:before
+{
+  content: "\e8a6";
+}
+
+.icofont-brand-apple:before
+{
+  content: "\e8a7";
+}
+
+.icofont-brand-appstore:before
+{
+  content: "\e8a8";
+}
+
+.icofont-brand-asus:before
+{
+  content: "\e8a9";
+}
+
+.icofont-brand-ati:before
+{
+  content: "\e8aa";
+}
+
+.icofont-brand-att:before
+{
+  content: "\e8ab";
+}
+
+.icofont-brand-audi:before
+{
+  content: "\e8ac";
+}
+
+.icofont-brand-axiata:before
+{
+  content: "\e8ad";
+}
+
+.icofont-brand-bada:before
+{
+  content: "\e8ae";
+}
+
+.icofont-brand-bbc:before
+{
+  content: "\e8af";
+}
+
+.icofont-brand-bing:before
+{
+  content: "\e8b0";
+}
+
+.icofont-brand-blackberry:before
+{
+  content: "\e8b1";
+}
+
+.icofont-brand-bmw:before
+{
+  content: "\e8b2";
+}
+
+.icofont-brand-box:before
+{
+  content: "\e8b3";
+}
+
+.icofont-brand-burger-king:before
+{
+  content: "\e8b4";
+}
+
+.icofont-brand-business-insider:before
+{
+  content: "\e8b5";
+}
+
+.icofont-brand-buzzfeed:before
+{
+  content: "\e8b6";
+}
+
+.icofont-brand-cannon:before
+{
+  content: "\e8b7";
+}
+
+.icofont-brand-casio:before
+{
+  content: "\e8b8";
+}
+
+.icofont-brand-china-mobile:before
+{
+  content: "\e8b9";
+}
+
+.icofont-brand-china-telecom:before
+{
+  content: "\e8ba";
+}
+
+.icofont-brand-china-unicom:before
+{
+  content: "\e8bb";
+}
+
+.icofont-brand-cisco:before
+{
+  content: "\e8bc";
+}
+
+.icofont-brand-citibank:before
+{
+  content: "\e8bd";
+}
+
+.icofont-brand-cnet:before
+{
+  content: "\e8be";
+}
+
+.icofont-brand-cnn:before
+{
+  content: "\e8bf";
+}
+
+.icofont-brand-cocal-cola:before
+{
+  content: "\e8c0";
+}
+
+.icofont-brand-compaq:before
+{
+  content: "\e8c1";
+}
+
+.icofont-brand-debian:before
+{
+  content: "\e8c2";
+}
+
+.icofont-brand-delicious:before
+{
+  content: "\e8c3";
+}
+
+.icofont-brand-dell:before
+{
+  content: "\e8c4";
+}
+
+.icofont-brand-designbump:before
+{
+  content: "\e8c5";
+}
+
+.icofont-brand-designfloat:before
+{
+  content: "\e8c6";
+}
+
+.icofont-brand-disney:before
+{
+  content: "\e8c7";
+}
+
+.icofont-brand-dodge:before
+{
+  content: "\e8c8";
+}
+
+.icofont-brand-dove:before
+{
+  content: "\e8c9";
+}
+
+.icofont-brand-drupal:before
+{
+  content: "\e8ca";
+}
+
+.icofont-brand-ebay:before
+{
+  content: "\e8cb";
+}
+
+.icofont-brand-eleven:before
+{
+  content: "\e8cc";
+}
+
+.icofont-brand-emirates:before
+{
+  content: "\e8cd";
+}
+
+.icofont-brand-espn:before
+{
+  content: "\e8ce";
+}
+
+.icofont-brand-etihad-airways:before
+{
+  content: "\e8cf";
+}
+
+.icofont-brand-etisalat:before
+{
+  content: "\e8d0";
+}
+
+.icofont-brand-etsy:before
+{
+  content: "\e8d1";
+}
+
+.icofont-brand-fastrack:before
+{
+  content: "\e8d2";
+}
+
+.icofont-brand-fedex:before
+{
+  content: "\e8d3";
+}
+
+.icofont-brand-ferrari:before
+{
+  content: "\e8d4";
+}
+
+.icofont-brand-fitbit:before
+{
+  content: "\e8d5";
+}
+
+.icofont-brand-flikr:before
+{
+  content: "\e8d6";
+}
+
+.icofont-brand-forbes:before
+{
+  content: "\e8d7";
+}
+
+.icofont-brand-foursquare:before
+{
+  content: "\e8d8";
+}
+
+.icofont-brand-foxconn:before
+{
+  content: "\e8d9";
+}
+
+.icofont-brand-fujitsu:before
+{
+  content: "\e8da";
+}
+
+.icofont-brand-general-electric:before
+{
+  content: "\e8db";
+}
+
+.icofont-brand-gillette:before
+{
+  content: "\e8dc";
+}
+
+.icofont-brand-gizmodo:before
+{
+  content: "\e8dd";
+}
+
+.icofont-brand-gnome:before
+{
+  content: "\e8de";
+}
+
+.icofont-brand-google:before
+{
+  content: "\e8df";
+}
+
+.icofont-brand-gopro:before
+{
+  content: "\e8e0";
+}
+
+.icofont-brand-gucci:before
+{
+  content: "\e8e1";
+}
+
+.icofont-brand-hallmark:before
+{
+  content: "\e8e2";
+}
+
+.icofont-brand-hi5:before
+{
+  content: "\e8e3";
+}
+
+.icofont-brand-honda:before
+{
+  content: "\e8e4";
+}
+
+.icofont-brand-hp:before
+{
+  content: "\e8e5";
+}
+
+.icofont-brand-hsbc:before
+{
+  content: "\e8e6";
+}
+
+.icofont-brand-htc:before
+{
+  content: "\e8e7";
+}
+
+.icofont-brand-huawei:before
+{
+  content: "\e8e8";
+}
+
+.icofont-brand-hulu:before
+{
+  content: "\e8e9";
+}
+
+.icofont-brand-hyundai:before
+{
+  content: "\e8ea";
+}
+
+.icofont-brand-ibm:before
+{
+  content: "\e8eb";
+}
+
+.icofont-brand-icofont:before
+{
+  content: "\e8ec";
+}
+
+.icofont-brand-icq:before
+{
+  content: "\e8ed";
+}
+
+.icofont-brand-ikea:before
+{
+  content: "\e8ee";
+}
+
+.icofont-brand-imdb:before
+{
+  content: "\e8ef";
+}
+
+.icofont-brand-indiegogo:before
+{
+  content: "\e8f0";
+}
+
+.icofont-brand-intel:before
+{
+  content: "\e8f1";
+}
+
+.icofont-brand-ipair:before
+{
+  content: "\e8f2";
+}
+
+.icofont-brand-jaguar:before
+{
+  content: "\e8f3";
+}
+
+.icofont-brand-java:before
+{
+  content: "\e8f4";
+}
+
+.icofont-brand-joomla:before
+{
+  content: "\e8f5";
+}
+
+.icofont-brand-kickstarter:before
+{
+  content: "\e8f6";
+}
+
+.icofont-brand-kik:before
+{
+  content: "\e8f7";
+}
+
+.icofont-brand-lastfm:before
+{
+  content: "\e8f8";
+}
+
+.icofont-brand-lego:before
+{
+  content: "\e8f9";
+}
+
+.icofont-brand-lenovo:before
+{
+  content: "\e8fa";
+}
+
+.icofont-brand-levis:before
+{
+  content: "\e8fb";
+}
+
+.icofont-brand-lexus:before
+{
+  content: "\e8fc";
+}
+
+.icofont-brand-lg:before
+{
+  content: "\e8fd";
+}
+
+.icofont-brand-life-hacker:before
+{
+  content: "\e8fe";
+}
+
+.icofont-brand-linux-mint:before
+{
+  content: "\e8ff";
+}
+
+.icofont-brand-linux:before
+{
+  content: "\e900";
+}
+
+.icofont-brand-lionix:before
+{
+  content: "\e901";
+}
+
+.icofont-brand-loreal:before
+{
+  content: "\e902";
+}
+
+.icofont-brand-louis-vuitton:before
+{
+  content: "\e903";
+}
+
+.icofont-brand-mac-os:before
+{
+  content: "\e904";
+}
+
+.icofont-brand-marvel-app:before
+{
+  content: "\e905";
+}
+
+.icofont-brand-mashable:before
+{
+  content: "\e906";
+}
+
+.icofont-brand-mazda:before
+{
+  content: "\e907";
+}
+
+.icofont-brand-mcdonals:before
+{
+  content: "\e908";
+}
+
+.icofont-brand-mercedes:before
+{
+  content: "\e909";
+}
+
+.icofont-brand-micromax:before
+{
+  content: "\e90a";
+}
+
+.icofont-brand-microsoft:before
+{
+  content: "\e90b";
+}
+
+.icofont-brand-mobileme:before
+{
+  content: "\e90c";
+}
+
+.icofont-brand-mobily:before
+{
+  content: "\e90d";
+}
+
+.icofont-brand-motorola:before
+{
+  content: "\e90e";
+}
+
+.icofont-brand-msi:before
+{
+  content: "\e90f";
+}
+
+.icofont-brand-mts:before
+{
+  content: "\e910";
+}
+
+.icofont-brand-myspace:before
+{
+  content: "\e911";
+}
+
+.icofont-brand-mytv:before
+{
+  content: "\e912";
+}
+
+.icofont-brand-nasa:before
+{
+  content: "\e913";
+}
+
+.icofont-brand-natgeo:before
+{
+  content: "\e914";
+}
+
+.icofont-brand-nbc:before
+{
+  content: "\e915";
+}
+
+.icofont-brand-nescafe:before
+{
+  content: "\e916";
+}
+
+.icofont-brand-nestle:before
+{
+  content: "\e917";
+}
+
+.icofont-brand-netflix:before
+{
+  content: "\e918";
+}
+
+.icofont-brand-nexus:before
+{
+  content: "\e919";
+}
+
+.icofont-brand-nike:before
+{
+  content: "\e91a";
+}
+
+.icofont-brand-nokia:before
+{
+  content: "\e91b";
+}
+
+.icofont-brand-nvidia:before
+{
+  content: "\e91c";
+}
+
+.icofont-brand-omega:before
+{
+  content: "\e91d";
+}
+
+.icofont-brand-opensuse:before
+{
+  content: "\e91e";
+}
+
+.icofont-brand-oracle:before
+{
+  content: "\e91f";
+}
+
+.icofont-brand-panasonic:before
+{
+  content: "\e920";
+}
+
+.icofont-brand-paypal:before
+{
+  content: "\e921";
+}
+
+.icofont-brand-pepsi:before
+{
+  content: "\e922";
+}
+
+.icofont-brand-philips:before
+{
+  content: "\e923";
+}
+
+.icofont-brand-pizza-hut:before
+{
+  content: "\e924";
+}
+
+.icofont-brand-playstation:before
+{
+  content: "\e925";
+}
+
+.icofont-brand-puma:before
+{
+  content: "\e926";
+}
+
+.icofont-brand-qatar-air:before
+{
+  content: "\e927";
+}
+
+.icofont-brand-qvc:before
+{
+  content: "\e928";
+}
+
+.icofont-brand-readernaut:before
+{
+  content: "\e929";
+}
+
+.icofont-brand-redbull:before
+{
+  content: "\e92a";
+}
+
+.icofont-brand-reebok:before
+{
+  content: "\e92b";
+}
+
+.icofont-brand-reuters:before
+{
+  content: "\e92c";
+}
+
+.icofont-brand-samsung:before
+{
+  content: "\e92d";
+}
+
+.icofont-brand-sap:before
+{
+  content: "\e92e";
+}
+
+.icofont-brand-saudia-airlines:before
+{
+  content: "\e92f";
+}
+
+.icofont-brand-scribd:before
+{
+  content: "\e930";
+}
+
+.icofont-brand-shell:before
+{
+  content: "\e931";
+}
+
+.icofont-brand-siemens:before
+{
+  content: "\e932";
+}
+
+.icofont-brand-sk-telecom:before
+{
+  content: "\e933";
+}
+
+.icofont-brand-slideshare:before
+{
+  content: "\e934";
+}
+
+.icofont-brand-smashing-magazine:before
+{
+  content: "\e935";
+}
+
+.icofont-brand-snapchat:before
+{
+  content: "\e936";
+}
+
+.icofont-brand-sony-ericsson:before
+{
+  content: "\e937";
+}
+
+.icofont-brand-sony:before
+{
+  content: "\e938";
+}
+
+.icofont-brand-soundcloud:before
+{
+  content: "\e939";
+}
+
+.icofont-brand-sprint:before
+{
+  content: "\e93a";
+}
+
+.icofont-brand-squidoo:before
+{
+  content: "\e93b";
+}
+
+.icofont-brand-starbucks:before
+{
+  content: "\e93c";
+}
+
+.icofont-brand-stc:before
+{
+  content: "\e93d";
+}
+
+.icofont-brand-steam:before
+{
+  content: "\e93e";
+}
+
+.icofont-brand-suzuki:before
+{
+  content: "\e93f";
+}
+
+.icofont-brand-symbian:before
+{
+  content: "\e940";
+}
+
+.icofont-brand-t-mobile:before
+{
+  content: "\e941";
+}
+
+.icofont-brand-tango:before
+{
+  content: "\e942";
+}
+
+.icofont-brand-target:before
+{
+  content: "\e943";
+}
+
+.icofont-brand-tata-indicom:before
+{
+  content: "\e944";
+}
+
+.icofont-brand-techcrunch:before
+{
+  content: "\e945";
+}
+
+.icofont-brand-telenor:before
+{
+  content: "\e946";
+}
+
+.icofont-brand-teliasonera:before
+{
+  content: "\e947";
+}
+
+.icofont-brand-tesla:before
+{
+  content: "\e948";
+}
+
+.icofont-brand-the-verge:before
+{
+  content: "\e949";
+}
+
+.icofont-brand-thenextweb:before
+{
+  content: "\e94a";
+}
+
+.icofont-brand-toshiba:before
+{
+  content: "\e94b";
+}
+
+.icofont-brand-toyota:before
+{
+  content: "\e94c";
+}
+
+.icofont-brand-tribenet:before
+{
+  content: "\e94d";
+}
+
+.icofont-brand-ubuntu:before
+{
+  content: "\e94e";
+}
+
+.icofont-brand-unilever:before
+{
+  content: "\e94f";
+}
+
+.icofont-brand-vaio:before
+{
+  content: "\e950";
+}
+
+.icofont-brand-verizon:before
+{
+  content: "\e951";
+}
+
+.icofont-brand-viber:before
+{
+  content: "\e952";
+}
+
+.icofont-brand-vodafone:before
+{
+  content: "\e953";
+}
+
+.icofont-brand-volkswagen:before
+{
+  content: "\e954";
+}
+
+.icofont-brand-walmart:before
+{
+  content: "\e955";
+}
+
+.icofont-brand-warnerbros:before
+{
+  content: "\e956";
+}
+
+.icofont-brand-whatsapp:before
+{
+  content: "\e957";
+}
+
+.icofont-brand-wikipedia:before
+{
+  content: "\e958";
+}
+
+.icofont-brand-windows:before
+{
+  content: "\e959";
+}
+
+.icofont-brand-wire:before
+{
+  content: "\e95a";
+}
+
+.icofont-brand-wordpress:before
+{
+  content: "\e95b";
+}
+
+.icofont-brand-xiaomi:before
+{
+  content: "\e95c";
+}
+
+.icofont-brand-yahoobuzz:before
+{
+  content: "\e95d";
+}
+
+.icofont-brand-yamaha:before
+{
+  content: "\e95e";
 }
 
 .icofont-brand-youtube:before
 {
   content: "\e95f";
+}
+
+.icofont-brand-zain:before
+{
+  content: "\e960";
+}
+
+.icofont-figma:before
+{
+  content: "\f02f";
+}
+
+.icofont-illustrator:before
+{
+  content: "\f030";
+}
+
+.icofont-photoshop:before
+{
+  content: "\f031";
 }
 
 .icofont-bank-alt:before
@@ -2765,6 +3601,16 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
 .icofont-chart-pie-alt:before
 {
   content: "\e982";
+}
+
+.icofont-chart-pie:before
+{
+  content: "\e983";
+}
+
+.icofont-chart-radar-graph:before
+{
+  content: "\e984";
 }
 
 .icofont-architecture-alt:before
@@ -3097,6 +3943,11 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
   content: "\ea2a";
 }
 
+.icofont-apple-watch:before
+{
+  content: "\ea2b";
+}
+
 .icofont-drawing-tablet:before
 {
   content: "\ea2c";
@@ -3157,6 +4008,11 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
   content: "\ea37";
 }
 
+.icofont-htc-one:before
+{
+  content: "\ea38";
+}
+
 .icofont-imac:before
 {
   content: "\ea39";
@@ -3182,9 +4038,39 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
   content: "\ea3d";
 }
 
+.icofont-keyboard-alt:before
+{
+  content: "\ea3e";
+}
+
+.icofont-keyboard-wireless:before
+{
+  content: "\ea3f";
+}
+
+.icofont-keyboard:before
+{
+  content: "\ea40";
+}
+
 .icofont-laptop-alt:before
 {
   content: "\ea41";
+}
+
+.icofont-laptop:before
+{
+  content: "\ea42";
+}
+
+.icofont-macbook:before
+{
+  content: "\ea43";
+}
+
+.icofont-magic-mouse:before
+{
+  content: "\ea44";
 }
 
 .icofont-micro-chip:before
@@ -3192,9 +4078,19 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
   content: "\ea45";
 }
 
+.icofont-microphone-alt:before
+{
+  content: "\ea46";
+}
+
 .icofont-microphone:before
 {
   content: "\ea47";
+}
+
+.icofont-monitor:before
+{
+  content: "\ea48";
 }
 
 .icofont-mouse:before
@@ -3212,6 +4108,16 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
   content: "\ea4b";
 }
 
+.icofont-playstation-alt:before
+{
+  content: "\ea4c";
+}
+
+.icofont-psvita:before
+{
+  content: "\ea4d";
+}
+
 .icofont-radio-mic:before
 {
   content: "\ea4e";
@@ -3225,6 +4131,21 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
 .icofont-refrigerator:before
 {
   content: "\ea50";
+}
+
+.icofont-samsung-galaxy:before
+{
+  content: "\ea51";
+}
+
+.icofont-surface-tablet:before
+{
+  content: "\ea52";
+}
+
+.icofont-ui-head-phone:before
+{
+  content: "\ea53";
 }
 
 .icofont-ui-keyboard:before
@@ -3247,9 +4168,19 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
   content: "\ea57";
 }
 
+.icofont-windows-lumia:before
+{
+  content: "\ea58";
+}
+
 .icofont-wireless-mouse:before
 {
   content: "\ea59";
+}
+
+.icofont-xbox-360:before
+{
+  content: "\ea5a";
 }
 
 .icofont-arrow-down:before
@@ -3445,6 +4376,46 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
 .icofont-hand-drag2:before
 {
   content: "\ea81";
+}
+
+.icofont-hand-drawn-alt-down:before
+{
+  content: "\ea82";
+}
+
+.icofont-hand-drawn-alt-left:before
+{
+  content: "\ea83";
+}
+
+.icofont-hand-drawn-alt-right:before
+{
+  content: "\ea84";
+}
+
+.icofont-hand-drawn-alt-up:before
+{
+  content: "\ea85";
+}
+
+.icofont-hand-drawn-down:before
+{
+  content: "\ea86";
+}
+
+.icofont-hand-drawn-left:before
+{
+  content: "\ea87";
+}
+
+.icofont-hand-drawn-right:before
+{
+  content: "\ea88";
+}
+
+.icofont-hand-drawn-up:before
+{
+  content: "\ea89";
 }
 
 .icofont-hand-grippers:before
@@ -6445,6 +7416,506 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
 .icofont-woman-in-glasses:before
 {
   content: "\ed10";
+}
+
+.icofont-afghani-false:before
+{
+  content: "\e9c5";
+}
+
+.icofont-afghani-minus:before
+{
+  content: "\e9c6";
+}
+
+.icofont-afghani-plus:before
+{
+  content: "\e9c7";
+}
+
+.icofont-afghani-true:before
+{
+  content: "\e9c8";
+}
+
+.icofont-afghani:before
+{
+  content: "\e9c9";
+}
+
+.icofont-baht-false:before
+{
+  content: "\e9ca";
+}
+
+.icofont-baht-minus:before
+{
+  content: "\e9cb";
+}
+
+.icofont-baht-plus:before
+{
+  content: "\e9cc";
+}
+
+.icofont-baht-true:before
+{
+  content: "\e9cd";
+}
+
+.icofont-baht:before
+{
+  content: "\e9ce";
+}
+
+.icofont-bitcoin-false:before
+{
+  content: "\e9cf";
+}
+
+.icofont-bitcoin-minus:before
+{
+  content: "\e9d0";
+}
+
+.icofont-bitcoin-plus:before
+{
+  content: "\e9d1";
+}
+
+.icofont-bitcoin-true:before
+{
+  content: "\e9d2";
+}
+
+.icofont-bitcoin:before
+{
+  content: "\e9d3";
+}
+
+.icofont-dollar-flase:before
+{
+  content: "\e9d4";
+}
+
+.icofont-dollar-minus:before
+{
+  content: "\e9d5";
+}
+
+.icofont-dollar-plus:before
+{
+  content: "\e9d6";
+}
+
+.icofont-dollar-true:before
+{
+  content: "\e9d7";
+}
+
+.icofont-dollar:before
+{
+  content: "\e9d8";
+}
+
+.icofont-dong-false:before
+{
+  content: "\e9d9";
+}
+
+.icofont-dong-minus:before
+{
+  content: "\e9da";
+}
+
+.icofont-dong-plus:before
+{
+  content: "\e9db";
+}
+
+.icofont-dong-true:before
+{
+  content: "\e9dc";
+}
+
+.icofont-dong:before
+{
+  content: "\e9dd";
+}
+
+.icofont-euro-false:before
+{
+  content: "\e9de";
+}
+
+.icofont-euro-minus:before
+{
+  content: "\e9df";
+}
+
+.icofont-euro-plus:before
+{
+  content: "\e9e0";
+}
+
+.icofont-euro-true:before
+{
+  content: "\e9e1";
+}
+
+.icofont-euro:before
+{
+  content: "\e9e2";
+}
+
+.icofont-frank-false:before
+{
+  content: "\e9e3";
+}
+
+.icofont-frank-minus:before
+{
+  content: "\e9e4";
+}
+
+.icofont-frank-plus:before
+{
+  content: "\e9e5";
+}
+
+.icofont-frank-true:before
+{
+  content: "\e9e6";
+}
+
+.icofont-frank:before
+{
+  content: "\e9e7";
+}
+
+.icofont-hryvnia-false:before
+{
+  content: "\e9e8";
+}
+
+.icofont-hryvnia-minus:before
+{
+  content: "\e9e9";
+}
+
+.icofont-hryvnia-plus:before
+{
+  content: "\e9ea";
+}
+
+.icofont-hryvnia-true:before
+{
+  content: "\e9eb";
+}
+
+.icofont-hryvnia:before
+{
+  content: "\e9ec";
+}
+
+.icofont-lira-false:before
+{
+  content: "\e9ed";
+}
+
+.icofont-lira-minus:before
+{
+  content: "\e9ee";
+}
+
+.icofont-lira-plus:before
+{
+  content: "\e9ef";
+}
+
+.icofont-lira-true:before
+{
+  content: "\e9f0";
+}
+
+.icofont-lira:before
+{
+  content: "\e9f1";
+}
+
+.icofont-peseta-false:before
+{
+  content: "\e9f2";
+}
+
+.icofont-peseta-minus:before
+{
+  content: "\e9f3";
+}
+
+.icofont-peseta-plus:before
+{
+  content: "\e9f4";
+}
+
+.icofont-peseta-true:before
+{
+  content: "\e9f5";
+}
+
+.icofont-peseta:before
+{
+  content: "\e9f6";
+}
+
+.icofont-peso-false:before
+{
+  content: "\e9f7";
+}
+
+.icofont-peso-minus:before
+{
+  content: "\e9f8";
+}
+
+.icofont-peso-plus:before
+{
+  content: "\e9f9";
+}
+
+.icofont-peso-true:before
+{
+  content: "\e9fa";
+}
+
+.icofont-peso:before
+{
+  content: "\e9fb";
+}
+
+.icofont-pound-false:before
+{
+  content: "\e9fc";
+}
+
+.icofont-pound-minus:before
+{
+  content: "\e9fd";
+}
+
+.icofont-pound-plus:before
+{
+  content: "\e9fe";
+}
+
+.icofont-pound-true:before
+{
+  content: "\e9ff";
+}
+
+.icofont-pound:before
+{
+  content: "\ea00";
+}
+
+.icofont-renminbi-false:before
+{
+  content: "\ea01";
+}
+
+.icofont-renminbi-minus:before
+{
+  content: "\ea02";
+}
+
+.icofont-renminbi-plus:before
+{
+  content: "\ea03";
+}
+
+.icofont-renminbi-true:before
+{
+  content: "\ea04";
+}
+
+.icofont-renminbi:before
+{
+  content: "\ea05";
+}
+
+.icofont-riyal-false:before
+{
+  content: "\ea06";
+}
+
+.icofont-riyal-minus:before
+{
+  content: "\ea07";
+}
+
+.icofont-riyal-plus:before
+{
+  content: "\ea08";
+}
+
+.icofont-riyal-true:before
+{
+  content: "\ea09";
+}
+
+.icofont-riyal:before
+{
+  content: "\ea0a";
+}
+
+.icofont-rouble-false:before
+{
+  content: "\ea0b";
+}
+
+.icofont-rouble-minus:before
+{
+  content: "\ea0c";
+}
+
+.icofont-rouble-plus:before
+{
+  content: "\ea0d";
+}
+
+.icofont-rouble-true:before
+{
+  content: "\ea0e";
+}
+
+.icofont-rouble:before
+{
+  content: "\ea0f";
+}
+
+.icofont-rupee-false:before
+{
+  content: "\ea10";
+}
+
+.icofont-rupee-minus:before
+{
+  content: "\ea11";
+}
+
+.icofont-rupee-plus:before
+{
+  content: "\ea12";
+}
+
+.icofont-rupee-true:before
+{
+  content: "\ea13";
+}
+
+.icofont-rupee:before
+{
+  content: "\ea14";
+}
+
+.icofont-taka-false:before
+{
+  content: "\ea15";
+}
+
+.icofont-taka-minus:before
+{
+  content: "\ea16";
+}
+
+.icofont-taka-plus:before
+{
+  content: "\ea17";
+}
+
+.icofont-taka-true:before
+{
+  content: "\ea18";
+}
+
+.icofont-taka:before
+{
+  content: "\ea19";
+}
+
+.icofont-turkish-lira-false:before
+{
+  content: "\ea1a";
+}
+
+.icofont-turkish-lira-minus:before
+{
+  content: "\ea1b";
+}
+
+.icofont-turkish-lira-plus:before
+{
+  content: "\ea1c";
+}
+
+.icofont-turkish-lira-true:before
+{
+  content: "\ea1d";
+}
+
+.icofont-turkish-lira:before
+{
+  content: "\ea1e";
+}
+
+.icofont-won-false:before
+{
+  content: "\ea1f";
+}
+
+.icofont-won-minus:before
+{
+  content: "\ea20";
+}
+
+.icofont-won-plus:before
+{
+  content: "\ea21";
+}
+
+.icofont-won-true:before
+{
+  content: "\ea22";
+}
+
+.icofont-won:before
+{
+  content: "\ea23";
+}
+
+.icofont-yen-false:before
+{
+  content: "\ea24";
+}
+
+.icofont-yen-minus:before
+{
+  content: "\ea25";
+}
+
+.icofont-yen-plus:before
+{
+  content: "\ea26";
+}
+
+.icofont-yen-true:before
+{
+  content: "\ea27";
+}
+
+.icofont-yen:before
+{
+  content: "\ea28";
 }
 
 .icofont-search-1:before
@@ -10471,3 +11942,248 @@ url("https://starguiders.github.io/personal/Icofont/Icofonts/icofont.woff") form
 {
   content: "\f02e";
 }
+
+[class^="icofont-"].icofont-duotone,
+	[class*=" icofont-"].icofont-duotone
+{
+  position: relative;
+}
+
+[class^="icofont-"].icofont-duotone:before,
+	[class*=" icofont-"].icofont-duotone:before
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+[class^="icofont-"].icofont-duotone:after,
+	[class*=" icofont-"].icofont-duotone:after
+{
+  opacity: 0.4;
+}
+
+.icofont-xs
+{
+  font-size: .5em;
+}
+
+.icofont-sm
+{
+  font-size: .75em;
+}
+
+.icofont-md
+{
+  font-size: 1.25em;
+}
+
+.icofont-lg
+{
+  font-size: 1.5em;
+}
+
+.icofont-1x
+{
+  font-size: 1em;
+}
+
+.icofont-2x
+{
+  font-size: 2em;
+}
+
+.icofont-3x
+{
+  font-size: 3em;
+}
+
+.icofont-4x
+{
+  font-size: 4em;
+}
+
+.icofont-5x
+{
+  font-size: 5em;
+}
+
+.icofont-6x
+{
+  font-size: 6em;
+}
+
+.icofont-7x
+{
+  font-size: 7em;
+}
+
+.icofont-8x
+{
+  font-size: 8em;
+}
+
+.icofont-9x
+{
+  font-size: 9em;
+}
+
+.icofont-10x
+{
+  font-size: 10em;
+}
+
+.icofont-fw
+{
+  text-align: center;
+  width: 1.25em;
+}
+
+.icofont-ul
+{
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.icofont-ul > li
+{
+  position: relative;
+  line-height: 2em;
+}
+
+.icofont-ul > li .icofont
+{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.icofont-border
+{
+  border: solid 0.08em #f1f1f1;
+  border-radius: .1em;
+  padding: .2em .25em .15em;
+}
+
+.icofont-pull-left
+{
+  float: left;
+}
+
+.icofont-pull-right
+{
+  float: right;
+}
+
+.icofont.icofont-pull-left
+{
+  margin-right: .3em;
+}
+
+.icofont.icofont-pull-right
+{
+  margin-left: .3em;
+}
+
+.icofont-spin
+{
+  -webkit-animation: icofont-spin 2s infinite linear;
+  animation: icofont-spin 2s infinite linear;
+  display: inline-block;
+}
+
+.icofont-pulse
+{
+  -webkit-animation: icofont-spin 1s infinite steps(8);
+  animation: icofont-spin 1s infinite steps(8);
+  display: inline-block;
+}
+
+@-webkit-keyframes icofont-spin
+{
+  0%
+  {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100%
+  {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes icofont-spin
+{
+  0%
+  {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100%
+  {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.icofont-rotate-90
+{
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.icofont-rotate-180
+{
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.icofont-rotate-270
+{
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.icofont-flip-horizontal
+{
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.icofont-flip-vertical
+{
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+.icofont-flip-horizontal.icofont-flip-vertical
+{
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(-1, -1);
+  transform: scale(-1, -1);
+}
+
+:root .icofont-rotate-90,
+	:root .icofont-rotate-180,
+	:root .icofont-rotate-270,
+	:root .icofont-flip-horizontal,
+	:root .icofont-flip-vertical
+{
+  -webkit-filter: none;
+  filter: none;
+  display: inline-block;
+}
+
+.icofont-inverse
+{
+  color: #fff;
+}
+	
