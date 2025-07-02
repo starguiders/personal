@@ -1,24 +1,19 @@
 @font-face {
 	font-family: "game-icons";
-	src: url('https://starguiders.github.io/personal/Game%20Icons/game-icons.eot');
-	src: url('https://starguiders.github.io/personal/Game%20Icons/game-icons.eot?#iefix') format('eot'),
-		url('https://starguiders.github.io/personal/Game%20Icons/game-icons.woff') format('woff'),
-		url('https://starguiders.github.io/personal/Game%20Icons/game-icons.ttf') format('truetype');
+	src: url('game-icons.eot');
+	src: url("https://starguiders.github.io/personal/Game%20Icons/game-icons.eot?acff05c3926ad3d46eec025f97b4fd07?#iefix") format("embedded-opentype"),
+		url("https://starguiders.github.io/personal/Game%20Icons/game-icons.woff?acff05c3926ad3d46eec025f97b4fd07") format("woff"),
+		url("https://starguiders.github.io/personal/Game%20Icons/game-icons.ttf?acff05c3926ad3d46eec025f97b4fd07") format("truetype");
 }
-
 .game-icon {
 	line-height: 1;
 }
 
 .game-icon:before {
-	font-family: game-icons!important;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	font-family: "game-icons"!important;
 	font-style: normal;
-	font-variant: normal;
-	font-weight: normal;
-	text-decoration: none;
-	text-transform: none;
+	font-weight: normal !important;
+	vertical-align: top;
 }
 
 .game-icon-3d-glasses:before {
