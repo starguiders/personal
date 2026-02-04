@@ -1,0 +1,32 @@
+.tessasig {
+  text-align: center;
+  gap: .4rem;
+  position: relative;
+  max-width: 250px;
+  margin: 0 auto;
+  & > br {
+    display: none!important;
+  }
+  & span {
+    text-transform: uppercase;
+    font: var(--fs-logo3) var(--f-mono);
+    letter-spacing: .3em;
+    line-height: 130%;
+    color: var(--text2);
+  }
+  & img {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border: 6px solid transparent;
+    outline: var(--border2);
+  }
+  & a {
+    & i {
+      color: inherit!important;
+    }
+  }
+}
