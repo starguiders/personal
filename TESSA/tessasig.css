@@ -13,6 +13,12 @@
     letter-spacing: .3em;
     line-height: 130%;
     color: var(--text2);
+    & i {
+      color: var(--subtitle);
+    }
+    & strong {
+      color: var(--group);
+    }
   }
   & img {
     position: relative;
