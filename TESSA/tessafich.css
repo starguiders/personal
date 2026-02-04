@@ -63,4 +63,9 @@
     }
   }
 }
-
+.tessadivider {
+  background: var(--border2-c) !important;
+  height: 1px !important;
+  width: 30%;
+  margin: 40px auto;
+}
