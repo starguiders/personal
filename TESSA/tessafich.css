@@ -59,7 +59,7 @@
     color: var(--subtitle);
     line-height: 100%;
     &:last-of-type {
-      margin-top: 1rem;
+      margin-top: 1.2rem;
     }
   }
 }
@@ -69,3 +69,4 @@
   width: 30%;
   margin: 40px auto;
 }
+
