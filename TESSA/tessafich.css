@@ -44,3 +44,16 @@
     text-transform: uppercase;
   }
 }
+.tessadatos {
+  & h4 {
+    margin-top: 0px;
+    margin-bottom: 0rem;
+    text-transform: uppercase;
+    font: var(--fset-titles5);
+    color: var(--subtitle);
+    line-height: 100%;
+    &:last-of-type {
+      margin-top: 1rem;
+    }
+  }
+}
