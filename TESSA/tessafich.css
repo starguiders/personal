@@ -23,6 +23,8 @@
     color: var(--group);
     text-shadow: var(--shadow-b2);
     font-size: var(--fs-small);
+    position: relative;
+    z-index: 2;
     & i {
       color: inherit!important;
     }
@@ -34,6 +36,8 @@
     color: transparent !important;
     text-shadow: 2px 2px 0px var(--group-75);
     -webkit-text-stroke: .5px var(--title-img);
+    position: relative;
+    z-index: 0;
   }
   & em {
     font: var(--fs-logo3) var(--f-mono);
@@ -42,6 +46,8 @@
     color: var(--subtitle);
     text-shadow: var(--shadow-b2);
     text-transform: uppercase;
+    position: relative;
+    z-index: 1;
   }
 }
 .tessadatos {
@@ -57,3 +63,4 @@
     }
   }
 }
+
