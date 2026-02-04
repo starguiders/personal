@@ -5,7 +5,7 @@
   box-sizing: border-box;
   z-index: 1;
   text-align: center;
-  gap: .5rem;
+  gap: .3rem;
   & img {
     height: 70%;
     position: absolute;
