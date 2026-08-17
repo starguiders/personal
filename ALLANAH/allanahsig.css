@@ -1,3 +1,9 @@
+/* generales */
+.allanah {
+  --cornersize: 7px;
+  --monofont: 'Kode Mono', monospace;
+}
+/* firma */
 #allanahsig {
   height: 180px;
   width: 300px;
@@ -8,6 +14,9 @@
   position: relative;
   z-index: 1;
   overflow: hidden;
+  & br {
+    display: none!important;
+  }
   &:before {
     content: '';
     position: absolute;
