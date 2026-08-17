@@ -1,0 +1,172 @@
+#allanahsig {
+  height: 180px;
+  width: 300px;
+  margin: 5px auto;
+  border: 10px solid #0c0c0c;
+  outline: 1px solid #cccccc12;
+  outline-offset: -10px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  &:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: var(--group);
+    background-image:
+      linear-gradient(
+        45deg,
+        #000 25%,
+        transparent 25%,
+        transparent 75%,
+        #000 75%,
+        #000
+      ),
+      linear-gradient(
+        -45deg,
+        #000 25%,
+        transparent 25%,
+        transparent 75%,
+        #000 75%,
+        #000
+      );
+    background-size: 100px 100px;
+    background-repeat: repeat;
+    background-position: center;
+    mix-blend-mode: color;
+    opacity: 0;
+    transition: 0.7s;
+    transform: scale(1.5);
+    transition-delay: 0s;
+  }
+  & .allasig-img {
+    background-image: url('https://b.l3n.co/bBLTba.gif'); 
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    transition: 0.7s;
+    transition-delay: 1s;
+  }
+  & .allasig-txt {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    justify-content: start;
+    flex-wrap: wrap;
+    overflow: hidden;
+    & > div {
+      height: 100%;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    & .allasigtxt-1 {
+      align-items: start;
+      justify-content: end;
+      padding: 15px;
+      gap: 4px;
+      transition: 0.7s;
+      transition-delay: 1s;
+      & > span {
+        text-transform: uppercase;
+        font: normal 9px var(--monofont);
+        letter-spacing: 0.5px;
+        line-height: 100%;
+        color: #aaa;
+        mix-blend-mode: difference;
+      }
+      & > em {
+        text-transform: uppercase;
+        font: 900 11px var(--monofont);
+        letter-spacing: 1px;
+        padding: 7px 10px;
+        background: var(--group);
+        line-height: 120%;
+        color: #000;
+        clip-path: polygon(calc(100% - var(--cornersize)) 0%, 100% var(--cornersize), 100% 100%, var(--cornersize) 100%, 0% calc(100% - var(--cornersize)), 0 0);
+      }
+    }
+    & .allasigtxt-2 {
+      padding: 15px;
+      transition: 0.7s;
+      transition-delay: 0s;
+      align-items: start;
+      justify-content: end;
+      gap: 5px;
+      & > em {
+        color: var(--group);
+        font-size: 20px;
+      }
+      & > div {
+        text-transform: lowercase;
+        font: normal 9px var(--monofont);
+        letter-spacing: 0.5px;
+        line-height: 130%;
+        color: #aaa;
+        mix-blend-mode: difference;
+        width: 35%;
+        text-align: left;
+        text-align-last: left;
+        word-break: break-word;
+        hyphens: auto;
+        & :is(strong, b) {
+          font-weight: 900;
+          color: var(--group);
+          text-transform: uppercase;
+        }
+        & :is(i) {
+          font-weight: 900;
+          color: #ccc;
+          text-transform: uppercase;
+        }
+        & :is(strike, u) {
+          font-weight: 900;
+          text-transform: uppercase;
+          text-decoration-thickness: 1px;
+          text-decoration-color: var(--group-light);
+        }
+        & :is(strike) {
+          color: #666;
+        }
+        & :is(u) {
+          color: #fff;
+        }
+        & :is(em) {
+          color: #000;
+          background: var(--group);
+          font-weight: 900;
+          text-transform: uppercase;
+          font-style: normal;
+          padding: 0px 2px;
+          box-decoration-break: clone;
+          letter-spacing: 1px;
+        }
+      }
+    }
+  }
+  &:hover {
+    &:before {
+      opacity: 1;
+      transform: scale(1);
+      transition-delay: 1s;
+    }
+    & .allasig-img {
+      filter: brightness(0.3) grayscale(1);
+      transition-delay: 0s;
+    }
+    & .allasig-txt {
+      & .allasigtxt-1 {
+        opacity: 0;
+        transition-delay: 0s;
+      }
+      & .allasigtxt-2 {
+        transform: translateY(-100%);
+        transition-delay: 1s;
+      }
+    }
+  }
+}
